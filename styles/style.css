@@ -1,0 +1,169 @@
+:root {
+    --width-pricing-card: 220px;
+}
+
+header {
+    padding-bottom: 0;
+}
+
+.toggle input {
+    display: none;
+}
+
+/* The container and background */
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 68px;
+    height: 30px;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #aaa;
+    border: 1px solid #aaa;
+    border-radius: 30px;
+    transition: all 0.4s;
+}
+
+/* The sliding button */
+.slider:before {
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    left: 2px;
+    top: 2px;
+    background-color: #eee;
+    border-radius: 24px;
+    transition: all 0.4s;
+}
+
+/* On checked */
+input:checked + .slider {
+    background-color: #000;
+    border-color: #000;
+}
+input:checked + .slider:before {
+    transform: translateX(37px);
+}
+
+.no-pad {
+    padding: 0;
+    margin: 0;
+}
+
+.arrow {
+    transform: rotate(10deg);
+    position: relative;
+    top: -10px;
+}
+
+.monthly-yearly span {
+    vertical-align: top;
+    line-height: 30px;
+}
+
+section.dashed-border {
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='black' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+section.dashed-border:hover {
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='black' stroke-width='6' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    cursor: pointer;
+}
+
+.copy-icon {
+    background-color: #ffc82c;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+
+.copy-icon img {
+    max-height: 25px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+aside.pricing-tier {
+    overflow: hidden;
+    margin: 10px;
+    width: var(--width-pricing-card);
+}
+
+aside.pricing-highlight {
+    position: relative;
+    margin-top: -10px;
+}
+
+aside.pricing-highlight::before {
+    content: "Most Popular";
+    text-align: center;
+    background-color: #13ce66;
+    position: relative;
+    top: -20px;
+    left: -1.5rem;
+    display: block;
+    width: var(--width-pricing-card);
+    padding: 10px 1.5rem;
+}
+
+@media (max-width: 595px) {
+    aside.pricing-highlight {
+        margin-top: 0;
+    }
+}
+
+aside.pricing-highlight h3 {
+    margin-top: -5px;
+}
+
+ul.pricing-features {
+    padding-top: 10px;
+    padding-left: 0;
+}
+
+ul.pricing-features li {
+    background: url("../images/tick.png") no-repeat left top;
+    vertical-align: middle;
+    padding: 3px 0px 0px 23px;
+    list-style: none;
+    margin: 0;
+    height: 32px;
+}
+
+ul.pricing-features li .placeholder-content {
+    background: #f6f7f8;
+    background-image: gradient(
+        linear,
+        left center,
+        right center,
+        from(#f6f7f8),
+        color-stop(0.2, #edeef1),
+        color-stop(0.4, #f6f7f8),
+        to(#f6f7f8)
+    );
+    background-image: linear-gradient(
+        left,
+        #f6f7f8 0%,
+        #edeef1 20%,
+        #f6f7f8 40%,
+        #f6f7f8 100%
+    );
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    height: 10px;
+    margin-top: 5px;
+}
