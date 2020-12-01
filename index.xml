@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PriceWell - Instant pricing pages</title>
+    <link>https://www.pricewell.io/</link>
+    <description>Recent content on PriceWell - Instant pricing pages</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://www.pricewell.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://www.pricewell.io/integrations/</link>
+      <pubDate>Tue, 01 Dec 2020 14:54:33 +0100</pubDate>
+      
+      <guid>https://www.pricewell.io/integrations/</guid>
+      <description>   Integrations We&#39;re build on top of Stripe, leading modern payment provider. They handle the security aspect of holding credit card information and charging your customers. We provide the UX and infrastructure on top that lets you integrate pricing into your website.   Stripe *with small content
+  Your Payment Provider Coming Soon
+   Want access to the beta?   Request Invite          </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.pricewell.io/pricing/</link>
+      <pubDate>Tue, 01 Dec 2020 14:54:28 +0100</pubDate>
+      
+      <guid>https://www.pricewell.io/pricing/</guid>
+      <description>  Free, that&#39;s right you read that correctly. We&#39;re offering PriceWell for free while we&#39;re in our Beta period.  That means we&#39;ll handle your billing code for you while you can concentrate on building your SaaS.
+ Want access to the beta?   Request Invite          </description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://www.pricewell.io/privacy/</link>
+      <pubDate>Tue, 01 Dec 2020 09:57:21 +0100</pubDate>
+      
+      <guid>https://www.pricewell.io/privacy/</guid>
+      <description>Privacy Policy Last updated: November 29, 2020
+ This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.  We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</description>
+    </item>
+    
+    <item>
+      <title>Terms and Conditions</title>
+      <link>https://www.pricewell.io/terms/</link>
+      <pubDate>Tue, 01 Dec 2020 09:50:50 +0100</pubDate>
+      
+      <guid>https://www.pricewell.io/terms/</guid>
+      <description>Terms and Conditions Last updated: November 29, 2020
+Please read these terms and conditions carefully before using Our Service.
+Interpretation and Definitions Interpretation  The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural. Definitions For the purposes of these Terms and Conditions:
+   Affiliate means an entity that controls, is controlled by or is under common control with a party, where &amp;quot;control&amp;quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</description>
+    </item>
+    
+  </channel>
+</rss>
