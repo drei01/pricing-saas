@@ -12,9 +12,22 @@ jobs:
         steps:
             - name: Checkout Repo
               uses: actions/checkout@main
+
+            - name: Setup Hugo
+              uses: peaceiris/actions-hugo@v2
               with:
-                  submodules: true
-            - name: Publish Site
-              uses: chabad360/hugo-gh-pages@master
+                  hugo-version: 'latest'
+
+            - name: Clean public directory
+              run: rm -rf public
+
+            - name: Build
+              run: hugo --theme=pricewell
+
+            - name: Create cname file
+              run: echo 'www.pricewell.io' > public/CNAME
+
+            - name: Deploy
+              uses: peaceiris/actions-gh-pages@v3
               with:
-                  githubToken: ${{ secrets.GITHUB_TOKEN }}
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
