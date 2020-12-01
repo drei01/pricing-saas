@@ -206,6 +206,10 @@ form.sp-element-container {
     height: 100% !important;
 }
 
+.sp-form .sp-button {
+    background: var(--color);
+}
+
 .inline-button-wrapper {
     display: flex;
     width: var(--card-width);
