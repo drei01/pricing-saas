@@ -1,30 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <link rel="icon" href="https://via.placeholder.com/70x70" />
-        <link rel="stylesheet" href="./styles/mvp.css" />
-        <link rel="stylesheet" href="./styles/style.css" />
+---
+title: "Privacy Policy"
+date: 2020-12-01T09:57:21+01:00
+draft: false
+---
 
-        <meta charset="utf-8" />
-        <meta name="description" content="My description" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <title>Pricewell</title>
-    </head>
-
-    <body>
-        <header>
-            <nav>
-                <a href="/"><img alt="pricewell logo" src="./images/pricewell-logo.png" height="70" /></a>
-                <ul>
-                    <li><a href="./pricing.html">Pricing</a></li>
-                    <li><a href="./integrations.html">Integrations</a></li>
-                    <li><a href="#get-started">Sign Up</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h1>Privacy Policy</h1>
+{{<rawhtml>}}
+<h1>Privacy Policy</h1>
             <p>Last updated: November 29, 2020</p>
             <p>
                 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your
@@ -423,12 +404,4 @@
             <ul>
                 <li>By email: support@pricewell.io</li>
             </ul>
-        </main>
-        <footer>
-            <hr />
-            <p>
-                <small>Contact info</small>
-            </p>
-        </footer>
-    </body>
-</html>
+{{</rawhtml>}}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{.Title}}</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="{{ .Description }}" />
+        <base href="{{ .Site.BaseURL }}" />
+        <link type="text/css" rel="stylesheet" href='{{ "css/mvp.css" | absURL }}' />
+        <link type="text/css" rel="stylesheet" href='{{ "css/style.css" | absURL }}' />
+        <link rel="canonical" href="{{ .Permalink }}" />
+        <link rel="icon" href='{{ "images/favicon.png" | absURL }}' />
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="/"
+                    ><img alt="pricewell logo" src='{{ "images/pricewell-logo.png" | absURL }}' height="70"
+                /></a>
+                <ul>
+                    <li><a href="./pricing.html">Pricing</a></li>
+                    <li><a href="./integrations.html">Integrations</a></li>
+                    <li><a href="#get-started">Sign Up</a></li>
+                </ul>
+            </nav>
+
+            {{ partial "head" . }} 
+                {{ if eq (.Scratch.Get "indexHeader") "true" }} {{ partial "index-header" . }} 
+            {{ end }}
+        </header>
+    </body>
+</html>

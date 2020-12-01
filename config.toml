@@ -1,0 +1,5 @@
+baseURL = "https://www.pricewell.io/"
+languageCode = "en-us"
+title = "Pricewell - instant pricing pages"
+theme = "pricewell"
+description = "Start charging for your subscription based service with embeddable pricing pages from PriceWell."
