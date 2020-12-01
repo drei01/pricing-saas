@@ -100,11 +100,16 @@ section.dashed-border:hover {
     transform: translateY(-50%);
 }
 
+section.pricing {
+    text-align: center;
+}
+
 aside.pricing-tier {
     overflow: hidden;
     margin: 10px;
     width: var(--width-pricing-card);
     transition: transform 0.5s;
+    text-align: left;
 }
 
 aside.pricing-tier:hover {
@@ -217,18 +222,34 @@ form.sp-element-container {
     margin: 0;
 }
 
-@media (max-width: 595px) {
-    nav {
-        margin-bottom: 1rem;
-    }
-
-    aside.pricing-highlight {
-        margin-top: 0;
+@media (max-width: 768px) {
+    aside.pricing-tier,
+    aside.pricing-highlight::before {
+        width: calc(var(--width-pricing-card) / 1.2);
     }
 
     #get-started {
         position: sticky;
         bottom: 0;
         background: var(--color-bg);
+    }
+}
+
+@media (max-width: 595px) {
+    nav {
+        margin-bottom: 1rem;
+    }
+
+    aside.pricing-tier,
+    aside.pricing-highlight::before {
+        width: var(--width-pricing-card);
+    }
+
+    aside.pricing-highlight {
+        margin-top: 0;
+    }
+
+    .copy-icon {
+        right: 0;
     }
 }
