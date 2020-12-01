@@ -13,7 +13,6 @@ draft: false
             <aside>
                 <h3>Stripe</h3>
                 <p><img src="./images/stripe-blurple_lg.png" alt="Stripe logo"></p>
-                <p><small>*with small content</small></p>
             </aside>
             <aside>
                 <h3>Your Payment Provider</h3>
