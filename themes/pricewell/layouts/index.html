@@ -1,7 +1,7 @@
 {{ .Scratch.Set "indexHeader" "true" }} {{ partial "header" . }}
 
 <main>
-    <section class="dashed-border pricing" onclick="location.href='#get-started'">
+    <section class="dashed-border pricing" onclick="location.href='#signup'">
         <header>
             <p class="monthly-yearly">
                 <span>Monthly</span>
@@ -52,7 +52,18 @@
             </ul>
         </aside>
     </section>
-    {{ partial "beta-signup-form" . }}
+    <hr />
+    <section>
+        <header>
+            <h2>Pricing pages as easy as copying a code snippet 📋</h2>
+            <p>
+                We're integrated directly with Stripe, so let us handle your billing code while you get on with building
+                your SaaS.
+            </p>
+
+            <p><a href="/signup">Request an invite now</a></p>
+        </header>
+    </section>
 </main>
 
 {{ partial "footer" . }}

@@ -2,10 +2,6 @@
     --width-pricing-card: 220px;
 }
 
-header {
-    padding-bottom: 0;
-}
-
 footer a {
     color: var(--color-text);
 }
