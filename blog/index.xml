@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Instant pricing pages for your Website</title>
+    <link>https://www.pricewell.io/blog/</link>
+    <description>Recent content in Blogs on Instant pricing pages for your Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Dec 2020 16:24:38 +0100</lastBuildDate><atom:link href="https://www.pricewell.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Blog Post</title>
+      <link>https://www.pricewell.io/blog/example-blog-post/</link>
+      <pubDate>Fri, 11 Dec 2020 16:24:38 +0100</pubDate>
+      
+      <guid>https://www.pricewell.io/blog/example-blog-post/</guid>
+      <description>Blog post content</description>
+    </item>
+    
+  </channel>
+</rss>
