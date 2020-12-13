@@ -249,3 +249,10 @@ form.sp-element-container {
         right: 0;
     }
 }
+
+.cta_button{
+  background-color:red;
+}
+.cta_button:hover{
+  transform: scale(1.1);
+}
