@@ -165,10 +165,19 @@ ul.pricing-features {
 ul.pricing-features li {
     background: url('../images/tick.png') no-repeat left top;
     vertical-align: middle;
-    padding: 3px 0px 0px 23px;
+    padding: 0px 0px 0px 23px;
     list-style: none;
     margin: 0;
     height: 32px;
+}
+
+a.subdued {
+    color: var(--color-text-secondary);
+    text-decoration: underline;
+}
+
+ul.pricing-features li.placeholder {
+    padding-top: 3px;
 }
 
 ul.pricing-features li .placeholder-content {
