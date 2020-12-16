@@ -9,6 +9,19 @@ footer a {
     display: none;
 }
 
+.pagination {
+    max-width: var(--width-content);
+    margin: 0 auto;
+}
+
+.pagination a {
+    display: block;
+}
+
+.pagination .next {
+    margin-left: 10px;
+}
+
 /* The container and background */
 .toggle {
     position: relative;
@@ -250,9 +263,9 @@ form.sp-element-container {
     }
 }
 
-.cta_button{
-  background-color:red;
+.cta_button {
+    background-color: red;
 }
-.cta_button:hover{
-  transform: scale(1.1);
+.cta_button:hover {
+    transform: scale(1.1);
 }
