@@ -46,8 +46,12 @@
         </header>
 
 <main>
-    <h1>Sorry, we couldn't find that page. Head <a href="/">head back to the homepage</a></h1>
+    <h1>Sorry, we couldn't find that page. Head <a href="/">back to the homepage</a></h1>
 </main>
+
+<script>
+    plausible('404', { props: { path: document.location.pathname } });
+</script>
 
 
         <footer>
