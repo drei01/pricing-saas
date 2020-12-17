@@ -11,19 +11,6 @@ draft: false
         <u>Free</u>, until we make you $1k
     </h1>
     <section class="pricing">
-        <header>
-            <p class="monthly-yearly">
-                <span>Monthly</span>
-                <label class="toggle">
-                    <input type="checkbox" disabled checked />
-                    <span class="slider"></span>
-                </label>
-                <span>Yearly</span>
-            </p>
-            <div class="copy-icon">
-                <img src="./images/copy.png" width="25" height="25" alt="copy icon" />
-            </div>
-        </header>
         <aside class="pricing-tier">
             <h3>Indie Hacker</h3>
             <p class="pricing-sub-head">
@@ -45,7 +32,7 @@ draft: false
             <ul class="pricing-features">
                 <li><small>Analysis & Insights Dashboard</small></li>
                 <li><small>A/B test your pricing</small></li>
-                <li><small>Per-pricing features</small></li>
+                <li><small>Feature flag management</small></li>
             </ul>
         </aside>
         <aside class="pricing-tier">
