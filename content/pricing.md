@@ -12,11 +12,12 @@ draft: false
     </h1>
     <section class="pricing">
         <aside class="pricing-tier">
-            <h3>Indie Hacker</h3>
+            <h3>Bootstrapper</h3>
             <p class="pricing-sub-head">
                 $0 - $1k MRR
             </p>
             <h4>Free</h4>
+            <h6>+ 1% Transaction Fee *</h6>
             <ul class="pricing-features">
                 <li><small>Customizable design</small></li>
                 <li><small>Integrated directly with Stripe</small></li>
@@ -28,7 +29,8 @@ draft: false
             <p class="pricing-sub-head">
                 $1k - $900k MRR
             </p>
-            <h4>$50 / month + 1%</h4>
+            <h4>$100 / mo</h4>
+            <h6>+ 0.5% Transaction Fee *</h6>
             <ul class="pricing-features">
                 <li><small>Analysis & Insights Dashboard</small></li>
                 <li><small>A/B test your pricing</small></li>
@@ -53,6 +55,10 @@ draft: false
                 <p>Monthly recurring revenue (MRR) is what makes your SaaS tick. It's calculated by adding up the value of all your monthly subscriptions in Stripe (minus discounts of course). MRR <strong>increases</strong> when  new customers sign up through your PriceWell.io pricing page. MRR <strong>decreases</strong> when your customers cancel their subscription (churn).</p>
             </details>
         </div>
+
+          <div>
+        <small>* excluding Stripe Transaction Fees</small>
+    </div>
 
 {{</rawhtml>}}
 
