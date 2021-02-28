@@ -7,16 +7,16 @@
         <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
         <meta itemprop="name" content="{{.Title}}">
         <meta itemprop="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
-        <meta itemprop="image" content='{{ "images/pricewell-logo.png" | absURL }}'>
+        <meta itemprop="image" content='{{ "/images/pricewell-logo.png" | absURL }}'>
         <meta property="og:url" content="{{ .Permalink }}">
         <meta property="og:type" content="website">
         <meta property="og:title" content="{{.Title}}">
         <meta property="og:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
-        <meta property="og:image" content='{{ "images/pricewell-logo.png" | absURL }}'>
+        <meta property="og:image" content='{{ "/images/pricewell-logo.png" | absURL }}'>
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="{{.Title}}">
         <meta name="twitter:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
-        <meta name="twitter:image" content='{{ "images/pricewell-logo.png" | absURL }}'>
+        <meta name="twitter:image" content='{{ "/images/pricewell-logo.png" | absURL }}'>
         
         <base href="{{ .Site.BaseURL }}" />
         {{ $styles := resources.Get "css/main.css" | postCSS }}
@@ -28,7 +28,7 @@
           <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}"/>
         {{ end }}
         <link rel="canonical" href="{{ .Permalink }}" />
-        <link rel="icon" href='{{ "images/favicon.png" | absURL }}' />
+        <link rel="icon" href='{{ "/images/favicon.png" | absURL }}' />
 
         <script async defer data-domain="pricewell.io" src="https://stats.pricewell.io/js/index.js"></script>
         <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
@@ -46,7 +46,7 @@
               <header class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 py-4 lg:py-6 flex justify-between">
                 <a href="/">
                   <span class="sr-only">SaaS landing page</span>
-                  <img alt="pricewell logo" src='{{ "images/pricewell-logo.png" | absURL }}' class="h-8"/>
+                  <img alt="pricewell logo" src='{{ "/images/pricewell-logo.png" | absURL }}' class="h-8"/>
                 </a>
                 <nav class="flex items-center space-x-4">
                   <a href="https://app.pricewell.io/login" class="flex space-x-1 items-center hover:text-gray-500"> 
