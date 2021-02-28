@@ -1,9 +1,16 @@
 {{ partial "header" . }}
 
-<main>
-    <h2>{{ .Title }}</h2>
-
-    {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }}
+<main class="bg-gray-100">
+    <div class="px-6 py-8">
+        <div class="flex justify-between container mx-auto">
+            <div class="w-full lg:w-8/12 ml-auto mr-auto">
+                <div class="flex items-center justify-between">
+                    <h1 class="text-xl font-bold text-gray-700 md:text-2xl">{{ .Title }}</h1>
+                </div>
+                {{ range (.Paginator 5).Pages }} {{ partial "list-item" . }} {{ end }} {{ partial "paginator" . }}
+            </div>
+        </div>
+    </div>
 </main>
 
-{{ partial "paginator" . }} {{ partial "footer" . }}
+{{ partial "footer" . }}

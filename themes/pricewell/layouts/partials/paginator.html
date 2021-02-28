@@ -1,11 +1,24 @@
 {{ if or .Paginator.HasPrev .Paginator.HasNext }}
-
-<section class="pagination">
-    {{ if .Paginator.HasPrev }}
-    <a href="{{ .Paginator.Prev.URL }}" rel="prev" class="prev"> Prev </a>
-    {{ end }} {{ if .Paginator.HasNext }}
-    <a href="{{ .Paginator.Next.URL }}" rel="next" class="next"> Next </a>
-    {{ end }}
-</section>
+<div class="mt-8">
+    <div class="flex">
+        {{ if .Paginator.HasPrev }}
+        <a
+            href="{{ .Paginator.Prev.URL }}"
+            rel="prev"
+            class="mx-1 px-3 py-2 bg-white text-gray-500 font-medium rounded-md"
+        >
+            Prev
+        </a>
+        {{ end }} {{ if .Paginator.HasNext }}
+        <a
+            href="{{ .Paginator.Next.URL }}"
+            rel="next"
+            class="mx-1 px-3 py-2 bg-white text-gray-700 font-medium hover:bg-blue-500 hover:text-white rounded-md"
+        >
+            Next
+        </a>
+        {{ end }}
+    </div>
+</div>
 
 {{ end }}

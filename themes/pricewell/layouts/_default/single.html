@@ -1,14 +1,15 @@
 {{ partial "header" . }}
-
 <main>
-    <div>
-        <h1>{{ .Title }}</h1>
-        <h5>{{ .Description }}</h5>
-        {{ partial "tags" . }}
+    {{if eq .File.Dir "/"}} {{ .Content }} {{ else }}
+    <div class="py-12 px-4 container">
+        <div>
+            <h1>{{ .Title }}</h1>
+            <h5>{{ .Description }}</h5>
+            {{ partial "tags" . }}
+        </div>
+        <div>{{ .Content }}</div>
     </div>
-     
-    <div>{{ .Content }}</div>
-
+    {{ end }}
 </main>
 
 {{ partial "footer" . }}

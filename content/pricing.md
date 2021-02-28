@@ -1,5 +1,5 @@
 ---
-title:
+title: "Pricing"
 date: 2020-12-01T14:54:28+01:00
 draft: false
 ---

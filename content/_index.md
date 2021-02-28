@@ -1,7 +1,8 @@
 ---
-title:
+title: "Homepage"
 date: 2020-12-01T14:54:28+01:00
 draft: false
+type: page
 ---
 {{<rawhtml>}}
     <div class="py-12 md:py-24 bg-gray-100">

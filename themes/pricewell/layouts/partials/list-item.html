@@ -1,6 +1,4 @@
-<div class="item">
-
-    {{ $.Scratch.Set "link" .RelPermalink }}
+{{ $.Scratch.Set "link" .RelPermalink }}
     {{ with .Params.repo }}
         {{ $repoHost := default "github" $.Params.repoHost }}
         {{ if eq "github" $repoHost }}
@@ -12,12 +10,19 @@
         {{ end }}
     {{ end }}
     {{ with .Params.link }} {{ $.Scratch.Set "link" . }} {{ end }}
-
-    {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") | $.Scratch.Set "subheader" }}
-    {{ with .Description }} {{ $.Scratch.Set "subheader" . }} {{ end }}
-
-    <h4><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h4>
-    <h5>{{ $.Scratch.Get "subheader" }}</h5>
-    {{ partial "tags" . }}
-
+<div class="mt-8">
+    <div class="max-w-4xl px-10 py-6 bg-white rounded-lg shadow-md">
+        <div class="flex justify-between items-center">
+            <span class="font-light text-gray-600">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") | $.Scratch.Set "subheader"}}</span>
+            {{ partial "tags" . }}
+        </div>
+        {{ with .Description }} {{ $.Scratch.Set "subheader" . }} {{ end }}
+        <div class="mt-2">
+            <a href="{{ .Scratch.Get "link" }}" class="text-2xl text-gray-700 font-bold hover:underline">{{ .Title }}</a>
+            <p class="mt-2 text-gray-600">{{ $.Scratch.Get "subheader" }}</p>
+        </div>
+        <div class="flex justify-between items-center mt-4">
+            <a href="{{ .Scratch.Get "link" }}" class="text-blue-500 hover:underline">Read more</a>
+        </div>
+    </div>
 </div>
