@@ -31,6 +31,8 @@ description: no code pricing pages
         </div>
         <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
             <img src='images/hero-image.png' class="rounded-lg shadow-2xl" alt="" />
+
+\    <img src='images/online-reviews.jpg' class="rounded-lg shadow-2xl" alt="" />
         </div>
     </div>
 
