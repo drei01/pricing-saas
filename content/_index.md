@@ -1,15 +1,16 @@
 ---
-title: "Homepage"
+title: Homepage
 date: 2020-12-01T14:54:28+01:00
 draft: false
 type: page
+description: no code pricing pages
 ---
 {{<rawhtml>}}
     <div class="py-12 md:py-24 bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                The best way to write code all day
+                No code pricing pages for ambitious business founders
             </h1>
             <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
                 For writers, a random sentence can help them get their creative juices flowing. Since the topic.
@@ -32,6 +33,7 @@ type: page
             <img src='images/hero-image.png' class="rounded-lg shadow-2xl" alt="" />
         </div>
     </div>
+
 </div>
 
 <div class="py-12 lg:pb-16 bg-white mb-12 lg:mb-16">
@@ -53,351 +55,354 @@ type: page
         <p class="text-lg xl:text-xl text-gray-600">We offer 100% money back guarantee.</p>
     </div>
 
-    <div class="flex justify-center mb-8 md:mb-20 lg:mb-24">
-        <nav class="inline-flex bg-indigo-100 rounded-lg overflow-hidden text-sm">
-            <button
-                class="font-bold focus:outline-none py-3 px-6 bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 text-white"
-            >
-                Pay Monthly
-            </button>
-            <button class="font-bold focus:outline-none py-3 px-6 text-indigo-500 hover:bg-indigo-50">
-                Pay Yearly
-            </button>
-        </nav>
-    </div>
-
-    <div class="grid md:grid-cols-3 gap-x-8 gap-y-8 items-start">
-        <div class="p-4 md:p-8 border-2 border-indigo-100 md:border-white rounded-lg bg-white">
-            <div class="flex justify-between items-baseline mb-4">
-                <h4 class="text-xl lg:text-2xl font-bold">Free Package</h4>
-                <span class="text-xl lg:text-2xl font-bold">&euro;0</span>
-            </div>
-            <p class="text-gray-600 mb-6 text-lg">Wisdom is easily acquired when hiding under the bed with.</p>
-            <a
-                href="#"
-                class="border rounded-lg block text-center py-3 px-5 lg:px-8 font-bold mb-8 bg-gradient-to-br hover:from-indigo-500 hover:to-indigo-700 hover:text-white"
-                >Start for free</a
-            >
-            <ul class="text-gray-600 space-y-4 text-lg">
-                <li class="flex space-x-2 items-center">
-                    <div class="w-6 h-6">
-                        <svg
-                            class="text-green-500"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="3"
-                                d="M5 13l4 4L19 7"
-                            ></path>
-                        </svg>
-                    </div>
-                    <span>30 Downloads</span>
-                </li>
-                <li class="flex space-x-2 items-center">
-                    <div class="w-6 h-6">
-                        <svg
-                            class="text-green-500"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="3"
-                                d="M5 13l4 4L19 7"
-                            ></path>
-                        </svg>
-                    </div>
-                    <span>5 Users</span>
-                </li>
-                <li class="flex space-x-2 items-center">
-                    <div class="w-6 h-6">
-                        <svg
-                            class="text-green-500"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="3"
-                                d="M5 13l4 4L19 7"
-                            ></path>
-                        </svg>
-                    </div>
-                    <span>10 Credits</span>
-                </li>
-                <li class="flex space-x-2 items-center opacity-25">
-                    <div class="w-6 h-6">&nbsp;</div>
-                    <span>60 day history</span>
-                </li>
-                <li class="flex space-x-2 items-center opacity-25">
-                    <div class="w-6 h-6">&nbsp;</div>
-                    <span>Email Support</span>
-                </li>
-                <li class="flex space-x-2 items-center opacity-25">
-                    <div class="w-6 h-6">&nbsp;</div>
-                    <span>Phone Support</span>
-                </li>
-            </ul>
-        </div>
-        <div
-            class="p-4 md:p-8 lg:py-12 md:transform md:-translate-y-10 md:-mb-10 bg-white rounded-lg md:shadow-md md:hover:shadow-xl md:transition-all md:duration-500 border-2 md:border border-indigo-100"
+```
+<div class="flex justify-center mb-8 md:mb-20 lg:mb-24">
+    <nav class="inline-flex bg-indigo-100 rounded-lg overflow-hidden text-sm">
+        <button
+            class="font-bold focus:outline-none py-3 px-6 bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 text-white"
         >
-            <div class="flex justify-between items-baseline mb-4">
-                <h4 class="text-xl lg:text-2xl font-bold">Pro Package</h4>
-                <span class="text-xl lg:text-2xl font-bold">&euro;49</span>
-            </div>
-            <p class="text-gray-600 mb-6 text-lg">Wisdom is easily acquired when hiding under the bed with.</p>
-            <a
-                href="#"
-                class="border rounded-lg block text-center py-3 px-5 lg:px-8 font-bold bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 text-white mb-8"
-                >Start for free</a
-            >
-            <ul class="text-gray-600 space-y-4 text-lg">
-                <li class="flex space-x-2 items-center">
-                    <div class="w-6 h-6">
-                        <svg
-                            class="text-green-500"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="3"
-                                d="M5 13l4 4L19 7"
-                            ></path>
-                        </svg>
-                    </div>
-                    <span>Unlimited Downloads</span>
-                </li>
-                <li class="flex space-x-2 items-center">
-                    <div class="w-6 h-6">
-                        <svg
-                            class="text-green-500"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="3"
-                                d="M5 13l4 4L19 7"
-                            ></path>
-                        </svg>
-                    </div>
-                    <span>Unlimited Users</span>
-                </li>
-                <li class="flex space-x-2 items-center">
-                    <div class="w-6 h-6">
-                        <svg
-                            class="text-green-500"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="3"
-                                d="M5 13l4 4L19 7"
-                            ></path>
-                        </svg>
-                    </div>
-                    <span>Unlimited Credits</span>
-                </li>
-                <li class="flex space-x-2 items-center">
-                    <div class="w-6 h-6">
-                        <svg
-                            class="text-green-500"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="3"
-                                d="M5 13l4 4L19 7"
-                            ></path>
-                        </svg>
-                    </div>
-                    <span>60-day history</span>
-                </li>
-                <li class="flex space-x-2 items-center">
-                    <div class="w-6 h-6">
-                        <svg
-                            class="text-green-500"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="3"
-                                d="M5 13l4 4L19 7"
-                            ></path>
-                        </svg>
-                    </div>
-                    <span>Chat Support</span>
-                </li>
-                <li class="flex space-x-2 items-center">
-                    <div class="w-6 h-6">
-                        <svg
-                            class="text-green-500"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="3"
-                                d="M5 13l4 4L19 7"
-                            ></path>
-                        </svg>
-                    </div>
-                    <span>Email Support</span>
-                </li>
-                <li class="flex space-x-2 items-center">
-                    <div class="w-6 h-6">
-                        <svg
-                            class="text-green-500"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="3"
-                                d="M5 13l4 4L19 7"
-                            ></path>
-                        </svg>
-                    </div>
-                    <span>Phone Support</span>
-                </li>
-            </ul>
+            Pay Monthly
+        </button>
+        <button class="font-bold focus:outline-none py-3 px-6 text-indigo-500 hover:bg-indigo-50">
+            Pay Yearly
+        </button>
+    </nav>
+</div>
+
+<div class="grid md:grid-cols-3 gap-x-8 gap-y-8 items-start">
+    <div class="p-4 md:p-8 border-2 border-indigo-100 md:border-white rounded-lg bg-white">
+        <div class="flex justify-between items-baseline mb-4">
+            <h4 class="text-xl lg:text-2xl font-bold">Free Package</h4>
+            <span class="text-xl lg:text-2xl font-bold">&euro;0</span>
         </div>
-        <div class="p-4 md:p-8 border-2 border-indigo-100 md:border-white rounded-lg bg-white">
-            <div class="flex justify-between items-baseline mb-4">
-                <h4 class="text-xl lg:text-2xl font-bold">Plus Package</h4>
-                <span class="text-xl lg:text-2xl font-bold">&euro;29</span>
-            </div>
-            <p class="text-gray-600 mb-6 text-lg">Wisdom is easily acquired when hiding under the bed with.</p>
-            <a
-                href="#"
-                class="border rounded-lg block text-center py-3 px-5 lg:px-8 font-bold mb-8 bg-gradient-to-br hover:from-indigo-500 hover:to-indigo-700 hover:text-white"
-                >Start for free</a
-            >
-            <ul class="text-gray-600 space-y-4 text-lg">
-                <li class="flex space-x-2 items-center">
-                    <div class="w-6 h-6">
-                        <svg
-                            class="text-green-500"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="3"
-                                d="M5 13l4 4L19 7"
-                            ></path>
-                        </svg>
-                    </div>
-                    <span>Unlimited Downloads</span>
-                </li>
-                <li class="flex space-x-2 items-center">
-                    <div class="w-6 h-6">
-                        <svg
-                            class="text-green-500"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="3"
-                                d="M5 13l4 4L19 7"
-                            ></path>
-                        </svg>
-                    </div>
-                    <span>Unlimited Users</span>
-                </li>
-                <li class="flex space-x-2 items-center">
-                    <div class="w-6 h-6">
-                        <svg
-                            class="text-green-500"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="3"
-                                d="M5 13l4 4L19 7"
-                            ></path>
-                        </svg>
-                    </div>
-                    <span>Unlimited Credits</span>
-                </li>
-                <li class="flex space-x-2 items-center">
-                    <div class="w-6 h-6">
-                        <svg
-                            class="text-green-500"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="3"
-                                d="M5 13l4 4L19 7"
-                            ></path>
-                        </svg>
-                    </div>
-                    <span>60-day history</span>
-                </li>
-                <li class="flex space-x-2 items-center opacity-25">
-                    <div class="w-6 h-6">&nbsp;</div>
-                    <span>Email Support</span>
-                </li>
-                <li class="flex space-x-2 items-center opacity-25">
-                    <div class="w-6 h-6">&nbsp;</div>
-                    <span>Phone Support</span>
-                </li>
-            </ul>
-        </div>
+        <p class="text-gray-600 mb-6 text-lg">Wisdom is easily acquired when hiding under the bed with.</p>
+        <a
+            href="#"
+            class="border rounded-lg block text-center py-3 px-5 lg:px-8 font-bold mb-8 bg-gradient-to-br hover:from-indigo-500 hover:to-indigo-700 hover:text-white"
+            >Start for free</a
+        >
+        <ul class="text-gray-600 space-y-4 text-lg">
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg
+                        class="text-green-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="3"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                </div>
+                <span>30 Downloads</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg
+                        class="text-green-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="3"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                </div>
+                <span>5 Users</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg
+                        class="text-green-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="3"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                </div>
+                <span>10 Credits</span>
+            </li>
+            <li class="flex space-x-2 items-center opacity-25">
+                <div class="w-6 h-6">&nbsp;</div>
+                <span>60 day history</span>
+            </li>
+            <li class="flex space-x-2 items-center opacity-25">
+                <div class="w-6 h-6">&nbsp;</div>
+                <span>Email Support</span>
+            </li>
+            <li class="flex space-x-2 items-center opacity-25">
+                <div class="w-6 h-6">&nbsp;</div>
+                <span>Phone Support</span>
+            </li>
+        </ul>
     </div>
+    <div
+        class="p-4 md:p-8 lg:py-12 md:transform md:-translate-y-10 md:-mb-10 bg-white rounded-lg md:shadow-md md:hover:shadow-xl md:transition-all md:duration-500 border-2 md:border border-indigo-100"
+    >
+        <div class="flex justify-between items-baseline mb-4">
+            <h4 class="text-xl lg:text-2xl font-bold">Pro Package</h4>
+            <span class="text-xl lg:text-2xl font-bold">&euro;49</span>
+        </div>
+        <p class="text-gray-600 mb-6 text-lg">Wisdom is easily acquired when hiding under the bed with.</p>
+        <a
+            href="#"
+            class="border rounded-lg block text-center py-3 px-5 lg:px-8 font-bold bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 text-white mb-8"
+            >Start for free</a
+        >
+        <ul class="text-gray-600 space-y-4 text-lg">
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg
+                        class="text-green-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="3"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                </div>
+                <span>Unlimited Downloads</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg
+                        class="text-green-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="3"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                </div>
+                <span>Unlimited Users</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg
+                        class="text-green-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="3"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                </div>
+                <span>Unlimited Credits</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg
+                        class="text-green-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="3"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                </div>
+                <span>60-day history</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg
+                        class="text-green-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="3"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                </div>
+                <span>Chat Support</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg
+                        class="text-green-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="3"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                </div>
+                <span>Email Support</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg
+                        class="text-green-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="3"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                </div>
+                <span>Phone Support</span>
+            </li>
+        </ul>
+    </div>
+    <div class="p-4 md:p-8 border-2 border-indigo-100 md:border-white rounded-lg bg-white">
+        <div class="flex justify-between items-baseline mb-4">
+            <h4 class="text-xl lg:text-2xl font-bold">Plus Package</h4>
+            <span class="text-xl lg:text-2xl font-bold">&euro;29</span>
+        </div>
+        <p class="text-gray-600 mb-6 text-lg">Wisdom is easily acquired when hiding under the bed with.</p>
+        <a
+            href="#"
+            class="border rounded-lg block text-center py-3 px-5 lg:px-8 font-bold mb-8 bg-gradient-to-br hover:from-indigo-500 hover:to-indigo-700 hover:text-white"
+            >Start for free</a
+        >
+        <ul class="text-gray-600 space-y-4 text-lg">
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg
+                        class="text-green-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="3"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                </div>
+                <span>Unlimited Downloads</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg
+                        class="text-green-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="3"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                </div>
+                <span>Unlimited Users</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg
+                        class="text-green-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="3"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                </div>
+                <span>Unlimited Credits</span>
+            </li>
+            <li class="flex space-x-2 items-center">
+                <div class="w-6 h-6">
+                    <svg
+                        class="text-green-500"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="3"
+                            d="M5 13l4 4L19 7"
+                        ></path>
+                    </svg>
+                </div>
+                <span>60-day history</span>
+            </li>
+            <li class="flex space-x-2 items-center opacity-25">
+                <div class="w-6 h-6">&nbsp;</div>
+                <span>Email Support</span>
+            </li>
+            <li class="flex space-x-2 items-center opacity-25">
+                <div class="w-6 h-6">&nbsp;</div>
+                <span>Phone Support</span>
+            </li>
+        </ul>
+    </div>
+</div>
+```
+
 </div>
 
 <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 mb-12 lg:mb-16 xl:mb-24">
@@ -487,6 +492,7 @@ type: page
 <!--/ rating block -->
 
 <!-- faq block -->
+
 <div class="bg-gradient-to-b from-gray-50 to-white lg:mb-16 xl:mb-24 py-12 lg:pt-20 relative overflow-hidden">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 relative z-20">
         <div class="text-center mb-6 md:mb-8 lg:mb-12">
