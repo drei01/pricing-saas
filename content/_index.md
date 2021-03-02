@@ -38,7 +38,7 @@ description: no code pricing pages
 
 </div>
 
-<div class="py-12 lg:pb-16 bg-white mb-12 lg:mb-16">
+<div class="py-12 lg:pb-16 bg-white">
     <div
         class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid grid-cols-2 sm:grid-cols-3 space-y-5 sm:space-y-3 xl:grid-cols-6 col-gap-6 opacity-75"
     >
@@ -51,13 +51,26 @@ description: no code pricing pages
     </div>
 </div>
 
+<div class="py-12 md:py-24 mb-12 lg:mb-16 bg-gray-100">
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
+            <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
+                <img src='images/hero-image.png' class="rounded-lg shadow-2xl" alt="" />
+                
+            </div>
+            <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
+                <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
+                    For writers, a random sentence can help them get their creative juices flowing. Since the topic.
+                </p>
+            </div>
+        </div>
+    </div>
+
 <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 mb-12 lg:mb-16 xl:mb-24">
     <div class="text-center mb-6 md:mb-8">
         <h2 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4">For Freelancers and Teams</h2>
         <p class="text-lg xl:text-xl text-gray-600">We offer 100% money back guarantee.</p>
     </div>
 
-```
 <div class="flex justify-center mb-8 md:mb-20 lg:mb-24">
     <nav class="inline-flex bg-indigo-100 rounded-lg overflow-hidden text-sm">
         <button
