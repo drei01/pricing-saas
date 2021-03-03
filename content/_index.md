@@ -10,56 +10,111 @@ description: no code pricing pages
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                No code pricing pages for ambitious business founders
+                No-Code pricing pages for ambitious business founders
             </h1>
             <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                For writers, a random sentence can help them get their creative juices flowing. Since the topic.
+                Subscription billing for SaaS companies. No experience necessary.
             </p>
             <div class="flex space-x-4 mb-6">
-                <input
-                    type="text"
-                    placeholder="enter your email..."
-                    class="flex-1 py-4 px-4 border border-gray-200 rounded-lg leading-none focus:outline-none"
-                />
-                <button
-                    class="focus:outline-none inline-block bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 font-semibold rounded-lg py-2 px-5 text-white"
+                <a href="https://app.pricewell.io/register"
+                    class="focus:outline-none inline-block bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 font-semibold rounded-lg py-2 px-8 text-white"
                 >
                     Get started
-                </button>
+                </a>
             </div>
             <p class="text-gray-500 text-sm">No credit card required. Cancel anytime.</p>
         </div>
         <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
             <img src='images/hero-image.png' class="rounded-lg shadow-2xl" alt="" />
-
-\    <img src='images/online-reviews.jpg' class="rounded-lg shadow-2xl" alt="" />
         </div>
     </div>
 
 </div>
 
 <div class="py-12 lg:pb-16 bg-white">
+    <h2 class="w-full text-center">Integrated with</h2>
     <div
-        class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid grid-cols-2 sm:grid-cols-3 space-y-5 sm:space-y-3 xl:grid-cols-6 col-gap-6 opacity-75"
+        class="max-w-screen-xl mx-auto pt-4 px-6 lg:px-8 xl:px-4 grid grid-cols-auto space-y-5 sm:space-y-3 col-gap-6 opacity-75 filter-grayscale"
     >
-        <img class="h-12 p-1 self-end justify-self-center" src='images/boxify-logo.svg' alt="" />
-        <img class="h-10 p-1 self-end justify-self-center" src='images/edge-logo.svg' alt="" />
-        <img class="h-10 p-1 self-end justify-self-center" src='images/sbalbew-logo.svg' alt="" />
-        <img class="h-10 p-1 self-end justify-self-center" src='images/drops-logo.svg' alt="" />
-        <img class="h-12 p-1 self-end justify-self-center" src='images/pathway-logo.svg' alt="" />
-        <img class="h-10 p-1 self-end justify-self-center" src='images/feedback-logo.svg' alt="" />
+        
+        <img class="h-12 p-1 self-center justify-self-center" src='images/stripe-blurple_lg.png' alt="" />
     </div>
 </div>
 
-<div class="py-12 md:py-24 mb-12 lg:mb-16 bg-gray-100">
+<div class="py-12 md:py-24 pb-12 lg:pb-16 bg-gray-100 flex flex-col place-items-center">
+    <div><h3 class="text-3xl md:text-4xl">How PriceWell works</h3></div>
+    <div class="pt-4"><h3 class="text-2xl md:text-3xl">4 Simple Steps</h3></div>
+    <div class="pt-8 py-2">
+    <img src="images/how-pricewell-works.png" alt="Step 1 connect Stripe account. Step 2 customize design. Step 3 copy snippet. Step 4 go live." class="w-full md:w-2/3 xl:w-1/2 m-auto">
+    </div>
+</div>
+
+    <div class="py-12 md:py-24 bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
             <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
+            <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
+                    Connect your Stripe account and select Plans to feature.
+                </h2>
+                <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
+                    You can add as many as you want. We recommend up to 3 to avoid confusing your customer.
+Stripe Plans are generated automatically from your Stripe Account. No need for extra work.   
+                </p>                
+            </div>
+            <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
+                <img src='images/select-pricing-plans.png' class="rounded-lg shadow-2xl" alt="" />
+            </div>
+        </div>
+    </div>
+
+
+<div class="py-12 md:py-24 pb-12 lg:pb-16 bg-gray-100">
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
+            <div class="order-2 md:order-1 col-span-2 xl:col-span-3 self-center mt-12 md:mt-0">
+                <img src='images/customize-design.png' class="rounded-lg shadow-2xl" alt="" />
+                
+            </div>
+            <div class="order-1 md:order-2 col-span-2">
+                <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
+                    Designed to match your website
+                </h2>
+                <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
+                    Clear, collective and cohesive information should accompany your pricing plans, so your customers should know exactly what they buy. They value and appreciate your services to a much better degree and they don’t get unwelcome surprises. 
+Design and Customize your Pricing Page, so it matches your website’s theme and attitude. 
+You can change it any time you want!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-12 md:py-24 bg-gray-100">
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
+            <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
+            <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
+                    Copy the generated Snippet
+                </h2>
+                <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
+                    Upon finishing customizing, the generated snippet can be copied into your website's html. Our algorithm checks for safe installation and whether the pricing plans you have just created are online for your customers to use.
+                </p>                
+            </div>
+            <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
+                <img src='images/copy-snippet.png' class="rounded-lg shadow-2xl" alt="" />
+            </div>
+        </div>
+    </div>
+
+
+<div class="py-12 md:py-24 mb-12 lg:mb-16 bg-gray-100">
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
+            <div class="order-2 md:order-1 col-span-2 xl:col-span-3 self-center mt-12 md:mt-0">
                 <img src='images/hero-image.png' class="rounded-lg shadow-2xl" alt="" />
                 
             </div>
-            <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
+            <div class="order-1 md:order-2 col-span-2">
+                <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
+                    You are ready to collect payments 🎉
+                </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    For writers, a random sentence can help them get their creative juices flowing. Since the topic.
+                    Without a single line of code written. Now you can concentrate on providing value for your customers without worrying whether your payment process is working. 
                 </p>
             </div>
         </div>
