@@ -106,7 +106,7 @@ You can change it any time you want!
 <div class="py-12 md:py-24 mb-12 lg:mb-16 bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
             <div class="order-2 md:order-1 col-span-2 xl:col-span-3 self-center mt-12 md:mt-0">
-                <img src='images/hero-image.png' class="rounded-lg shadow-2xl" alt="" />
+                <img src='images/pricing-page.png' class="rounded-lg shadow-2xl" alt="" />
                 
             </div>
             <div class="order-1 md:order-2 col-span-2">
