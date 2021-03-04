@@ -69,11 +69,11 @@ Stripe Plans are generated automatically from your Stripe Account. No need for e
 
 <div class="py-12 md:py-24 pb-12 lg:pb-16 bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
-            <div class="order-2 md:order-1 col-span-2 xl:col-span-3 self-center mt-12 md:mt-0">
+            <div class="order-1 col-span-2 xl:col-span-3 self-center">
                 <img src='images/customize-design.png' class="rounded-lg shadow-2xl" alt="" />
                 
             </div>
-            <div class="order-1 md:order-2 col-span-2">
+            <div class="order-2 col-span-2 mt-12 md:mt-0">
                 <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
                     Designed to match your website
                 </h2>
@@ -105,11 +105,11 @@ You can change it any time you want!
 
 <div class="py-12 md:py-24 mb-12 lg:mb-16 bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
-            <div class="order-2 md:order-1 col-span-2 xl:col-span-3 self-center mt-12 md:mt-0">
+            <div class="order-1 col-span-2 xl:col-span-3 self-center">
                 <img src='images/pricing-page.png' class="rounded-lg shadow-2xl" alt="" />
                 
             </div>
-            <div class="order-1 md:order-2 col-span-2">
+            <div class="order-2 col-span-2 mt-12 md:mt-0">
                 <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
                     You are ready to collect payments 🎉
                 </h2>
