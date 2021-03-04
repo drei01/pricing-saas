@@ -25,7 +25,7 @@ description: no code pricing pages
             <p class="text-gray-500 text-sm">No credit card required. Cancel anytime.</p>
         </div>
         <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
-            <img src='images/hero-image.png' class="rounded-lg shadow-2xl" alt="" />
+            <img src='images/hero.png' class="w-2/3 m-auto" alt="woman in trainers, standing with hands on hips looking happy at data and charts" />
         </div>
     </div>
 
