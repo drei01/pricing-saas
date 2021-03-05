@@ -471,7 +471,6 @@ You can change it any time you want!
         </ul>
     </div>
 </div>
-```
 
 </div>
 
