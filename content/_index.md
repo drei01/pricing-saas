@@ -6,6 +6,15 @@ type: page
 description: no code pricing pages
 ---
 {{<rawhtml>}}
+    <script>
+        function toggle(x) {
+            if (document.getElementById(x).style.display == 'none') {
+                document.getElementById(x).style.display = '';
+            } else {
+                document.getElementById(x).style.display = 'none';
+            }
+        }
+    </script>
     <div class="py-12 md:py-24">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
@@ -167,9 +176,10 @@ You can change it any time you want!
                 <li>
                     <button
                         class="py-3 lg:py-4 font-bold focus:outline-none hover:text-indigo-700 w-full flex items-center justify-between"
+                        onclick="toggle('gdpr');"
                     >
                         <span class="flex-1 text-left pr-6">
-                            What companies or products do you perceive as our competitors?
+                            Is PriceWell compliant with GDPR regulations?
                         </span>
                         <svg
                             class="w-6 h-6 text-indigo-600"
@@ -186,13 +196,28 @@ You can change it any time you want!
                             ></path>
                         </svg>
                     </button>
+                    <div id="gdpr" class="py-4" style="display:none;">
+                        Yes. PriceWell does not store any personally identifiable information of your customers. That
+                        information is all held in your Stripe account. We only store the identifier to your Stripe account (and
+                        use that to trigger payment flows for your customers. This means you do not need to remove any personal
+                        user data from PriceWell, but you may need to from your Stripe account (see the 
+                        <a
+                            href="https://stripe.com/en-de/guides/general-data-protection-regulation"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-indigo-600"
+                        >
+                            Stripe GDPR Documentation
+                        </a>)
+                    </div>
                 </li>
                 <li>
                     <button
                         class="py-3 lg:py-4 font-bold focus:outline-none hover:text-indigo-700 w-full flex items-center justify-between"
+                        onclick="toggle('testMode');"
                     >
                         <span class="flex-1 text-left pr-6">
-                            Have you seen, read or heard anything in the news and on social media?
+                            Can I use my Stripe account in Test mode
                         </span>
                         <svg
                             class="w-6 h-6 text-indigo-600"
@@ -209,75 +234,21 @@ You can change it any time you want!
                             ></path>
                         </svg>
                     </button>
-                </li>
-                <li>
-                    <button
-                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-indigo-700 w-full flex items-center justify-between"
+                    <div id="testMode" class="py-4" style="display:none;">
+                    Yes. You need to connect your live Stripe account in order to set up your PriceWell account. Once your
+                    account is connected you can switch an individual Pricing Page between Test and Live mode. In test mode
+                    you can use test credit cards (see the 
+                    <a
+                        href="</a>https://stripe.com/docs/testing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-indigo-600"
                     >
-                        <span class="flex-1 text-left pr-6">
-                            Do you identify with any of the people appearing in this advert?
-                        </span>
-                        <svg
-                            class="w-6 h-6 text-indigo-600"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                            ></path>
-                        </svg>
-                    </button>
-                </li>
-                <li>
-                    <button
-                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-indigo-700 w-full flex items-center justify-between"
-                    >
-                        <span class="flex-1 text-left pr-6">
-                            If you could change one thing about the advert you’ve just seen/heard, what would it be?
-                        </span>
-                        <svg
-                            class="w-6 h-6 text-indigo-600"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                            ></path>
-                        </svg>
-                    </button>
-                </li>
-                <li>
-                    <button
-                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-indigo-700 w-full flex items-center justify-between"
-                    >
-                        <span class="flex-1 text-left pr-6">
-                            Who else would you like to see appear in this advert?
-                        </span>
-                        <svg
-                            class="w-6 h-6 text-indigo-600"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                            ></path>
-                        </svg>
-                    </button>
+                        Stripe Testing Documentation
+                    </a>
+                    ) to test the full process. If a page is in test mode, a banner will be displayed when your pricing page
+                    is loaded (so you don't forget to switch it to live mode before you launch it to customers).
+                    </div>
                 </li>
             </ul>
         </div>
