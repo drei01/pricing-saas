@@ -16,13 +16,29 @@ jobs:
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v2
               with:
-                  hugo-version: 'latest'
+                  hugo-version: '0.79.0'
 
             - name: Clean public directory
               run: rm -rf public
 
+            - name: Setup Node
+              uses: actions/setup-node@v2
+              with:
+                  node-version: '12.x'
+
+            - name: Cache dependencies
+              uses: actions/cache@v1
+              with:
+                  path: ~/.npm
+                  key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+                  restore-keys: |
+                      ${{ runner.os }}-node-
+
+            - name: npm install
+              run: npm ci
+
             - name: Build
-              run: hugo --theme=pricewell
+              run: hugo --gc --minify
 
             - name: Create cname file
               run: echo 'www.pricewell.io' > public/CNAME
