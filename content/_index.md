@@ -119,7 +119,7 @@ You can change it any time you want!
     </div>
 
 
-<div class="py-12 md:py-24 mb-12 lg:mb-16 bg-gray-100">
+<div class="py-12 md:py-24 bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
             <div class="order-1 col-span-2 xl:col-span-3 self-center">
                 <img src='images/pricing-page.png' class="rounded-lg shadow-2xl" alt="" />
@@ -135,6 +135,17 @@ You can change it any time you want!
             </div>
         </div>
     </div>
+
+<div class="bg-gray-100 text-center">
+        <hr class="border-b w-2/3 m-auto"/>
+    </div>
+
+<div class="bg-gray-100 px-6 lg:px-8 xl:px-4 mb-12 lg:mb-16 py-12 md:py-24">
+    <div class="text-center mb-6 md:mb-8">
+        <h2 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4">PriceWell vs Stripe Checkout</h2>
+    </div>
+    {{< partial "vs-stripe" >}}
+</div>
 
 <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 mb-12 lg:mb-16 xl:mb-24">
     <div class="text-center mb-6 md:mb-8">
