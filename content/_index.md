@@ -19,10 +19,11 @@ description: no code pricing pages
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                Subscription billing for your SaaS <br/> No coding required.
+                Build subscription billing into your SaaS <br/> No coding required.
             </h1>
             <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                Build a pricing page in seconds, get more customers, save weeks of development time.
+                Spend more time on your business.
+                Create a world class pricing page in minutes with PriceWell.
             </p>
             <div class="flex space-x-4 mb-6">
                 <a href="https://app.pricewell.io/register"
@@ -33,7 +34,7 @@ description: no code pricing pages
             </div>
         </div>
         <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
-            <img src='images/hero.png' class="rounded-lg shadow-2xl" alt="example pricing table created using pricewell" >
+            <img src='images/pricing-page-2.png' class="rounded-lg shadow-2xl" alt="example pricing table created using pricewell" >
         </div>
     </div>
 
@@ -59,6 +60,8 @@ description: no code pricing pages
             <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 591.604 591" class="w-24 mb-8"><path d="M555.879 168.52L449.105 61.543V490.23H592V255.38a122.5 122.5 0 00-36.121-86.86zm0 0" fill="#ffb782"/><path d="M83.457 412.117L2.738 202.57c-8.101-21.035 2.38-44.664 23.426-52.77L407.156 3.048c21.035-8.102 44.664 2.379 52.766 23.426L540.64 236.02c8.101 21.035-2.38 44.664-23.426 52.77l-380.98 146.753c-21.048 8.102-44.665-2.39-52.778-23.426zm0 0" fill="#de4c3c"/><path d="M489.012 101.96L32.195 279.032l30.418 78.961L519.45 181.004zm0 0" fill="#7a4930"/><path d="M.004 265.68V41.129C.004 18.582 18.285.3 40.832.3h408.273c22.547 0 40.829 18.281 40.829 40.828v224.55c0 22.548-18.282 40.829-40.829 40.829H40.832c-22.547 0-40.828-18.281-40.828-40.828zm0 0" fill="#4398d1"/><path d="M449.105.3h-43.378L99.52 306.509h349.585c22.547 0 40.829-18.281 40.829-40.828V41.129C489.934 18.582 471.652.3 449.105.3zm0 0" fill="#3e8cc7"/><path d="M40.832 163.61H81.66v20.413H40.832zm0 0M40.832 224.852H81.66v20.414H40.832zm0 0M224.555 224.852h40.828v20.414h-40.828zm0 0M102.074 163.61h40.824v20.413h-40.824zm0 0M163.313 163.61h40.828v20.413h-40.828zm0 0M224.555 163.61h40.828v20.413h-40.828zm0 0M418.484 41.129h20.414V71.75h-20.414zm0 0M377.656 41.129h20.414V71.75h-20.414zm0 0M336.828 41.129h20.414V71.75h-20.414zm0 0M296.004 41.129h20.41V71.75h-20.41zm0 0" fill="#5eb3d1"/><path d="M408.277 490.23H592v102.067H408.277zm0 0" fill="#88b337"/><path d="M378.32 184.688c-17.312-17.25-45.328-17.2-62.578.113-16.68 16.738-17.258 43.633-1.316 61.078l83.644 91.25c-25.14 44-24.066 98.258 2.785 141.23l7.422 11.871h132.688V347.336zm0 0" fill="#ffb782"/><path d="M438.898 520.852h20.414v20.414h-20.414zm0 0" fill="#6b962a"/><path d="M40.832 106.453V57.461c0-9.023 7.309-16.332 16.332-16.332h48.992c9.024 0 16.328 7.309 16.328 16.332v48.992c0 9.024-7.304 16.332-16.328 16.332H57.164c-9.023 0-16.332-7.308-16.332-16.332zm0 0" fill="#fdb62f"/><path d="M40.832 71.75h30.621v20.414H40.832zm0 0M91.867 71.75h30.617v20.414H91.867zm0 0" fill="#fd7b2f"/><path d="M530.758 347.336a10.187 10.187 0 01-7.215-2.992l-40.828-40.828c-3.918-4.051-3.805-10.512.258-14.434 3.96-3.816 10.226-3.816 14.175 0l40.829 40.828c3.98 3.992 3.98 10.453 0 14.434a10.21 10.21 0 01-7.22 2.992zm0 0" fill="#f2a46f"/></svg><div class="font-bold text-xl md:text-2xl">Step 4</div> Collect payments</div>
         </div>
     </div>
+
+    <div class="font-light mt-10">Want to see the end result? Check out our own <a href="/pricing" class="underline hover:font-bold">pricing page</a>, built with PriceWell.</div>
 </div>
 
     <div class="bg-gray-100 text-center">
@@ -72,8 +75,7 @@ description: no code pricing pages
                     Connect your Stripe account and select Plans to feature.
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    You can add as many as you want. We recommend up to 3 to avoid confusing your customer.
-Stripe Plans are generated automatically from your Stripe Account. No need for extra work.   
+                    Pricing plans are pulled automatically from your Stripe account. Haven't set your pricing up in Stripe yet? No worries, you can do it from PriceWell any everything syncs to Stripe.   
                 </p>                
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
@@ -94,9 +96,8 @@ Stripe Plans are generated automatically from your Stripe Account. No need for e
                     Designed to match your website
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Clear, collective and cohesive information should accompany your pricing plans, so your customers should know exactly what they buy. They value and appreciate your services to a much better degree and they don’t get unwelcome surprises. 
-Design and Customize your Pricing Page, so it matches your website’s theme and attitude. 
-You can change it any time you want!
+                    Design and Customize your Pricing Page, so it matches your website’s theme and attitude. 
+You can change it any time you want and the changes happen <b>live</b> on your pricing page. No need to wait for a developer to update your pricing.
                 </p>
             </div>
         </div>
@@ -122,7 +123,7 @@ You can change it any time you want!
 <div class="py-12 md:py-24 bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
             <div class="order-1 col-span-2 xl:col-span-3 self-center">
-                <img src='images/pricing-page.png' class="rounded-lg shadow-2xl" alt="" />
+                <img src='images/pricing-page-2.png' class="rounded-lg shadow-2xl" alt="" />
                 
             </div>
             <div class="order-2 col-span-2 mt-12 md:mt-0">
@@ -150,7 +151,7 @@ You can change it any time you want!
 <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 mb-12 lg:mb-16 xl:mb-24">
     <div class="text-center mb-6 md:mb-8">
         <h2 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4">Grow your business with our tailored pricing</h2>
-        <p class="text-lg xl:text-xl text-gray-600">Free until we make you $1k.</p>
+        <p class="text-lg xl:text-xl text-gray-600 relative w-1/2 m-auto">Oh, and our pricing is made with PriceWell <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372.136 372.136" class="w-12 ml-10 transform rotate-120"><path d="M371.682 143.271c-14.688-44.676-26.316-90.576-50.797-131.58-2.447-4.284-10.403-5.508-12.239 0-17.748 42.228-36.108 83.844-47.736 127.908-1.836 7.344 7.344 12.852 12.852 7.344 10.404-10.404 21.421-20.196 33.049-28.764-1.225 90.576 1.836 195.84-105.876 223.992-47.736 12.24-100.98 5.509-140.76-25.092C18.557 284.644 9.377 231.4 12.437 181.828c0-4.896-7.344-6.12-8.568-1.224-23.868 110.772 66.096 197.064 176.256 181.764 54.468-7.344 100.368-33.048 123.624-85.068 20.809-46.512 19.584-102.204 18.36-153 11.628 10.404 24.479 19.584 37.943 26.928 6.121 3.672 14.077-1.224 11.63-7.957zm-55.08-40.391c-3.672-1.224-6.12.612-7.345 3.672l-.611.612c-9.792 3.06-18.36 7.956-26.316 13.464 9.18-29.988 21.42-59.364 33.048-88.128 15.912 29.988 25.092 62.424 35.496 94.248-11.017-9.18-21.421-18.36-34.272-23.868z"/></svg></p>
     </div>
 
     <div id="pricewell"></div><script src="https://snippet.pricewell.io/1d69d580-5874-4b74-b220-151f18b606f8/pricewell.js"></script>
