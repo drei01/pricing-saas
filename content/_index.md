@@ -33,7 +33,7 @@ description: no code pricing pages
             </div>
         </div>
         <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
-            <img src='images/pricing-page.png' class="rounded-lg shadow-2xl" alt="example pricing table created using pricewell" >
+            <img src='images/hero.png' class="rounded-lg shadow-2xl" alt="example pricing table created using pricewell" >
         </div>
     </div>
 
