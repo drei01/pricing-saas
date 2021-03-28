@@ -27,14 +27,14 @@ description: no code pricing pages
             </p>
             <div class="flex space-x-4 mb-6">
                 <a href="https://app.pricewell.io/register"
-                    class="focus:outline-none inline-block bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 font-semibold rounded-lg py-2 px-8 text-white"
+                    class="focus:outline-none inline-block bg-gradient-to-br from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-700 font-semibold rounded-lg py-2 px-8 text-white"
                 >
                     Get started
                 </a>
             </div>
         </div>
         <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
-            <img src='images/pricing-page-2.png' class="rounded-lg shadow-2xl" alt="example pricing table created using pricewell" >
+            <img src='images/hero.png' alt="woman lifting a pricing table into an empty space in a website" >
         </div>
     </div>
 
@@ -187,14 +187,14 @@ You can change it any time you want and the changes happen <b>live</b> on your p
             <ul class="divide-y divide-gray-300text-base md:text-lg">
                 <li>
                     <button
-                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-indigo-700 w-full flex items-center justify-between"
+                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full flex items-center justify-between"
                         onclick="toggle('gdpr');"
                     >
                         <span class="flex-1 text-left pr-6">
                             Is PriceWell compliant with GDPR regulations?
                         </span>
                         <svg
-                            class="w-6 h-6 text-indigo-600"
+                            class="w-6 h-6 text-blue-600"
                             fill="none"
                             stroke="currentColor"
                             viewBox="0 0 24 24"
@@ -217,7 +217,7 @@ You can change it any time you want and the changes happen <b>live</b> on your p
                             href="https://stripe.com/en-de/guides/general-data-protection-regulation"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="text-indigo-600"
+                            class="text-blue-600"
                         >
                             Stripe GDPR Documentation
                         </a>)
@@ -225,14 +225,14 @@ You can change it any time you want and the changes happen <b>live</b> on your p
                 </li>
                 <li>
                     <button
-                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-indigo-700 w-full flex items-center justify-between"
+                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full flex items-center justify-between"
                         onclick="toggle('testMode');"
                     >
                         <span class="flex-1 text-left pr-6">
                             Can I use my Stripe account in Test mode
                         </span>
                         <svg
-                            class="w-6 h-6 text-indigo-600"
+                            class="w-6 h-6 text-blue-600"
                             fill="none"
                             stroke="currentColor"
                             viewBox="0 0 24 24"
@@ -254,7 +254,7 @@ You can change it any time you want and the changes happen <b>live</b> on your p
                         href="</a>https://stripe.com/docs/testing"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="text-indigo-600"
+                        class="text-blue-600"
                     >
                         Stripe Testing Documentation
                     </a>
@@ -267,7 +267,7 @@ You can change it any time you want and the changes happen <b>live</b> on your p
         <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
             <a
                 href="javascript:$crisp.push(['do', 'chat:open']);"
-                class="bg-white rounded-lg shadow hover:shadow-xl transition-all duration-500 p-6 lg:p-8 border border-indigo-100 flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-6"
+                class="bg-white rounded-lg shadow hover:shadow-xl transition-all duration-500 p-6 lg:p-8 border border-blue-100 flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-6"
             >
                 <div
                     class="h-16 w-16 lg:h-20 lg:w-20 bg-green-100 rounded-full flex items-center justify-center border border-green-200 shadow-inner"
@@ -290,7 +290,7 @@ You can change it any time you want and the changes happen <b>live</b> on your p
                 <div class="flex-1">
                     <h5 class="font-bold text-xl lg:text-2xl mb-3">Compare Plans</h5>
                     <p class="text-lg text-gray-600 mb-6">Find out what plan is right for you</p>
-                    <span class="font-bold text-lg text-indigo-600 flex items-baseline">
+                    <span class="font-bold text-lg text-blue-600 flex items-baseline">
                         Chat with us
                         <svg
                             class="w-4 h-4 ml-2"
@@ -311,7 +311,7 @@ You can change it any time you want and the changes happen <b>live</b> on your p
             </a>
             <a
                 href="javascript:$crisp.push(['do', 'chat:open']);"
-                class="bg-white rounded-lg shadow hover:shadow-xl transition-all duration-500 p-6 lg:p-8 border border-indigo-100 flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-6"
+                class="bg-white rounded-lg shadow hover:shadow-xl transition-all duration-500 p-6 lg:p-8 border border-blue-100 flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-6"
             >
                 <div
                     class="h-16 w-16 lg:h-20 lg:w-20 bg-green-100 rounded-full flex items-center justify-center border border-green-200 shadow-inner"
@@ -334,7 +334,7 @@ You can change it any time you want and the changes happen <b>live</b> on your p
                 <div class="flex-1">
                     <h5 class="font-bold text-xl lg:text-2xl mb-3">Need advice?</h5>
                     <p class="text-lg text-gray-600 mb-6">Find out more about our product</p>
-                    <span class="font-bold text-lg text-indigo-600 flex items-baseline">
+                    <span class="font-bold text-lg text-blue-600 flex items-baseline">
                         Contact our professionals
                         <svg
                             class="w-4 h-4 ml-2"

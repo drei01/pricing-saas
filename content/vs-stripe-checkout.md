@@ -18,7 +18,7 @@ draft: false
 
             <h3 class="mt-16 mb-8 text-xl">Who is PriceWell <b>not</b> for?</h3>
             <ul class="list-disc list-inside">
-                <li>If you have a completely custom pricing model it's unlikely we'll be a fit. Do <a href="javascript:$crisp.push(['do', 'chat:open']);" class="text-indigo-600 hover:font-bold">get in touch</a> to find out if we can help you.</li>
+                <li>If you have a completely custom pricing model it's unlikely we'll be a fit. Do <a href="javascript:$crisp.push(['do', 'chat:open']);" class="text-blue-600 hover:font-bold">get in touch</a> to find out if we can help you.</li>
                 <li>If you don't bat an eyelid at integrating webhooks, calling APIs and generally getting your hands dirty with billing code.</li>
             </ul>
             </div>
