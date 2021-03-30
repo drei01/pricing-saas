@@ -5,13 +5,16 @@ draft: false
 ---
 
 {{<rawhtml>}}
-    <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-            Save weeks of development time
-            <br/>
-            <u>Free</u>, until we make you $1k
-        </h1>
-        <div id="pricewell"></div><script src="https://snippet.pricewell.io/1d69d580-5874-4b74-b220-151f18b606f8/pricewell.js"></script>
+<h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
+    Save weeks of development time
+    <br/>
+    <u>Free</u>, until we make you $1k
+</h1>
+{{</rawhtml>}}
 
+{{< partial "pricing" >}}
+
+{{<rawhtml>}}    
         <div class="py-8 md:px-32 w-full">
             <ul class="divide-y divide-gray-300text-base md:text-lg mb-8">
                 <li>
