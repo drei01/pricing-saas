@@ -19,11 +19,10 @@ description: no code pricing pages
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                Build subscription billing into your SaaS <br/> No coding required.
+                Build subscription pricing in minutes <br/> No coding required.
             </h1>
             <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                Spend more time on your business.
-                Create a world class pricing page in minutes with PriceWell.
+                Create a world class pricing page and <br/> <b>save weeks</b> of development time.
             </p>
             <div class="flex space-x-4 mb-6">
                 <a href="https://app.pricewell.io/register"
@@ -145,7 +144,7 @@ You can change it any time you want and the changes happen <b>live</b> on your p
 
 <div class="bg-gray-100 px-6 lg:px-8 xl:px-4 mb-12 lg:mb-16 py-12 md:py-24">
     <div class="text-center mb-6 md:mb-8">
-        <h2 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4">PriceWell vs Stripe Checkout</h2>
+        <h2 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4">Save weeks vs Stripe Checkout</h2>
     </div>
     {{< partial "vs-stripe" >}}
 </div>

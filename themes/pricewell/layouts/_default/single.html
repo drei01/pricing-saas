@@ -3,11 +3,11 @@
     {{if eq .File.Dir "/"}} {{ .Content }} {{ else }}
     <div class="py-12 px-4 container">
         <div>
-            <h1>{{ .Title }}</h1>
+            <h1 class="post-header">{{ .Title }}</h1>
             <h5>{{ .Description }}</h5>
             {{ partial "tags" . }}
         </div>
-        <div>{{ .Content }}</div>
+        <div class="post-wrapper">{{ .Content }}</div>
     </div>
     {{ end }}
 </main>
