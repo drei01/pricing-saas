@@ -76,7 +76,7 @@ description: no code pricing pages
                     Connect your Stripe account and select Plans to feature.
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Pricing plans are pulled automatically from your Stripe account. Haven't set your pricing up in Stripe yet? No worries, you can do it from PriceWell any everything syncs to Stripe.   
+                    Pricing plans are pulled automatically from your Stripe account. Haven't set your pricing up in Stripe yet? No worries, you can do it from PriceWell and everything syncs to Stripe.   
                 </p>                
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
