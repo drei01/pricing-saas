@@ -13,24 +13,4 @@ draft: false
 {{</rawhtml>}}
 
 {{< partial "pricing" >}}
-
-{{<rawhtml>}}    
-        <div class="py-8 md:px-32 w-full">
-            <ul class="divide-y divide-gray-300text-base md:text-lg mb-8">
-                <li>
-                    <details>
-                    <summary>
-                        <span class="font-bold">
-                                What is MRR?
-                            </span>
-                    </summary>
-                    <div class="font-normal text-md">Monthly recurring revenue (MRR) is what makes your SaaS tick. It's calculated by adding up the value of all your monthly subscriptions in Stripe (minus discounts of course). MRR increases when new customers sign up through your PriceWell.io pricing page. MRR decreases when your customers cancel their subscription (churn).</div>
-                    </details>
-                </li>
-            </ul>
-
-            <div class="font-grey-200">
-            * excluding Stripe Transaction Fees
-            </div>
-        </div>
-{{</rawhtml>}}
+{{< partial "pricing-explainer">}}
