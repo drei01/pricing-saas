@@ -17,7 +17,7 @@ description: no code pricing pages
     </script>
     <div class="py-12 md:py-24">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
-        <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
+        <div class="order-1 col-span-2 self-center mt-12 md:mt-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
                 Build subscriptions into your website in minutes <br/> No coding required.
             </h1>
@@ -34,8 +34,10 @@ description: no code pricing pages
 
             <p class="text-gray-500 text-sm">No credit card required.</p>
         </div>
-        <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
-            <img src='images/hero.png' alt="woman lifting a pricing table into an empty space in a website" >
+        <div class="order-2 col-span-2 xl:col-span-3 flex-col">
+            <img src='images/hero.png' alt="woman lifting a pricing table into an empty space in a website" class="m-auto">
+                  <!--<svg xmlns="http://www.w3.org/2000/svg"  class="w-40 mr-0 ml-auto" viewBox="0 0 485.61 100"><path d="M479.15 100a6.46 6.46 0 006.46-6.46V6.46A6.46 6.46 0 00479.15 0H173.21L152 100z" fill="#fff"/><path class="fill-current text-blue-400" d="M23.36 0H6.46A6.46 6.46 0 000 6.46v87.08A6.46 6.46 0 006.46 100H152L173.21 0z"/><g style="isolation:isolate"><path class="cls-2" d="M196.42 64.53l-10.21-27.48h5.28l7.57 21.36 7.62-21.36h5l-10.09 27.48zM210.66 54.5c0-5.89 4-10.44 9.57-10.44 5.82 0 8.92 4.4 8.92 9.91v1.53h-14.09c.35 3.44 2.41 5.55 5.36 5.55a4.55 4.55 0 004.67-3.22l3.94 1.5a8.87 8.87 0 01-8.61 5.67c-5.74 0-9.76-4.3-9.76-10.5zm4.63-2.44h9.23a4 4 0 00-4.33-4.14c-2.37 0-4.19 1.42-4.9 4.14zM244.27 49a12.85 12.85 0 00-1.69-.11 4.83 4.83 0 00-5.13 5.11v10.53h-4.59V44.44h4.59v3a5.87 5.87 0 015.51-3.1 11 11 0 011.31.08zM247.63 37.05h4.75v4.71h-4.75zm4.67 27.48h-4.59V44.44h4.59zM266.69 40.69h-1.37c-1.8 0-2.8.54-2.8 2.83v1h4.1v3.9h-4.1v16.11h-4.59V48.34h-2.79v-3.9h2.79v-1.3c0-4.17 2.33-6.51 6.85-6.51h1.91zM269.45 37.05h4.75v4.71h-4.75zm4.67 27.48h-4.59V44.44h4.59zM278 54.5c0-5.89 4-10.44 9.56-10.44 5.82 0 8.92 4.4 8.92 9.91v1.53h-14.13c.34 3.44 2.41 5.55 5.36 5.55a4.55 4.55 0 004.66-3.22l3.95 1.5a8.89 8.89 0 01-8.61 5.67C282 65 278 60.7 278 54.5zm4.63-2.44h9.22a4 4 0 00-4.32-4.14c-2.43 0-4.26 1.42-4.95 4.14zM298.88 54.5c0-5.7 3.22-10.44 8.84-10.44a7.28 7.28 0 015.78 2.52v-9.53h4.59v27.48h-4.59v-2.1a7.28 7.28 0 01-5.78 2.57c-5.62 0-8.84-4.79-8.84-10.5zm9.76-6.42c-3.33 0-5.13 2.6-5.13 6.42s1.8 6.43 5.13 6.43c2.83 0 5-2.1 5-5.81v-1.19c-.02-3.79-2.17-5.85-5-5.85zM336.43 64.53h-4.9V37.05h11c6.13 0 9.95 2.87 9.95 8.42s-3.82 8.42-9.95 8.42h-6.08zm5.81-14.85c3.53 0 5.4-1.53 5.4-4.21s-1.87-4.21-5.4-4.21h-5.81v8.42zM370.8 64.53h-4.48a10.14 10.14 0 01-.12-1.61 8 8 0 01-5.7 2c-3.82 0-6.77-2.34-6.77-5.94 0-3.82 2.87-5.51 6.73-6.31l5.54-1.19v-1c0-1.8-1.26-2.45-3.33-2.45-2.41 0-3.44 1-3.56 2.71h-4.47c.15-4.63 3.67-6.69 8.3-6.69s7.54 2.06 7.54 5.7v10a32.1 32.1 0 00.32 4.78zM366 55l-4.32.92c-1.95.42-3.41 1-3.41 2.83 0 1.57 1.15 2.45 2.91 2.45 2.45 0 4.82-1.3 4.82-3.75zM386.83 49a12.58 12.58 0 00-1.68-.11A4.83 4.83 0 00380 54v10.53h-4.59V44.44H380v3a5.87 5.87 0 015.51-3.1 10.7 10.7 0 011.3.08zM391.08 48.34h-2.79v-3.9h2.79v-5.89h4.52v5.89h4.21v3.9h-4.21v10.41c0 1.8 1 2 2.68 2a15.81 15.81 0 001.87-.11v3.86a17.85 17.85 0 01-3.17.27c-3.83 0-5.9-1.18-5.9-5.28zM403.87 44.44h4.59v2.14a7.08 7.08 0 015.54-2.52c4.21 0 6.73 2.91 6.73 7.23v13.24h-4.59v-11.9c0-2.49-1-4.29-3.52-4.29a4.16 4.16 0 00-4.17 4.4v11.79h-4.59zM424.42 54.5c0-5.89 4-10.44 9.57-10.44 5.81 0 8.91 4.4 8.91 9.91v1.53h-14.08c.34 3.44 2.41 5.55 5.36 5.55a4.56 4.56 0 004.67-3.22l3.94 1.5a8.88 8.88 0 01-8.61 5.67c-5.74 0-9.76-4.3-9.76-10.5zm4.63-2.44h9.22a4 4 0 00-4.27-4.14c-2.42 0-4.26 1.42-4.95 4.14zM458 49a12.58 12.58 0 00-1.68-.11 4.83 4.83 0 00-5.11 5.11v10.53h-4.59V44.44h4.59v3a5.87 5.87 0 015.51-3.1 10.7 10.7 0 011.3.08z"/></g><path d="M85.77 27.59v5.85L78.38 35v-5.88zm38.45 15.53c-1.86 0-3.93 1.43-3.93 4.84H128c0-3.41-1.95-4.84-3.78-4.84zm-24.62.46a4.41 4.41 0 00-3.52 1.49V56.2a4.34 4.34 0 003.47 1.42c2.72 0 4.54-3 4.54-7s-1.8-7.04-4.49-7.04zm-29.25-4.11a4.87 4.87 0 016.06-2.22v6.9c-.92-.31-3.82-.76-5.54 1.57v17.83h-7.26v-26.3h6.28zm15.42-2v26.08h-7.39V37.44zM37.61 37a19 19 0 017.32 1.38v7.13a16.21 16.21 0 00-7.33-2c-1.54 0-2.5.46-2.5 1.64 0 3.41 11.26 1.79 11.26 10.82 0 5.45-4.22 8.56-10.35 8.56a20 20 0 01-8-1.72v-7.23A18.07 18.07 0 0036 58c1.65 0 2.83-.45 2.83-1.85 0-3.61-11.21-2.25-11.21-10.64.02-5.36 4.01-8.51 9.99-8.51zm17.94-6v6.55h5.59V44h-5.59v10.73c0 4.44 4.65 3.05 5.59 2.67v6.13a11.14 11.14 0 01-5.16 1 7.5 7.5 0 01-7.65-7.75V32.6zm68.72 6c7.07 0 10.73 6.07 10.73 13.82 0 .73-.06 2.32-.1 2.73h-14.55c.33 3.55 2.89 4.59 5.8 4.59a15.54 15.54 0 007.31-1.67v6.1a16.45 16.45 0 01-8.25 2c-7.26 0-12.34-4.62-12.34-13.75 0-7.75 4.31-13.82 11.4-13.82zm-22.92 0c5.17 0 10 4.73 10 13.46 0 9.52-4.82 13.83-10.08 13.83a8.19 8.19 0 01-5.21-1.9v8.48l-7.36 1.59v-35h6.48l.38 1.86a8.16 8.16 0 015.79-2.32z" fill-rule="evenodd" fill="#fff"/><path d="M479.15 1.5a5 5 0 015 5v87.04a5 5 0 01-5 5H6.46a5 5 0 01-5-5V6.46a5 5 0 015-5h472.69m0-1.5H6.46A6.46 6.46 0 000 6.46v87.08A6.46 6.46 0 006.46 100h472.69a6.46 6.46 0 006.46-6.46V6.46A6.46 6.46 0 00479.15 0z" fill="#adbdcc"/></svg>-->
+
         </div>
     </div>
 
@@ -65,9 +67,71 @@ description: no code pricing pages
     <div class="font-light mt-10 px-6">Want to see the end result? Check out our own <a href="/#pricing" class="underline hover:font-bold">pricing</a>, built with PriceWell.</div>
 </div>
 
-    <div class="bg-gray-100 text-center">
-        <hr class="border-b w-2/3 m-auto"/>
+    <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="text-center mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Save weeks compared with Stripe Checkout</h1>
+      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Implementing Stripe Checkout yourself can take weeks of development. PriceWell saves you the hastle, plus you get a copy-paste pricing page.</p>
     </div>
+    <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">GDPR Compliant</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Subscription Management</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">No coding required</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Pricing page included</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Instant Pricing Changes</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Implement in 1 hour</span>
+        </div>
+      </div>
+    </div>
+    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+  </div>
+</section>
 
     <div class="py-12 md:py-24 bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
@@ -138,17 +202,7 @@ You can change it any time you want and the changes happen <b>live</b> on your p
         </div>
     </div>
 
-<div class="bg-gray-100 text-center">
-        <hr class="border-b w-2/3 m-auto"/>
-    </div>
-
-<div class="bg-gray-100 px-6 lg:px-8 xl:px-4 py-12 md:py-24">
-    <div class="text-center mb-6 md:mb-8">
-        <h2 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4">Save weeks vs Stripe Checkout</h2>
-    </div>
-    {{< partial "vs-stripe" >}}
-</div>
-
+<div class="bg-gray-100">
 <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 py-12 lg:py-16 xl:py-24 bg-black">
     <div class="text-center mb-6 md:mb-8">
         <h2 id="pricing" class="text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4">Grow your business with our tailored pricing</h2>
@@ -162,12 +216,13 @@ You can change it any time you want and the changes happen <b>live</b> on your p
     </div>
 
 </div>
+</div>
 
-<div class="bg-gradient-to-b from-gray-50 to-white lg:mb-16 xl:mb-24 py-12 lg:pt-20 relative overflow-hidden">
+<div class="bg-gradient-to-b from-gray-100 to-white lg:mb-16 xl:mb-24 py-12 lg:pt-20 relative overflow-hidden">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 relative z-20">
         <div class="text-center mb-6 md:mb-8 lg:mb-12">
             <h2 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4">FAQ</h2>
-            <p class="text-lg xl:text-xl text-gray-600">Ask us anything about our product.</p>
+            <p class="text-lg xl:text-xl text-gray-600">Answers to your frequently asked questions.</p>
         </div>
         <div class="mb-12 lg:mb-20">
             <ul class="divide-y divide-gray-300text-base md:text-lg">
@@ -203,7 +258,7 @@ You can change it any time you want and the changes happen <b>live</b> on your p
                             href="https://stripe.com/en-de/guides/general-data-protection-regulation"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="text-blue-600"
+                            class="text-blue-600 underline"
                         >
                             Stripe GDPR Documentation
                         </a>)
@@ -237,15 +292,47 @@ You can change it any time you want and the changes happen <b>live</b> on your p
                     account is connected you can switch an individual Pricing Page between Test and Live mode. In test mode
                     you can use test credit cards (see the 
                     <a
-                        href="</a>https://stripe.com/docs/testing"
+                        href="https://stripe.com/docs/testing"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="text-blue-600"
+                        class="text-blue-600 underline"
                     >
                         Stripe Testing Documentation
                     </a>
                     ) to test the full process. If a page is in test mode, a banner will be displayed when your pricing page
                     is loaded (so you don't forget to switch it to live mode before you launch it to customers).
+                    </div>
+                </li>
+                <li>
+                    <button
+                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full flex items-center justify-between"
+                        onclick="toggle('multiAccount');"
+                    >
+                        <span class="flex-1 text-left pr-6">
+                            Can I use PriceWell for multiple websites / businesses?
+                        </span>
+                        <svg
+                            class="w-6 h-6 text-blue-600"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                            ></path>
+                        </svg>
+                    </button>
+                    <div id="multiAccount" class="py-4" style="display:none;">
+                    Yes. You can even connect multiple Stripe accounts so you don't have to host all your businesses in one. <a
+                        href="javascript:$crisp.push(['do', 'chat:open']);"
+                        class="text-blue-600 underline"
+                    >
+                        Get in touch
+                    </a> if you have any questions.
                     </div>
                 </li>
             </ul>
@@ -275,7 +362,7 @@ You can change it any time you want and the changes happen <b>live</b> on your p
                 </div>
                 <div class="flex-1">
                     <h5 class="font-bold text-xl lg:text-2xl mb-3">Compare Plans</h5>
-                    <p class="text-lg text-gray-600 mb-6">Find out what plan is right for you</p>
+                    <p class="text-lg text-gray-600 mb-6">Find out which plan is right for you</p>
                     <span class="font-bold text-lg text-blue-600 flex items-baseline">
                         Chat with us
                         <svg
@@ -319,7 +406,7 @@ You can change it any time you want and the changes happen <b>live</b> on your p
                 </div>
                 <div class="flex-1">
                     <h5 class="font-bold text-xl lg:text-2xl mb-3">Need advice?</h5>
-                    <p class="text-lg text-gray-600 mb-6">Find out more about our product</p>
+                    <p class="text-lg text-gray-600 mb-6">Chat with one of our team</p>
                     <span class="font-bold text-lg text-blue-600 flex items-baseline">
                         Contact our professionals
                         <svg
