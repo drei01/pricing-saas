@@ -19,10 +19,11 @@ draft: false
                         We hope you find this data as valuable we have. You are completely free to do with it what you wish, no strings attached.
                     </p>
                     <div class="flex justify-center">
-                        <button
+                        <a
+                            href="https://airtable.com/invite/l?inviteId=inv3CCPOiqflFutSD&inviteToken=4e94a3b9db273b5f0e1b31e26e3af2eece207f9370aa172c7369db47daffef4a"
                             class="flex items-center px-6 py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-black rounded-lg hover:bg-gray-800 hover:bg-crimson-500 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">
                             See the Airtable
-                        </button>
+                        </a>
                         <p class="mt-2 text-sm text-center text-gray-600 md:ml-6 md:mt-0 sm:text-left">Want a spreadsheet instead?
                             <br class="hidden lg:block">
                             <a href="/downloads/saas-pricing-2021-by-pricewell-io.csv" class="inline-flex items-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-400 ">
