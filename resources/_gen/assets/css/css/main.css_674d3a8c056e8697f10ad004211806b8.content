@@ -27490,8 +27490,25 @@ video {
   line-height: 1.75rem;
 }
 
-.post-wrapper h1, .post-wrapper h2, .post-wrapper h3 {
+.post-wrapper h4 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.post-wrapper h1 {
   font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.post-wrapper h2, .post-wrapper h3 {
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.post-wrapper h4 {
+  font-weight: 600;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -27506,12 +27523,6 @@ video {
 .post-wrapper ul {
   list-style-position: inside;
   list-style-type: disc;
-}
-
-.post-wrapper img {
-  margin: auto;
-  margin-bottom: 1rem;
-  width: 50%;
 }
 
 .post-wrapper a {
