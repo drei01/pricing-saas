@@ -4,7 +4,7 @@ date: 2021-04-26T20:17:24+02:00
 draft: false
 ---
 
-Comfortable with code and looking for tutorials on building a SaaS? <a href="https://saasbase.dev">Check out saasbase.dev <img src="https://saasbase.dev/_next/image?url=https%3A%2F%2Fapi.super.so%2Fasset%2Fsaasbase.dev%2F122fac93-4424-4d71-b991-01c065d4676a.png&w=3840&q=100" alt="purple lightening bolt" class="inline h-8"/></a>
+Comfortable with code and looking for tutorials on building a SaaS? [Check out saasbase.dev](https://saasbase.dev)
 
 ## Here's what you need to build a SaaS from the ground up
 
