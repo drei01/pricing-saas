@@ -28,7 +28,7 @@ Now you've determined that there is real demand for your product, it's time to g
 
 ### Payments
 
-![](/img/entering-credit-card.jpg)
+![hand holding a credit card near a laptop](/img/entering-credit-card.jpg)
 
 From your pricing page to collecting and managing subscriptions, payments are the bread and butter of your SaaS. Let's face it, without them you don't have a business at all. You can't go anywhere in the SaaS world without hearing about Stripe, they are by far the largest payment provider in the business and with good reason. They have top notch API documentation, all the features you will ever want and reasonable pricing. 
 
