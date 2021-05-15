@@ -18,7 +18,7 @@
         <meta name="twitter:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
         <meta name="twitter:image" content='{{ "/images/social-image.png" | absURL }}'>
         
-        <base href="{{ .Site.BaseURL }}" />
+        <base href="{{ $.Site.BaseURL }}" />
         {{ $styles := resources.Get "css/main.css" | postCSS }}
 
         {{ if .Site.IsServer }}

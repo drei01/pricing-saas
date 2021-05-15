@@ -1,6 +1,6 @@
 {{ range .Params.tags }}
 <a
-    href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}"
+    href="{{ .Site.BaseURL }}tags/{{ . | urlize }}"
     class="px-2 py-1 bg-gray-600 text-gray-100 font-bold rounded hover:bg-gray-500"
     ><kbd class="item-tag">{{ . }}</kbd></a
 >

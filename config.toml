@@ -1,4 +1,4 @@
-baseURL = "https://www.pricewell.io"
+baseurl = "https://www.pricewell.io"
 languageCode = "en-us"
 title = "No-Code pricing pages and payment flow"
 theme = "pricewell"
