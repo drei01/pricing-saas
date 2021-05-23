@@ -47,6 +47,10 @@
     @apply text-blue-600 font-bold hover:underline;
 }
 
+.post-wrapper img {
+    @apply shadow-xl rounded-lg;
+}
+
 .filter-grayscale {
     filter: grayscale(100%);
 }

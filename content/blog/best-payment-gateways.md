@@ -5,6 +5,8 @@ draft: false
 og_image: /img/best-payment-gateways/payment-provider-comparison.png
 ---
 
+![man with headphones on starting at macbook](/img/best-payment-gateways/man-choosing-payment-gateway.jpg)
+
 ## Best Payment Gateway for SaaS
 
 What is the best SaaS Billing system to serve your company’s needs and provide a robust, yet simple integration for your product?
@@ -61,7 +63,7 @@ The subscription management system does exactly that. It lets you manage the pro
 
 ### Best Subscription billing services
 
-Now that we have been introduced to the different parts of SaaS Billing, the next step is choosing the right subscription billing service (or services) to collect payments for your SaaS business. 
+Now that we have been introduced to the different parts of SaaS Billing, the next step is choosing the right subscription billing service (or services) to collect payments for your SaaS business.
 
 Either being payment gateways or/and merchant accounts or/and subscription management services, every tool out of the tons out there have their pros and cons. Either from a cost perspective or functionality and simplicity in integration, we are attempting a deep dive into the topmost reviewed and ranked SaaS billing services.
 

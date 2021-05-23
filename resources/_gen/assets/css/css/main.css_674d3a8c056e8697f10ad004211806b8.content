@@ -27535,6 +27535,12 @@ video {
   text-decoration: underline;
 }
 
+.post-wrapper img {
+  border-radius: 0.5rem;
+  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .filter-grayscale {
   filter: grayscale(100%);
 }
