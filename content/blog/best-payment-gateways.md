@@ -2,6 +2,7 @@
 title: "Best Payment Gateways"
 date: 2021-05-23T13:56:41+02:00
 draft: false
+og_image: /img/best-payment-gateways/payment-provider-comparison.png
 ---
 
 ## Best Payment Gateway for SaaS

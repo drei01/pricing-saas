@@ -12,11 +12,19 @@
         <meta property="og:type" content="website">
         <meta property="og:title" content="{{if eq .File.Dir "/"}}  No-Code pricing pages | PriceWell {{ else }} {{.Title}} {{ end }}">
         <meta property="og:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
-        <meta property="og:image" content='{{ "/images/social-image.png" | absURL }}'>
+        {{ with .Params.og_image }}
+          <meta property="og:image" content="{{ . | absURL }}" />
+        {{ else }}
+          <meta property="og:image" content='{{ "/images/social-image.png" | absURL }}'>
+        {{ end }}
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="{{if eq .File.Dir "/"}}  No-Code pricing pages | PriceWell {{ else }} {{.Title}} {{ end }}">
         <meta name="twitter:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
-        <meta name="twitter:image" content='{{ "/images/social-image.png" | absURL }}'>
+        {{ with .Params.og_image }}
+          <meta name="twitter:image" content="{{ . | absURL }}">
+        {{ else }}
+          <meta name="twitter:image" content='{{ "/images/social-image.png" | absURL }}'>
+        {{ end }}
         
         <base href="{{ $.Site.BaseURL }}" />
         {{ $styles := resources.Get "css/main.css" | postCSS }}
