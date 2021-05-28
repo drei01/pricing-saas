@@ -14,7 +14,7 @@ description: Let your customer manage their subscription without writing code
             </h1>
             <div class="flex space-x-4 mb-6">
                 <a href="https://app.pricewell.io/register"
-                    class="focus:outline-none inline-block bg-gradient-to-br from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-700 font-semibold rounded-lg py-2 px-8 text-white"
+                    class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white"
                 >
                     Get started for free
                 </a>
