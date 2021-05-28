@@ -16,12 +16,12 @@ description: no code pricing pages
         }
     </script>
     <div class="py-12 md:py-24">
-    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-1 col-span-2 self-center mt-12 md:mt-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
                 Build Stripe subscriptions into your website in minutes.
             </h1>
-            <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
+            <p class="text-lg xl:text-xl font-normal text-gray-600 mb-6 lg:mb-8 xl:mb-10">
                 Subscription businesses trust PriceWell with their Pricing Infrastructure, <b>saving weeks</b> of development time.
             </p>
             <div class="flex space-x-4 mb-6">
@@ -147,7 +147,7 @@ description: no code pricing pages
                     Customer Portal
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Let your customers manage their subscription on your terms. Designed to fit into your existing website, the embeddable Customer Portal takes minutes to set up. Choose whether your customers can upgrade/cancel their plan, update their credit card or download invoices. Drop the widget into your website and you no longer have to worry about subscription management.
+                    Let customers manage their subscription on your terms. Designed to fit into your existing website, the embeddable Customer Portal takes minutes to set up. Simply drop the widget into your website and you no longer have to worry about subscription management.
                 </p>
             </div>
         </div>
@@ -169,7 +169,7 @@ description: no code pricing pages
 </div>
 </div>
 
-<div class="bg-gray-100">
+<div class="bg-gray-100 px-6 lg:px-8 xl:px-4">
 {{<partial "testimonials">}}
 </div>
 
