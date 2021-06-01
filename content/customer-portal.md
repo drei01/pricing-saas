@@ -8,9 +8,9 @@ description: Let your customer manage their subscription without writing code
 {{<rawhtml>}}
     <div class="py-12 md:py-24">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
-        <div class="order-1 col-span-2 self-center mt-12 md:mt-0">
+        <div class="order-1 col-span-2 self-center my-12 md:my-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                Reduce your churn. Let your customers manage their own subscription.
+                Reduce churn. <br/> Let your customers manage their own subscription.
             </h1>
             <div class="flex space-x-4 mb-6">
                 <a href="https://app.pricewell.io/register"
