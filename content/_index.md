@@ -154,6 +154,22 @@ description: no code pricing pages
         </div>
     </div>
 
+    <div class="py-12 md:py-24 bg-gray-100">
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
+            <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
+            <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
+                    Feature Flags
+                </h2>
+                <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
+                    Control which features your users see based on their subscription plan. All configured through your pricing so you can add new gated features and update your website at the same time.
+                </p>                
+            </div>
+            <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
+                <img src='images/feature-flags.png' class="rounded-lg shadow-2xl" alt="" />
+            </div>
+        </div>
+    </div>
+
 <div class="bg-gray-100">
 <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 py-12 lg:py-16 xl:py-24">
     <div class="text-center mb-6 md:mb-8">
