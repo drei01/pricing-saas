@@ -108,13 +108,15 @@ if (!document.cookie.split('; ').find(row => row.startsWith('pricewell_ref'))) {
   }
 </script>
 <script type="text/javascript">
-  // Handle link events - those that have data-analytics
-  let elements = document.querySelectorAll("a[data-analytics]");
-  registerAnalyticsEvents(elements, handleLinkEvent);
+  function registerAnalyticsLinks() {
+    // Handle link events - those that have data-analytics
+    let elements = document.querySelectorAll("a[data-analytics]");
+    registerAnalyticsEvents(elements, handleLinkEvent);
 
-  // Handle button form events - those that have data-analytics
-  elements = document.querySelectorAll("button[data-analytics]");
-  registerAnalyticsEvents(elements, handleFormEvent);
+    // Handle button form events - those that have data-analytics
+    elements = document.querySelectorAll("button[data-analytics]");
+    registerAnalyticsEvents(elements, handleFormEvent);
+  }
   /**
   * Iterate Elements and add event listener
   *
@@ -183,6 +185,8 @@ if (!document.cookie.split('; ').find(row => row.startsWith('pricewell_ref'))) {
 
       plausible(...events);
   }
+
+  window.addEventListener('load', registerAnalyticsLinks);
 </script>
 <script type="text/javascript">window.$crisp=[];window.$crisp.push(["safe", true]);window.CRISP_WEBSITE_ID="622bc754-e9a0-4dd9-896a-0c072c81bebb";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 <script src="https://www.cdn.privado.ai/d72b5afcd789421cb44e2bde5566a97b.js" type="text/javascript" ></script>
