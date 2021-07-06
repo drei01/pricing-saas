@@ -146,8 +146,9 @@ if (!document.cookie.split('; ').find(row => row.startsWith('pricewell_ref'))) {
           link = link.parentNode;
       }
 
-      if (middle || click)
-          registerEvent(link.getAttribute('data-analytics'));
+      if (middle || click) {
+        plausible(link.getAttribute('data-analytics'));
+      }
 
       // Delay navigation so that Plausible is notified of the click
       if (!link.target) {
@@ -167,26 +168,11 @@ if (!document.cookie.split('; ').find(row => row.startsWith('pricewell_ref'))) {
   function handleFormEvent(event) {
       event.preventDefault();
 
-      registerEvent(event.target.getAttribute('data-analytics'));
+      plausible(event.target.getAttribute('data-analytics'));
 
       setTimeout(function () {
           event.target.form.submit();
       }, 150);
-  }
-  /**
-  * Parse data and call plausible
-  * Using data attribute in html eg. data-analytics='"Register", {"props":{"plan":"Starter"}}'
-  *
-  * @param {sting} data - plausible event "Register", {"props":{"plan":"Starter"}}
-  */
-  function registerEvent(data) {
-      // break into array
-      let attributes = data.split(/,(.+)/);
-
-      // Parse it to object
-      let events = [JSON.parse(attributes[0]), JSON.parse(attributes[1] || '{}')];
-
-      plausible(...events);
   }
 
   window.addEventListener('load', registerAnalyticsLinks);
