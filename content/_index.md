@@ -44,6 +44,7 @@ description: no code pricing pages
 </div>
 
 <div class="py-12 lg:py-16 bg-gray-100">
+    <div class="text-sm text-center font-light">Integrates with</div>
     <div
         class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid grid-cols-2 sm:grid-cols-2 space-y-5 sm:space-y-3 xl:grid-cols-4 col-gap-6 opacity-60"
     >
@@ -64,34 +65,34 @@ description: no code pricing pages
     <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
       <div class="p-2 sm:w-1/2 w-full">
         <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span class="title-font font-medium">GDPR Compliant</span>
+          <span class="title-font font-medium">Implement in 1 hour</span>
         </div>
       </div>
       <div class="p-2 sm:w-1/2 w-full">
         <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span class="title-font font-medium">Subscription Management (<a href="/customer-portal" class="text-blue-600 hover:underline">Customer Portal</a>)</span>
+          <span class="title-font font-medium">Subscription Management (via <a href="/customer-portal" class="text-blue-600 hover:underline">Customer Portal</a>)</span>
         </div>
       </div>
       <div class="p-2 sm:w-1/2 w-full">
         <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span class="title-font font-medium">No coding required</span>
+          <span class="title-font font-medium">No Coding Required</span>
         </div>
       </div>
       <div class="p-2 sm:w-1/2 w-full">
         <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
@@ -100,7 +101,7 @@ description: no code pricing pages
       </div>
       <div class="p-2 sm:w-1/2 w-full">
         <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
@@ -109,11 +110,11 @@ description: no code pricing pages
       </div>
       <div class="p-2 sm:w-1/2 w-full">
         <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span class="title-font font-medium">Implement in 1 hour</span>
+          <span class="title-font font-medium">GDPR Compliant</span>
         </div>
       </div>
     </div>
@@ -127,7 +128,7 @@ description: no code pricing pages
                     Pricing Pages
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Pricing Pages can be embedded anywhere on your website. You can change pricing at any time without every writing any code. Customize the design to match your brand and make changes when ever you want. This really is the fastest way to implement Stripe Checkout. 
+                    Pricing Pages can be embedded anywhere on your website. You can change pricing at any time without every writing any code. Customize the design to match your brand and make changes whenever you want. This is the fastest way to implement Stripe Checkout. 
                 </p>                
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
@@ -158,7 +159,7 @@ description: no code pricing pages
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
             <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
             <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
-                    Feature Flags
+                    Gated Content
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
                     Control which features your users see based on their subscription plan. All configured through your pricing so you can add new gated features and update your website at the same time.
@@ -198,6 +199,33 @@ description: no code pricing pages
         </div>
         <div class="mb-12 lg:mb-20">
             <ul class="divide-y divide-gray-300text-base md:text-lg">
+            <li>
+                    <button
+                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full flex items-center justify-between"
+                        onclick="toggle('integration');"
+                    >
+                        <span class="flex-1 text-left pr-6">
+                            Can you help with the integration?
+                        </span>
+                        <svg
+                            class="w-6 h-6 text-blue-600"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                            ></path>
+                        </svg>
+                    </button>
+                    <div id="integration" class="py-4" style="display:none;">
+                        Yes, of course. We are more than happy to jump on a call and discuss your particular needs. You can <a href="https://calendly.com/matthew_reid/pricewell" class="text-wedgewood-800 underline">book a time</a> in our calendar that suits you.
+                    </div>
+                </li>
                 <li>
                     <button
                         class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full flex items-center justify-between"
@@ -242,7 +270,7 @@ description: no code pricing pages
                         onclick="toggle('testMode');"
                     >
                         <span class="flex-1 text-left pr-6">
-                            Can I use my Stripe account in Test mode
+                            Can I use my Stripe account in Test mode?
                         </span>
                         <svg
                             class="w-6 h-6 text-blue-600"
