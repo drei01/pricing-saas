@@ -1,132 +1,54 @@
 ---
-title: "how to create a pricing table"
+title: "How to Create a Pricing Table"
 date: 2020-12-14T01:45:28+02:00
 draft: false
 ---
 
+![building a pricing page for saas fast](./images/saas_pricing_page.png)
 
-{{<rawhtml>}}
-<header>
-<link rel="stylesheet" href="./css/style.css">
-<title>Pricewell - how to create a pricing table</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="how to create a pricing table. Check how Pricewell help developers and companies create a pricing page super fast integrating with multiple plugins. Add today your embeddable billing pages that work on top of Stripe Billing. No coding required!">
-  <meta name="robots" content="index, follow" />
-  <meta name="keywords" content="pricing for SaaS, no code pricing page, stripe plugins, pricing page html templates, pricing page examples html, pricing page wordpress examples,  pricing page wordpress plugin" />
+Pricing Tables are a vital part of your business. If you get your pricing wrong, you could be leaving a lot of money on the table. In the early stages of your business you'll want to experiment with your pricing regularly. That's why it's important to create a Pricing Table that you can update quickly. When it comes to building your own pricing table, you have a few options:
 
-<meta property="og:url"                content="https://pricewell.io" />
-<meta property="og:type"               content="Website" />
-<meta property="og:title"              content="https://pricewell.io" />
-<meta property="og:description"        content="how to create a pricing table. Check how Pricewell help developers and companies create a pricing page super fast integrating with multiple plugins. Add today your embeddable billing pages that work on top of Stripe Billing. No coding required!" />
-<meta property="og:image"              content="https://trello-attachments.s3.amazonaws.com/5745e85c80c9b3b68c4c81a5/5fd0d1b1040ec41244e8a38d/06ae4e8d413ced19656d6070c6d1f629/weship-banner_copy.png" />
-<meta property="og:image:alt"          content="how to create a pricing table - Pricewell" />
+- [HTML (~ 4 hours)]({{< ref "how-to-create-a-pricing-table#how-to-create-a-pricing-table-with-html" >}})
+- [WordPress (~ 1 hour)]({{< ref "how-to-create-a-pricing-table#how-to-create-a-pricing-table-with-wordpress" >}})
+- [Webflow (~ 1 hour)]({{< ref "how-to-create-a-pricing-table#how-to-create-a-pricing-table-with-webflow" >}})
+- [PriceWell (~ 15 minutes)]({{< ref "how-to-create-a-pricing-table#how-to-create-a-pricing-table-with-html" >}})
 
+## How to Create a Pricing Table with HTML
 
-</header>
-<center>
-<img src="./images/saas_pricing_page.png" style="margin-top:-10em;" width="100%" height="100%" alt="building a pricing page for saas fast">
+First you are going to decide whether you want to use a CSS framework like Bootstrap or Tailwind (maybe your website is built with something already).
 
+Of course this is only the HTML structure, now you want to connect all the "Buy Now" buttons. You could use [Stripe Payment Links](https://stripe.com/en-gb-de/payments/payment-links) for this but that makes it tricky if you want to change pricing as you have to remember where you pasted all the links and which pricing they link to. For a quicker and easier way, see the end of this article.
 
-<h1 style="font-size:50px">how to create a pricing table</h1>
-<p>December 13, 2020&nbsp;&bull; George from Pricewell</p>
-<br>
-<div style="font-size:21px" width="500px">
-<h2 style="text-align:left;padding:0.7em">Preface</h2>
-<p style="text-align:left;padding:1em;padding-top:0em;">
-We get that.<br>
+**Tutorials**
 
+*Plain CSS*: [CSS Pricing Table Tutorial](https://dev.to/satishnaikawadi2001/build-beautiful-pricing-plan-tables-with-html-and-css-5bh3)
 
-Building a pricing pages for a SaaS business is not easy.
-If you are looking for how to create a pricing table you are in the right place.
-We have been studying and developing websites for the last 10 years, and at some point
-we realised that building a pricing page from scratch is something that no one really wants<br>
-<br>
-Most of us try to find templates or other examples to start with, but at some point it starts becoming a real issue. The marketing team starts asking <b>how prices should go up</b>, or how nice it would be to <b>A/B test different pricing options</b> and measure where is the perfect spot, or how a very simple <b> change in the description </b> of the pricing plan will affect the conversion rates <br><br>
-For the developer those small things mean touching the code, every single time.<br>
-Wait, but you already use a CMS (Content management system) like wordpress to change the content without having to dive into the code for any simple new blog post, or a change in the copy of an article. <br><br>
-This is why we decided to build <a href="https://pricewell.io?utm_source=blog">Pricewell</a>, the easiest way to integrate payments and interact with your pricing page. Easy to set up, accessible from a dashboard, and super simple to integrate with a landing page in seconds, by a simple copy pasting. This is Pricewell.
-</p>
-<h2 style="text-align:left;padding:0.7em">How to create a landing page with no code, with Pricewell:</h2>
-<p style="text-align:left;padding:1em;padding-top:0em;">
-We want to answer your question about: how to create a pricing table, and the best way to do that is by presenting how easier Pricewell is than creating your own pricing page from scratch.<br>
-Creating a pricing page with pricewell is simple. Follow the steps listed below:<br>
-</p>
-<div style="text-align:left">
-<ul>
-  <li>Create a profile <a href="https://pricewell.io?utm_source=blog" target="_blank">Pricewell</a> </li>
-  <li>Connect your stripe account</li>
-  <li>Start customizing your pricing page</li>
-  <li>Paste your generated script in the header tag of your website</li>
-  <li>Test your integration and you are ready to go!</li>
-</ul>
-</div>
-<br>
-<p>Start today</p>
+*Bootstrap*: [Bootstrap 5 Pricing Page Tutorial](https://www.youtube.com/watch?v=HkT9VR_1r1A)
 
-<center>
-    <button
-          style="border:solid 2px black;
-          border-radius:14px;padding: 1em;
-          background-color:transparent !important;" class="cta_button">
-        <a href='https://pricewell.io?utm_source=blog' style="text-decoration: none;">Sign up for free</a>
-    </button>
-    <p>No credit card required</p>
-</center>
-<br>
-<h2 style="text-align:left;padding:0.7em">Why Pricewell is the answer in your question: how to create a pricing table </h2>
-<p style="text-align:left;padding:1em;padding-top:0em;">
-TLDR; Focus on your product. We optimise the landing page offering a lot of features and plugins.<br>
-<br>
-When building your new product, spending time creating a pricing page, optimizing it for mobile, create custom code to connect it with stripe and dive into the code every time that you are another team member wants a change, is not an optimal way to do things, when it comes to pricing page design.
-<br>
-The benefits that you are getting by using a plug and play solution like Pricewell are a lot. To name a few, Pricewell offers:<br>
-</p>
-<div style="text-align:left">
-<ul>
-  <li>Easy customization</li>
-  <li>Pricing page feature toggling</li>
-  <li>Easy integration with Stripe payments</li>
-  <li>CMS-like content and price changes</li>
+*Tailwind*: [Tailwind CSS Pricing Page Tutorial](https://dev.to/michaelburrows/style-a-responsive-pricing-table-with-tailwind-css-2l2k)
 
-</ul>
-</div>
-<h2 style="text-align:left;padding:0.7em">how to create a pricing table? Check what's next:</h2>
-<p style="text-align:left;padding:1em;padding-top:0em;">
-Building a pricing page is hard. A lot of things to consider, integrations to manage and added complexity that you definitely should not handle, but rather focus on your core business/product.<br>
-Well, now more specifically regarding your question about: how to create a pricing table<br>
-If you ask us how to create a pricing table our answer is very simple: You should check how easy Pricewell is when creating brand new landing pages!<br>
-<center>Start today. Create your first pricing page in seconds!</center><br>
+## How to Create a Pricing Table with WordPress
 
-</p>
+This is WordPress is of course you are going to have to [install a plugin](https://bloggingwizard.com/create-wordpress-pricing-table/). Once you've done that you can use the drag and drop wizard to create your pricing table. Then you need to link the "Buy Now" buttons in order to charge your customers. The problem with using a plugin like this is you can't easily change pricing because you need to update all the payment links. For an easier way, see the end of this article.
 
-<img src="./images/arrow.png" style="transform:rotate(32deg);margin-top:0em;" width="90px" height="100%" alt="building a pricing page for SaaS fast">
+## How to Create a Pricing Table with Webflow
 
+For Webflow you can [clone an existing template](https://webflow.com/website/simple-pricing-table), there are plenty on the marketplace. Once you've done that you'll need to update the template text, colors and design to suit your business. Once that's complete, you need to link up those Buy buttons. Good luck if you ever want to change pricing (see the next part for an easier way).
 
+## Save hours by creating a Pricing Table with PriceWell
 
+All the above methods make it tricky to change pricing, put your pricing table on multiple pages, A/B test etc. Here at [PriceWell](https://pricewell.io?utm_source=blog), we've been building websites for over 10 years. So you can not imagine the number of times we've at to build Pricing Tables. Not to mention when you need to change pricing, then you have to do everything all over again. Oh, and does it work on mobile? Yes, Android and iPhone. Gah.
 
-</center>
-<br>
-<center>
-    <button
-          style="border:solid 2px black;
-          border-radius:14px;padding: 1em;
-          background-color:transparent !important;" class="cta_button">
-        <a href='https://pricewell.io?utm_source=blog' style="text-decoration: none;">Sign up for free</a>
-    </button>
-    <p>No credit card required</p>
-</center>
-<br>
-<br>
-<p style="text-align:left;padding:1em;padding-top:0em;">
-<b>Related terms:</b> <br>
-Pricing page templates html<br>
-Pricing page examples for landing page<br>
-Pricing page wordpress plugin<br>
-A/B testing pricing page<br>
-embeddable pricing page<br>
-Pricing without ever touching code again<br>
-</p>
+![Creating a free Pricing Table with PriceWell](/images/select-pricing-plans.png)
 
+That's why we decided to create [PriceWell](https://pricewell.io?utm_source=blog), the easiest way to create a fully-functional Pricing Table and so much more. Using our drag and drop editor you can build your pricing in minutes. Then all you have to do is copy our tiny snippet into your website. It works with WordPress, Webflow, Bubble, HTML and many-many more.
 
-{{</rawhtml>}}
+[Create your Pricing Table with Pricewell for FREE](https://app.pricewell.io/register)
+
+**Related terms:**  
+Pricing page templates html  
+Pricing page examples for landing page  
+Pricing page wordpress plugin  
+A/B testing pricing page  
+embeddable pricing page  
+Pricing without ever touching code again
