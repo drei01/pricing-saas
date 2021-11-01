@@ -128,7 +128,7 @@ description: no code pricing pages
                     Pricing Pages
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Pricing Pages can be embedded anywhere on your website. You can change pricing at any time without every writing any code. Customize the design to match your brand and make changes whenever you want. This is the fastest way to implement Stripe Checkout. 
+                    Pricing Pages can be embedded anywhere on your website. You can change pricing at any time without ever writing any code. Customize the design to match your brand and make changes whenever you want. This is the fastest way to implement Stripe Checkout. 
                 </p>                
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
