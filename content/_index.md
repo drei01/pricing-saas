@@ -43,7 +43,7 @@ description: no code pricing pages
 
 </div>
 
-<div class="py-12 lg:py-16 bg-gray-100">
+<div class="py-12 lg:py-16">
     <div class="text-sm text-center font-light">Integrates with</div>
     <div
         class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid grid-cols-2 sm:grid-cols-2 space-y-5 sm:space-y-3 xl:grid-cols-4 col-gap-6 opacity-60"
@@ -54,6 +54,10 @@ description: no code pricing pages
         <img src="/img/bubble-logo.png" alt-"bubble.io logo" class="h-28 p-1 self-end justify-self-center object-contain">
         <img src="/images/stripe-blurple_lg.png" alt-"Stripe logo" class="h-28 p-6 self-end justify-self-center object-contain">
     </div>
+</div>
+
+<div class="bg-gray-100 px-6 lg:px-8 xl:px-4">
+{{<partial "testimonials">}}
 </div>
 
     <section class="text-gray-600 body-font">
@@ -185,10 +189,6 @@ description: no code pricing pages
     </div>
 
 </div>
-</div>
-
-<div class="bg-gray-100 px-6 lg:px-8 xl:px-4">
-{{<partial "testimonials">}}
 </div>
 
 <div class="bg-gradient-to-b from-gray-100 to-white lg:mb-16 xl:mb-24 py-12 lg:pt-20 relative overflow-hidden">
