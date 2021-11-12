@@ -55,8 +55,8 @@
                   <span class="sr-only">SaaS landing page</span>
                   <img alt="pricewell logo" src='{{ "/images/pricewell-logo.png" | absURL }}' class="mt-2 h-6 md:mt-0 md:h-8"/>
                 </a>
-                <nav class="flex items-center space-x-4">
-                  <div id="featureDropdown" class="relative inline-block">
+                <nav class="flex items-center space-x-2 sm:space-x-4">
+                  <div id="featureDropdown" class="relative inline-block hidden sm:block">
                     <button type="button" class="inline-flex items-center justify-between px-2 py-1 font-medium text-gray-700 transition-all duration-500 rounded-md focus:outline-none">
                       <span class="flex-shrink-0">Features</span>
                       <svg fill="currentColor" viewBox="0 0 20 20" class="flex-shrink-0 w-5 h-5 ml-1">
@@ -81,6 +81,27 @@
                     <span>Sign in</span>
                   </a>
                   <a href="https://app.pricewell.io/register" data-analytics="Signup" class="inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-5 text-white ">Sign up</a>
+                  <div class="items-center sm:hidden">
+                    <!-- Mobile menu button-->
+                    <button id="mobileMenuButton" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobileMenu" aria-expanded="false">
+                      <span class="sr-only">Open main menu</span>
+                      <svg id="mobileMenuOpen" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                      </svg>
+                      <svg id="mobileMenuClose" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                    </button>
+                  </div>
                 </nav>
               </header>
+              <div id="mobileMenu" class="hidden rounded-lg shadow-lg border mx-4">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                  <a href="/pricing-pages" class="block w-full px-4 py-2 font-medium text-gray-700 whitespace-no-wrap hover:bg-gray-100 focus:outline-none hover:text-gray-900 focus:text-gray-900 focus:shadow-outline transition duration-300 ease-in-out">Embeddable Pricing Pages</a>
+                  <a href="/customer-portal" class="block w-full px-4 py-2 font-medium text-gray-700 whitespace-no-wrap hover:bg-gray-100 focus:outline-none hover:text-gray-900 focus:text-gray-900 focus:shadow-outline transition duration-300 ease-in-out">Customer Portal</a>
+                  <a href="/stripe-tax" class="block w-full px-4 py-2 font-medium text-gray-700 whitespace-no-wrap hover:bg-gray-100 focus:outline-none hover:text-gray-900 focus:text-gray-900 focus:shadow-outline transition duration-300 ease-in-out">Automatic Tax</a>
+                  <a href="/experiments" class="block w-full px-4 py-2 font-medium text-gray-700 whitespace-no-wrap hover:bg-gray-100 focus:outline-none hover:text-gray-900 focus:text-gray-900 focus:shadow-outline transition duration-300 ease-in-out">Pricing Experiments</a>
+                  <a href="/gated-content" class="block w-full px-4 py-2 font-medium text-gray-700 whitespace-no-wrap hover:bg-gray-100 focus:outline-none hover:text-gray-900 focus:text-gray-900 focus:shadow-outline transition duration-300 ease-in-out">Gated Content</a>
+                </div>
+              </div>
               <!--/ header block -->

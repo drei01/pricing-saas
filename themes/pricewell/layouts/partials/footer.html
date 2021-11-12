@@ -185,25 +185,50 @@ if (!document.cookie.split('; ').find(row => row.startsWith('pricewell_ref'))) {
   window.addEventListener('load', registerAnalyticsLinks);
 </script>
 <script>
+  function removeClass(element,className) {
+    if (element.classList.contains(className)) {
+      element.classList.remove(className);
+    }
+  }
+
+  function addClass(element, className) {
+    if (!element.classList.contains(className)) {
+      element.classList.add(className);
+    }
+  }
+
   var featureDropdown = document.getElementById('featureDropdown');
   var dropdown = document.getElementById('menuDropdown');
   var dropdownTimeout;
 
   if (featureDropdown) {
     featureDropdown.addEventListener('mouseenter', function(e) {
-      if (dropdown.classList.contains('hidden')) {
-        clearTimeout(dropdownTimeout);
-        dropdown.classList.remove('hidden');
-      }
+      clearTimeout(dropdownTimeout);
+      removeClass(dropdown, 'hidden');
     });
     featureDropdown.addEventListener('mouseleave', function(e) {
-      dropdownTimeout = setTimeout(function() {
-        if (!dropdown.classList.contains('hidden')) {
-          dropdown.classList.add('hidden');
-        }
+        dropdownTimeout = setTimeout(function() {
+        addClass(dropdown, 'hidden');
       }, 300); 
     });
   }
+
+  var mobileMenuButton = document.getElementById('mobileMenuButton');
+  var mobileMenuOpen = document.getElementById('mobileMenuOpen');
+  var mobileMenuClose = document.getElementById('mobileMenuClose');
+  var mobileMenu = document.getElementById('mobileMenu');
+  function handleToggleMenu(e) {
+      if (mobileMenuOpen.classList.contains('hidden')) {
+        removeClass(mobileMenuOpen, 'hidden');
+        addClass(mobileMenuClose, 'hidden'); 
+        addClass(mobileMenu, 'hidden');
+      } else {
+        addClass(mobileMenuOpen, 'hidden');
+        removeClass(mobileMenuClose, 'hidden');
+        removeClass(mobileMenu, 'hidden');
+      }
+    }
+    mobileMenuButton.addEventListener('touchend', handleToggleMenu);
 </script>
 <script type="text/javascript">window.$crisp=[];window.$crisp.push(["safe", true]);window.CRISP_WEBSITE_ID="622bc754-e9a0-4dd9-896a-0c072c81bebb";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 <script src="https://www.cdn.privado.ai/d72b5afcd789421cb44e2bde5566a97b.js" type="text/javascript" ></script>
