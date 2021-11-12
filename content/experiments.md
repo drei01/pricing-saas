@@ -26,7 +26,7 @@ description: Let your customer manage their subscription without writing code
         </div>
         <div class="order-2 col-span-2 xl:col-span-3 flex-col">
             <video class="w-full rounded-lg shadow-lg" autoplay="autoplay" loop="loop" controls="controls" muted="muted"><source src="/video/startups-for-the-rest-pricing.mp4" type="video/mp4"/></video>
-            <p class="pt-4 text-right">Josh Pickford - Founder baremetrics.com</p>
+            <p class="pt-4 text-center md:text-right">Josh Pickford - Founder baremetrics.com</p>
         </div>
     </div>
 
@@ -38,7 +38,7 @@ description: Let your customer manage their subscription without writing code
                     Run Pricing Experiments without changing code
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Our experiments feature lets you run multiple versions of your pricing to found out which performs best. You can also A/B test your pricing to show different prices to users in real time.
+                    Our experiments feature lets you run multiple versions of your pricing to find out which performs best. You can also A/B test your pricing to show different prices to users in real time.
                 </p>                
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
