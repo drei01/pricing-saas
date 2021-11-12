@@ -40,7 +40,7 @@ description: Let your customer manage their subscription without writing code
                     Linked to your Pricing Page
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Configure a Customer Portal for each of your Pricing Pages. When you update your pricing, your portal wi <b>update automatically</b> so you customers always have the correct upgrade options.   
+                    Configure a Customer Portal for each of your Pricing Pages. When you update your pricing, your portal will <b>update automatically</b> so you customers always have the correct upgrade options.   
                 </p>                
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
