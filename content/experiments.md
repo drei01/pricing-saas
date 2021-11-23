@@ -25,8 +25,10 @@ description: Let your customer manage their subscription without writing code
             <p class="text-gray-500 text-sm">No credit card required.</p>
         </div>
         <div class="order-2 col-span-2 xl:col-span-3 flex-col">
+            <div class="w-full md:w-2/3 m-auto">
             <video class="w-full rounded-lg shadow-lg" autoplay="autoplay" loop="loop" controls="controls" muted="muted"><source src="/video/startups-for-the-rest-pricing.mp4" type="video/mp4"/></video>
             <p class="pt-4 text-center md:text-right">Josh Pickford - Founder baremetrics.com</p>
+            </div>
         </div>
     </div>
 
