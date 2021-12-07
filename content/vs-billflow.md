@@ -41,7 +41,7 @@ Let customers manage their subscription on your terms. Designed to fit into your
 
 ## Plus much more
 
-Like Stripe Tax support, Pricing Experiments and Gated Content (for your Membership website).
+Like Stripe Tax support, Pricing Experiments and Gated Content (for your Membership website). Whether you are a seasoned SaaS business, a fitness coach or a membership website. PriceWell makes is easy to move from Billflow, we are here to support you.
 
 {{<partial "testimonials">}}
 
