@@ -33,7 +33,7 @@ description: no code pricing pages
                 </a>
                 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
                 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-                <a href="" class="focus:outline-none inline-block font-semibold border rounded-lg py-2 px-8 text-black hover:bg-gray-200" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/matthew_reid/pricewell?hide_event_type_details=1&hide_gdpr_banner=1'});return false;">Book a Demo</a>
+                <a href="" class="focus:outline-none inline-block font-semibold border rounded-lg py-2 px-8 bg-white text-black hover:bg-gray-200" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/matthew_reid/pricewell?hide_event_type_details=1&hide_gdpr_banner=1'});return false;">Book a Demo</a>
             </div>
 
             <p class="text-gray-500 text-sm">No credit card required.</p>

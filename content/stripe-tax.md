@@ -1,5 +1,5 @@
 ---
-title: "Stripe Tax"
+title: "Stripe Tax without coding"
 date: 2021-07-06T15:29:37+02:00
 draft: false
 type: page

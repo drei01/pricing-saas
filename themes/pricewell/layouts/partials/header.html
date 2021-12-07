@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>{{if eq .File.Dir "/"}}  Integrate Stripe Checkout without coding | PriceWell {{ else }} {{.Title}} {{ end }}</title>
+        <title>{{if eq .File.Path "/_index.md"}}  Integrate Stripe Checkout without coding {{ else }} {{.Title}} {{ end }} {{if eq .File.Dir "/"}} | PriceWell {{end}}</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
@@ -53,10 +53,10 @@
               <header class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-4 py-4 lg:py-6 flex justify-between">
                 <a href="/">
                   <span class="sr-only">SaaS landing page</span>
-                  <img alt="pricewell logo" src='{{ "/images/pricewell-logo.png" | absURL }}' class="mt-2 h-6 md:mt-0 md:h-8"/>
+                  <img alt="pricewell logo" src='{{ "/images/pricewell-logo.png" | absURL }}' class="mt-2 h-auto sm:h-6 md:mt-0 md:h-8"/>
                 </a>
                 <nav class="flex items-center space-x-2 sm:space-x-4">
-                  <div id="featureDropdown" class="relative inline-block sm:block">
+                  <div id="featureDropdown" class="relative inline-block hidden sm:block">
                     <button type="button" class="inline-flex items-center justify-between px-2 py-1 font-medium text-gray-700 transition-all duration-500 rounded-md focus:outline-none">
                       <span class="flex-shrink-0">Features</span>
                       <svg fill="currentColor" viewBox="0 0 20 20" class="flex-shrink-0 w-5 h-5 ml-1">

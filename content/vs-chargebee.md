@@ -1,5 +1,5 @@
 ---
-title: "Looking for an alternative to Chargebee?"
+title: "Chargebee Alternative"
 date: 2020-12-09T11:58:39+01:00
 draft: false
 ---
