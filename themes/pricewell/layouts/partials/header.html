@@ -5,25 +5,26 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
-        <meta itemprop="name" content="{{if eq .File.Dir "/"}}  No-Code pricing pages | PriceWell {{ else }} {{.Title}} {{ end }}">
+        <meta itemprop="name" content="{{if eq .File.Path "/_index.md"}}  Integrate Stripe Checkout without coding {{ else }} {{.Title}} {{ end }} {{if eq .File.Dir "/"}} | PriceWell {{end}}">
         <meta itemprop="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
         <meta itemprop="image" content='{{ "/images/social-image.png" | absURL }}'>
         <meta property="og:url" content="{{ .Permalink }}">
         <meta property="og:type" content="website">
         <meta property="og:title" content="{{if eq .File.Dir "/"}}  No-Code pricing pages | PriceWell {{ else }} {{.Title}} {{ end }}">
         <meta property="og:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
-        {{ with .Params.og_image }}
-          <meta property="og:image" content="{{ . | absURL }}" />
-        {{ else }}
-          <meta property="og:image" content='{{ "/images/social-image.png" | absURL }}'>
-        {{ end }}
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="{{if eq .File.Dir "/"}}  No-Code pricing pages | PriceWell {{ else }} {{.Title}} {{ end }}">
         <meta name="twitter:description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
         {{ with .Params.og_image }}
-          <meta name="twitter:image" content="{{ . | absURL }}">
+          <meta itemprop="image" content="{{ . | absURL }}" />
+          <meta property="og:image" content="{{ . | absURL }}" /> 
+          <meta name="twitter:image" content="{{ . | absURL }}" />
+          <meta name="twitter:image:src" content="{{ . | absURL }}" /> 
         {{ else }}
-          <meta name="twitter:image" content='{{ "/images/social-image.png" | absURL }}'>
+          <meta itemprop="image" content="{{ "/images/social-image.png" | absURL }}" />
+          <meta property="og:image" content="{{ "/images/social-image.png" | absURL }}" /> 
+          <meta name="twitter:image" content="{{ "/images/social-image.png" | absURL }}" />
+          <meta name="twitter:image:src" content="{{ "/images/social-image.png" | absURL }}" /> 
         {{ end }}
         
         <base href="{{ $.Site.BaseURL }}" />
