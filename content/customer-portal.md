@@ -3,7 +3,7 @@ title: Stripe Customer Portal with no code
 date: 2020-12-01T14:54:28+01:00
 draft: false
 type: page
-description: Let your customer manage their subscription without writing code
+description: Stripe Customer Portal with PriceWell - Let your customer manage their subscription without writing code
 ---
 {{<rawhtml>}}
     <div class="py-12 md:py-24">

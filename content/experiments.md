@@ -3,7 +3,7 @@ title: SaaS Pricing Experiments
 date: 2020-12-01T14:54:28+01:00
 draft: false
 type: page
-description: Let your customer manage their subscription without writing code
+description: SaaS pricing experiments with Stripe Checkout using PriceWell
 ---
 {{<rawhtml>}}
     <div class="py-12 md:py-24">

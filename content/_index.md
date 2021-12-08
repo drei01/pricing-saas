@@ -67,7 +67,7 @@ description: no code pricing pages
   <div class="container px-5 py-24 mx-auto">
     <div class="text-center mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Hiring a Developer is <b>expensive</b></h1>
-      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Implementing Stripe Checkout can take weeks of development time. PriceWell saves $10,000's, with no hiddden maintenance costs.</p>
+      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Implementing Stripe Checkout and Stripe Customer Portal can take weeks of development time. PriceWell takes minutes! Saving you $10,000's, with no hidden maintenance costs.</p>
     </div>
     <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
       <div class="p-2 sm:w-1/2 w-full">
