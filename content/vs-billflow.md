@@ -25,7 +25,7 @@ Heard that Billflow is shutting down and looking for an easy alternative? The Pr
 {{</rawhtml>}}
 
 ## The same features, at a cheaper price
-No matter your Billflow setup, PriceWell can has you covered. We support multiple pricing models, pricing page embeds and of course the customer portal. We use the official Stripe Billing products so you will always have 100% compatibility with Stripe. Check out our [pricing, from $19 per month](/pricing) to see how we compare.
+No matter your Billflow setup, PriceWell has you covered. We support multiple pricing models, pricing page embeds and of course the customer portal. We use the official Stripe Billing products so you will always have 100% compatibility with Stripe. Check out our [pricing, from $19 per month](/pricing) to see how we compare.
 
 Some features you will be familiar with include:
 
