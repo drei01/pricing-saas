@@ -277,4 +277,4 @@ Integration can be tricky, developers spend a long time wrangling with outdated 
 
 ## Save $25,000 on integration costs
 
-It's estimated that SaaS businesses spend in the region of $25,000 to integrate a new Payment Gateway. At [PriceWell](https://www.pricewell.io/) we try to make your life easier (and cheaper) by providing you the platform that helps you receive and manage subscriptions from your website, without setting up the payment gateway, speeding up the process by a lot, for free! [Save thousands by integrating with PriceWell](https://app.pricewell.io/register).
+It's estimated that SaaS businesses spend in the region of $25,000 to integrate a new Payment Gateway. At [PriceWell](https://www.pricewell.io/) we try to make your life easier (and cheaper) by providing you the platform that helps you receive and manage subscriptions from your website, without setting up the payment gateway, speeding up the process by a lot, for free! [Save thousands by integrating with PriceWell](/register).
