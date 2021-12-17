@@ -46,7 +46,7 @@ Moreover, we've got Stripe Tax support, Pricing Experiments and Gated Content (f
 
 {{<rawhtml>}}
 <div>
-<a href="" class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/matthew_reid/pricewell?hide_event_type_details=1&hide_gdpr_banner=1'});return false;" data-analytics="Demo">Book a Demo Today</a>
+<button class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/matthew_reid/pricewell?hide_event_type_details=1&hide_gdpr_banner=1'});return false;" data-analytics="Demo">Book a Demo Today</button>
 </div>
     </div>
 {{</rawhtml>}}
