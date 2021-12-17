@@ -164,7 +164,7 @@ if (!document.cookie.split('; ').find(row => row.startsWith('pricewell_ref'))) {
       }
 
       // Delay navigation so that Plausible is notified of the click
-      if (!link.target) {
+      if (!link.target && link.href) {
           if (!(event.ctrlKey || event.metaKey || event.shiftKey) && click) {
               setTimeout(function () {
                   location.href = link.href;
