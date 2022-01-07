@@ -119,7 +119,7 @@
 
 
 <script type="text/javascript">
-if (!document.cookie.split('; ').find(row => row.startsWith('pricewell_ref'))) {
+if (document.cookie && !document.cookie.split('; ').find(row => row.startsWith('pricewell_ref'))) {
     document.cookie = "pricewell_ref="+(document.referrer||'direct')+"; expires=Fri, 31 Dec 9999 23:59:59 GMT; SameSite=None; Secure; domain=pricewell.io";
   }
 </script>
