@@ -94,7 +94,7 @@
         <p></p>
       </div>
       <div>
-        <button class="inline-block font-semibold rounded-lg py-4 px-5 lg:px-8 md:transform md:-translate-y-2 border bg-gray-100 text-black hover:bg-gray-200" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/matthew_reid/pricewell?hide_event_type_details=1&hide_gdpr_banner=1'});return false;" data-analytics="Demo">Book a Demo</button>
+        <button class="inline-block font-semibold rounded-lg py-4 px-5 lg:px-8 md:transform md:-translate-y-2 border bg-gray-100 text-black hover:bg-gray-200" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/matthew_reid/pricewell?hide_event_type_details=1&hide_gdpr_banner=1'});plausible('Demo');return false;">Book a Demo</button>
       <a href="https://app.pricewell.io/register" class="inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-4 px-5 lg:px-8 text-white md:transform md:-translate-y-2" data-analytics="Signup">Get started for free</a>
     </div>
     </div>
@@ -184,7 +184,9 @@ if (document.cookie && !document.cookie.split('; ').find(row => row.startsWith('
       plausible(event.target.getAttribute('data-analytics'));
 
       setTimeout(function () {
+        if (event.target.form) {
           event.target.form.submit();
+        }
       }, 150);
   }
 
