@@ -3,7 +3,7 @@ title: No-Code Stripe Subscription Billing
 date: 2020-12-01T14:54:28+01:00
 draft: false
 type: page
-description: no code pricing pages
+# see header.html for description
 ---
 {{<rawhtml>}}
     <script>
