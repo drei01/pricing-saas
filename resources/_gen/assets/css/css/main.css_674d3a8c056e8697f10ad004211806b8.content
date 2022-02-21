@@ -27472,6 +27472,7 @@ video {
   text-align: center;
 }
 
+
 .post-wrapper {
   font-weight: 400;
   margin-left: auto;
