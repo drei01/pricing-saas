@@ -2,12 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.post-header {
-    @apply text-4xl text-center font-semibold mb-4;
-}
-
 .post-description {
-    @apply text-lg text-center mb-8;
+    @apply text-lg mb-8;
 }
 
 .post-wrapper {
