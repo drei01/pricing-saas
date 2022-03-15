@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .post-description {
-    @apply text-lg mb-8;
+    @apply text-lg mb-8 max-w-prose m-auto;
 }
 
 .post-wrapper {
