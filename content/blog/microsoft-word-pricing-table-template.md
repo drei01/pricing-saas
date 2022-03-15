@@ -26,3 +26,15 @@ If you need a pricing table template for Microsoft Powerpoint, you can try these
 ## Add a pricing table to your website without coding
 
 If you want to add a pricing table to your website, give PriceWell a try. There's absolutely no coding required and you'll save $1,000's compared to hiring a developer. PriceWell is the perfect solution for non-technical founders. Our worldclass support team will hold your hand every step of the way. We integrate with websites built in Webflow, WordPress, Wix and many many more.
+
+Take a look at our own pricing.
+
+{{<rawhtml>}}
+
+{{< partial "pricing" >}}
+
+    <div class="pt-8">
+    {{<partial "pricing-explainer">}}
+    </div>
+
+{{</rawhtml>}}
