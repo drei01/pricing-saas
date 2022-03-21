@@ -19,7 +19,7 @@ type: page
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-1 col-span-2 self-center my-12 md:my-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                Build Stripe subscriptions into your website in minutes.
+                Build Stripe subscriptions into your website with no code in minutes.
             </h1>
             <p class="text-lg xl:text-xl font-normal text-gray-600 mb-6 lg:mb-8 xl:mb-10">
                 Subscription businesses trust PriceWell with their Pricing Infrastructure, <b>saving weeks</b> of development time.
