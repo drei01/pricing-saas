@@ -19,10 +19,10 @@ type: page
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-1 col-span-2 self-center my-12 md:my-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                Build Stripe subscriptions into your website with no code in minutes.
+                Build Stripe subscriptions into your website with no code.
             </h1>
             <p class="text-lg xl:text-xl font-normal text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                Subscription businesses trust PriceWell with their Pricing Infrastructure, <b>saving weeks</b> of development time.
+                Hundreds of subscription businesses trust PriceWell with their Billing Infrastructure, <b>saving weeks</b> of development time.
             </p>
             <div class="flex space-x-4 mb-6">
                 <a href="https://app.pricewell.io/register"
@@ -44,7 +44,7 @@ type: page
 
 </div>
 
-<div class="py-12 lg:py-16">
+<div class="bg-gray-100 py-12 lg:py-24">
     <div class="text-sm text-center font-light">Integrates with</div>
     <div
         class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid grid-cols-2 sm:grid-cols-2 space-y-5 sm:space-y-3 xl:grid-cols-4 col-gap-6 opacity-60"
@@ -55,10 +55,6 @@ type: page
         <img src="/img/bubble-logo.png" alt-"bubble.io logo" class="h-28 p-1 self-end justify-self-center object-contain">
         <img src="/images/stripe-blurple_lg.png" alt-"Stripe logo" class="h-28 p-6 self-end justify-self-center object-contain">
     </div>
-</div>
-
-<div class="bg-gray-100 px-6 lg:px-8 xl:px-4">
-{{<partial "testimonials">}}
 </div>
 
     <section class="text-gray-600 body-font">
@@ -175,6 +171,10 @@ type: page
             </div>
         </div>
     </div>
+
+    <div class="px-6 lg:px-8 xl:px-4">
+{{<partial "testimonials">}}
+</div>
 
 <div class="bg-gray-100">
 <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 py-12 lg:py-16 xl:py-24">
