@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .post-description {
-    @apply text-lg mb-8 max-w-prose m-auto;
+    @apply text-lg mb-8 max-w-prose m-auto pt-4 font-light;
 }
 
 .post-wrapper {
-    @apply max-w-3xl mx-auto font-normal text-left;
+    @apply max-w-3xl mx-auto text-left text-xl font-light;
 }
 .post-wrapper h2 {
     @apply text-2xl;
@@ -33,7 +33,7 @@
 }
 
 .post-wrapper p {
-    @apply mb-4;
+    @apply mb-4 leading-7;
 }
 .post-wrapper hr {
     @apply mb-4;
