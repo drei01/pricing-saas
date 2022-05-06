@@ -6,6 +6,10 @@
     @apply text-lg mb-8 max-w-prose m-auto pt-4 font-light;
 }
 
+.breadcrumbs {
+    @apply max-w-3xl mx-auto font-light text-gray-800 mb-8;
+}
+
 .post-wrapper {
     @apply max-w-3xl mx-auto text-left text-xl font-light;
 }
