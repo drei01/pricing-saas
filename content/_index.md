@@ -22,7 +22,7 @@ type: page
                 Build Stripe subscriptions into your website with no code.
             </h1>
             <p class="text-lg xl:text-xl font-normal text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                Hundreds of subscription businesses trust PriceWell with their Billing Infrastructure, <b>saving weeks</b> of development time.
+                <b>Hiring a developer is expensive</b>. <br/>That's why hundreds of subscription businesses trust PriceWell with their Billing Infrastructure.
             </p>
             <div class="flex space-x-4 mb-6">
                 <a href="https://app.pricewell.io/register"
@@ -60,8 +60,8 @@ type: page
     <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="text-center mb-20">
-      <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Hiring a Developer is <b>expensive</b></h1>
-      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Implementing Stripe Checkout and Stripe Customer Portal can take weeks of development time. PriceWell takes minutes! Saving you $10,000's, with no hidden maintenance costs.</p>
+      <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Save <b>$1,000's</b> on development costs</h1>
+      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Implementing Stripe Checkout and Stripe Customer Portal can take weeks of development time. PriceWell takes minutes! Saving you $1,000's, with no hidden maintenance costs.</p>
     </div>
     <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
       <div class="p-2 sm:w-1/2 w-full">
