@@ -1,8 +1,7 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-    purge: ['layouts/**/*.html', 'themes/layouts/**/*.html'],
-    darkMode: false, // or 'media' or 'class'
+    content: ['./**/*.html'],
     theme: {
         rotate: {
             120: '120deg',
@@ -12,7 +11,7 @@ module.exports = {
             current: 'currentColor',
             black: colors.black,
             white: colors.white,
-            gray: colors.trueGray,
+            gray: colors.neutral,
             green: colors.green,
             blue: {
                 50: '#f4f5f7',
@@ -63,9 +62,6 @@ module.exports = {
                 900: '#526b6c',
             },
         },
-    },
-    variants: {
-        extend: {},
     },
     plugins: [],
 };

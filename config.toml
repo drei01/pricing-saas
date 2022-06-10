@@ -6,3 +6,5 @@ theme = "pricewell"
     description = "Start charging for your subscription based service with embeddable pricing pages from PriceWell. Built on top of Stripe, our no code pricing pages let you start billing your customers instantly."
 [markup.goldmark.renderer]
 unsafe= true
+[build]
+ writeStats = true
