@@ -17,8 +17,9 @@ def merge(input_file, csv_file, output_file, extra_args):
     with csv_file.open(encoding="utf-8-sig") as csvfile:
         for i, row in enumerate(csv.DictReader(csvfile)):
             row["Date"] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
-            row["Logo"] = re.sub('[^0-9a-zA-Z]+', '', row['Name'].lower())
-            tool = row['Name'].lower()
+            logoName = re.sub('[^0-9a-zA-Z]+', '', row['Name'].lower())
+            row["Logo"] = f'/img/tools/{logoName}.jpg'
+            tool = re.sub('[^0-9a-zA-Z]+', '', row['Name'].lower())
             tmpname = f'{tool}-stripe-subscription'
             tmppath = (tempdir_path / tmpname).with_suffix(output_file.suffix)
             shutil.copyfile(input_file, tmppath)
