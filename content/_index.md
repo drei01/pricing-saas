@@ -19,17 +19,23 @@ type: page
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-1 col-span-2 self-center my-12 md:my-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                Build Stripe subscriptions into your website with no code.
+                Stripe Subscriptions for your Website Without Hiring a Developer
             </h1>
-            <p class="text-lg xl:text-xl font-normal text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                <b>Hiring a developer is expensive</b>. <br/>That's why hundreds of subscription businesses trust PriceWell with their Billing Infrastructure.
+            <p class="text-lg xl:text-xl font-normal text-gray-600 mb-2">
+                Hundreds of subscription businesses trust PriceWell with their Billing Infrastructure.
             </p>
+            <div class="flex -space-x-2 overflow-hidden mb-6 lg:mb-8 xl:mb-10">
+                <img class="inline-block h-10 w-10 rounded-full ring-2 ring-white" src="/img/testimonials/testimonial-nico.jpeg" alt="">
+                <img class="inline-block h-10 w-10 rounded-full ring-2 ring-white" src="/img/testimonials/testimonial-ronan.jpeg" alt="">
+                <img class="inline-block h-10 w-10 rounded-full ring-2 ring-white" src="/img/testimonials/testimonial-steven.jpeg" alt="">
+                <img class="inline-block h-10 w-10 rounded-full ring-2 ring-white" src="/img/testimonials/testimonial-julian.jpeg" alt="">
+            </div>
             <div class="flex space-x-4 mb-6">
                 <a href="https://app.pricewell.io/register"
                     class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white"
                     data-analytics="Signup"
                 >
-                    Get started for free
+                    Get started <span class="invisible md:visible">for free</span>
                 </a>
                 <button class="focus:outline-none inline-block font-semibold border rounded-lg py-2 px-8 bg-white text-black hover:bg-gray-200" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/matthew_reid/pricewell?hide_event_type_details=1&hide_gdpr_banner=1'});plausible('Demo');return false;">Book a Demo</button>
             </div>
@@ -60,8 +66,9 @@ type: page
     <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="text-center mb-20">
-      <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Save <b>$1,000's</b> on development costs</h1>
-      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Implementing Stripe Checkout and Stripe Customer Portal can take weeks of development time. PriceWell takes minutes! Saving you $1,000's, with no hidden maintenance costs.</p>
+      <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Save <b>$1,000's</b> on development and maintenance costs</h1>
+      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto mb-4">Implementing Stripe Checkout and Stripe Customer Portal can take weeks of development time. Not to mention all the changes every time you update pricing. PriceWell integrates in minutes. Saving you $1,000's with no hidden maintenance.</p>
+
     </div>
     <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
       <div class="p-2 sm:w-1/2 w-full">
