@@ -24,12 +24,7 @@ type: page
             <p class="text-lg xl:text-xl font-normal text-gray-600 mb-2">
                 Hundreds of subscription businesses trust PriceWell with their Billing Infrastructure.
             </p>
-            <div class="flex -space-x-2 overflow-hidden mb-6 lg:mb-8 xl:mb-10">
-                <img class="inline-block h-10 w-10 rounded-full ring-2 ring-white" src="/img/testimonials/testimonial-nico.jpeg" alt="">
-                <img class="inline-block h-10 w-10 rounded-full ring-2 ring-white" src="/img/testimonials/testimonial-ronan.jpeg" alt="">
-                <img class="inline-block h-10 w-10 rounded-full ring-2 ring-white" src="/img/testimonials/testimonial-steven.jpeg" alt="">
-                <img class="inline-block h-10 w-10 rounded-full ring-2 ring-white" src="/img/testimonials/testimonial-julian.jpeg" alt="">
-            </div>
+            {{< partial "testimonial-avatars" >}}
             <div class="flex space-x-4 mb-6">
                 <a href="https://app.pricewell.io/register"
                     class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white"

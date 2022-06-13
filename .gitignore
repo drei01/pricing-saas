@@ -2,3 +2,5 @@ node_modules
 public
 hugo_stats.json
 resources
+scripts/data
+scripts/images
