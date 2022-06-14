@@ -1,0 +1,6 @@
+{{ range .Site.Data.tools.names }}
+<div class="rounded-lg bg-white p-8 text-center shadow-lg">
+    <img src="/img/tools/logos/{{ . }}-logo.png" class="mx-auto w-24" />
+    <a href="/{{ lower . }}-stripe-subscription" class="block pt-4 text-2xl font-bold pointer">{{ . }}</a>
+</div>
+{{ end }}
