@@ -32,7 +32,7 @@ type: page
                 >
                     Get started <span class="invisible md:visible">for free</span>
                 </a>
-                <button class="focus:outline-none inline-block font-semibold border rounded-lg py-2 px-8 bg-white text-black hover:bg-gray-200" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/matthew_reid/pricewell?hide_event_type_details=1&hide_gdpr_banner=1'});plausible('Demo');return false;">Book a Demo</button>
+                <a href="/book-free-demo" class="focus:outline-none inline-block font-semibold border rounded-lg py-2 px-8 bg-white text-black hover:bg-gray-200">Book a Demo</a>
             </div>
 
             <p class="text-gray-500 text-sm">No credit card required.</p>
@@ -226,7 +226,7 @@ type: page
                         </svg>
                     </button>
                     <div id="integration" class="py-4" style="display:none;">
-                        Yes, of course. We are more than happy to jump on a call and discuss your particular needs. You can <a href="https://calendly.com/matthew_reid/pricewell" class="text-wedgewood-800 underline">book a time</a> in our calendar that suits you.
+                        Yes, of course. We are more than happy to jump on a call and discuss your particular needs. You can <a href="/book-free-demo" class="text-wedgewood-800 underline">book a time</a> in our calendar that suits you.
                     </div>
                 </li>
                 <li>
