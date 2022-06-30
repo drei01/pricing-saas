@@ -30,9 +30,6 @@ description: Fitness Coach Stripe Customer Portal - Let your customer manage the
     </div>
 
 </div>
-
-{{<partial "testimonials">}}
-
     <div class="py-12 md:py-24 bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
             <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
@@ -74,7 +71,7 @@ description: Fitness Coach Stripe Customer Portal - Let your customer manage the
                     Simple subscription management
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    The simple user interface Stripe provides lets your customers download invoices.
+                    The simple user interface Stripe provides lets your customers download invoices, update their credit card or change subscription.
                 </p>                
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
@@ -82,6 +79,26 @@ description: Fitness Coach Stripe Customer Portal - Let your customer manage the
             </div>
         </div>
     </div>
+
+    <div class="py-12 md:py-24 pb-12 lg:pb-16 bg-gray-100">
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
+            <div class="order-1 col-span-2 xl:col-span-3 self-center">
+                <img src='img/split-payment-logos.png' class="rounded-lg shadow-2xl" alt="" />
+                
+            </div>
+            <div class="order-2 col-span-2 mt-12 md:mt-0">
+                <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
+                    Customers want to split payment over 3 months?
+                </h2>
+                <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
+                    Although normally not possible with Stripe, PriceWell can be configured to allow customers to split credit card payments over 3 months, 6 months or however you choose. Stripe also supports Buy now, pay later services such as Affirm, afterpay and Klarna.
+                </p>
+            </div>
+        </div>
+    </div>
+
+{{<partial "testimonials">}}
+
 
 <div class="bg-gray-100">
 <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 py-12 lg:py-16 xl:py-24">
