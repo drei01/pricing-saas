@@ -330,7 +330,7 @@ type: page
                         </svg>
                     </button>
                     <div id="multiAccount" class="py-4" style="display:none;">
-                    Yes. You can even connect multiple Stripe accounts so you don't have to host all your businesses in one. <a
+                    Yes. You can use PriceWell for as many websites as you like as long as they share one Stripe account.  <a
                         href="javascript:$crisp.push(['do', 'chat:open']);"
                         class="text-blue-600 underline"
                     >
