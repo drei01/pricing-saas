@@ -10,7 +10,7 @@ description: Stripe Customer Portal with PriceWell - Let your customer manage th
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-1 col-span-2 self-center my-12 md:my-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                Reduce churn. <br/> Let your customers manage their own subscription.
+                The easiest way to<br/> let your Customers <br/> manage their own subscription.
             </h1>
             <div class="flex space-x-4 mb-6">
                 <a href="https://app.pricewell.io/register"
@@ -37,14 +37,14 @@ description: Stripe Customer Portal with PriceWell - Let your customer manage th
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
             <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
             <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
-                    Linked to your Pricing Page
+                    Works with your existing Stripe Customers
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Configure a Customer Portal for each of your Pricing Pages. When you update your pricing, your portal will <b>update automatically</b> so you customers always have the correct upgrade options.   
+                    If you have customers in Stripe, you can use PriceWell to let them manage their subscription without writing any code. The Stripe Customer Portal is fully customizable and can be embedded in your website or app.
                 </p>                
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
-                <img src='img/customer-portal-choose-pricing.png' class="rounded-lg shadow-2xl" alt="" />
+                <img src='img/manage-subscription-page.png' class="rounded-lg shadow-2xl" alt="" />
             </div>
         </div>
     </div>
