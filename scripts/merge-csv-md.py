@@ -11,16 +11,16 @@ from pathlib import Path
 
 _outoutDirPath = './data/'
 
-def merge(input_file, csv_file, output_file, extra_args):
+def merge(input_file, csv_file, output_file, filename, extra_args):
     tempdir_path = Path(_outoutDirPath)
     logging.debug(f'Using temporary directory {tempdir_path}.')
     with csv_file.open(encoding="utf-8-sig") as csvfile:
         for i, row in enumerate(csv.DictReader(csvfile)):
             row["Date"] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
             logoName = re.sub('[^0-9a-zA-Z]+', '', row['Name'].lower())
-            row["Logo"] = f'/img/tools/{logoName}.jpg'
+            row["Logo"] = f'/img/tools/customer-portal/{logoName}.jpg'
             tool = re.sub('[^0-9a-zA-Z]+', '', row['Name'].lower())
-            tmpname = f'{tool}-stripe-subscription'
+            tmpname = f'{tool}-{filename}'
             tmppath = (tempdir_path / tmpname).with_suffix(output_file.suffix)
             shutil.copyfile(input_file, tmppath)
             with open(tmppath, 'r') as file :
@@ -40,6 +40,7 @@ def main():
     arg_parser.add_argument('--csv', type=Path)
     arg_parser.add_argument('-o', '--outfile', type=Path)
     arg_parser.add_argument('input', type=Path)
+    arg_parser.add_argument('-filename', type=str)
     args, extra_args = arg_parser.parse_known_args()
     # Set up logging
     if args.verbose:
@@ -58,7 +59,7 @@ def main():
         for file in files:
             os.remove(os.path.join(root, file))
     # Return exit value
-    merge(args.input, args.csv, args.outfile, extra_args)
+    merge(args.input, args.csv, args.outfile, args.filename, extra_args)
     return 0
 
 

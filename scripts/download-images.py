@@ -8,7 +8,7 @@ import requests
 import re
 from pathlib import Path
 
-_outoutDirPath = './images/'
+_outoutDirPath = './images/customer-portal'
 
 def merge(input_file, extra_args):
     tempdir_path = Path(_outoutDirPath)
@@ -16,7 +16,7 @@ def merge(input_file, extra_args):
     with input_file.open(encoding="utf-8-sig") as csvfile:
         for i, row in enumerate(csv.DictReader(csvfile)):
             filename = re.sub('[^0-9a-zA-Z]+', '', row['Name'].lower())
-            url = row['Logo']
+            url = row['Banner_Customer_Portal']
             print(url)
             result = requests.get(url, stream=True)
             if result.status_code == 200:
