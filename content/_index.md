@@ -38,8 +38,7 @@ type: page
             <p class="text-gray-500 text-sm">No credit card required.</p>
         </div>
         <div class="order-2 col-span-2 xl:col-span-3 flex-col">
-            <img src='images/hero.png' alt="woman lifting a pricing table into an empty space in a website" class="m-auto">
-
+  <iframe src="https://www.youtube.com/embed/-zInerK-zAg" frameborder="0" class="w-full aspect-video" allowfullscreen></iframe>
         </div>
     </div>
 
