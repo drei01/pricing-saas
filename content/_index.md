@@ -363,7 +363,7 @@ type: page
                     </svg>
                 </div>
                 <div class="flex-1">
-                    <h5 class="font-bold text-xl lg:text-2xl mb-3">Compare Plans</h5>
+                    <h3 class="font-bold text-xl lg:text-2xl mb-3">Compare Plans</h3>
                     <p class="text-lg text-gray-600 mb-6">Find out which plan is right for you</p>
                     <span class="font-bold text-lg text-blue-600 flex items-baseline">
                         Chat with us
@@ -407,7 +407,7 @@ type: page
                     </svg>
                 </div>
                 <div class="flex-1">
-                    <h5 class="font-bold text-xl lg:text-2xl mb-3">Need advice?</h5>
+                    <h3 class="font-bold text-xl lg:text-2xl mb-3">Need advice?</h3>
                     <p class="text-lg text-gray-600 mb-6">Chat with one of our team</p>
                     <span class="font-bold text-lg text-blue-600 flex items-baseline">
                         Contact our professionals
