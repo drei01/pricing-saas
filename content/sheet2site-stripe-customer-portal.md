@@ -64,7 +64,7 @@ description: Add Stripe Subscription to your Sheet2Site website without hiring a
                 </p>
             </div>
             <div class="order-2 col-span-2 xl:col-span-3 self-center">
-                <img src='images/manage-subscription-page.png' class="rounded-lg shadow-2xl" alt="" />
+                <img src='img/manage-subscription-page.png' class="rounded-lg shadow-2xl" alt="" />
                 
             </div>
         </div>
