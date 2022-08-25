@@ -38,7 +38,7 @@ description: "Integrate Stripe with your existing platform"
   </div>
 
   <div class="py-28">
-    <div class="grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-6">
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-4 lg:grid-cols-6 mt-8">
     {{<tools>}}
     </div>
   </div>
