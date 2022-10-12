@@ -38,11 +38,11 @@ description: Stripe integration for Membership websites
                     Selling Memberships or Running a SaaS?
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Control which content/features your users see based on their subscription plan. All configured through your pricing so you can add new gated features and update your website at the same time.
+                    Control which content/features your users see based on their subscription plan. Choose which content everyone can see and which content is only available to paying customers.
                 </p>                
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
-                <img src='images/feature-flags.png' class="rounded-lg shadow-2xl" alt="" />
+                <img src='images/gated-content-screen.png' class="rounded-lg shadow-2xl" alt="" />
             </div>
         </div>
     </div>

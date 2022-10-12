@@ -164,11 +164,11 @@ type: page
                     Gated Content
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Control which features your users see based on their subscription plan. All configured through your pricing so you can add new gated features and update your website at the same time.
+                    Gated Content allows you to create a paywall for your content. You can restrict access to a single page or an entire website. Great for newsletters, courses and SaaS products.
                 </p>                
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
-                <img src='images/feature-flags.png' class="rounded-lg shadow-2xl" alt="" />
+                <img src='images/gated-content-screen.png' class="rounded-lg shadow-2xl" alt="" />
             </div>
         </div>
     </div>
