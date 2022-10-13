@@ -1,0 +1,5 @@
+Contact: mailto:support@pricewell.io
+Expires: 2023-12-31T23:00:00.000Z
+Preferred-Languages: en
+Canonical: https://www.pricewell.io/.well-known/security.txt
+Policy: https://www.pricewell.io/security

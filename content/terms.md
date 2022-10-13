@@ -4,6 +4,7 @@ date: 2020-12-01T09:50:50+01:00
 draft: false
 ---
 {{< rawhtml >}}
+<div class="post-wrapper">
 <h1>Terms and Conditions</h1>
             <p>Last updated: November 29, 2020</p>
             <p>Please read these terms and conditions carefully before using Our Service.</p>
@@ -232,4 +233,5 @@ draft: false
             <ul>
                 <li>By email: support@pricewell.io</li>
             </ul>
+            </div>
             {{< /rawhtml >}}

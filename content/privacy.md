@@ -5,6 +5,7 @@ draft: false
 ---
 
 {{<rawhtml>}}
+<div class="post-wrapper">
 <h1>Privacy Policy</h1>
             <p>Last updated: November 29, 2020</p>
             <p>
@@ -404,4 +405,5 @@ draft: false
             <ul>
                 <li>By email: support@pricewell.io</li>
             </ul>
+            </div>
 {{</rawhtml>}}
