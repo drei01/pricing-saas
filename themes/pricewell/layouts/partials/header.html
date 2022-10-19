@@ -7,7 +7,6 @@
         <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
         <meta itemprop="name" content="{{if eq .File.Path "/_index.md"}}  Integrate Stripe Checkout without coding {{ else }} {{.Title}} {{ end }} {{if eq .File.Dir "/"}} | PriceWell {{end}}">
         <meta itemprop="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
-        <meta itemprop="image" content='{{ "/images/social-image.png" | absURL }}'>
         <meta property="og:url" content="{{ .Permalink }}">
         <meta property="og:type" content="website">
         <meta property="og:title" content="{{if eq .File.Dir "/"}}  Subscription Billing with Stripe and No Code| PriceWell {{ else }} {{.Title}} {{ end }}">
@@ -21,10 +20,17 @@
           <meta name="twitter:image" content="{{ . | absURL }}" />
           <meta name="twitter:image:src" content="{{ . | absURL }}" /> 
         {{ else }}
+          {{if eq .File.Dir "/"}}
           <meta itemprop="image" content="{{ "/images/social-image.png" | absURL }}" />
           <meta property="og:image" content="{{ "/images/social-image.png" | absURL }}" /> 
           <meta name="twitter:image" content="{{ "/images/social-image.png" | absURL }}" />
           <meta name="twitter:image:src" content="{{ "/images/social-image.png" | absURL }}" /> 
+          {{else}}
+          <meta itemprop="image" content="https://pricewell-og-images.vercel.app/api/og?title={{.Title}}" />
+          <meta property="og:image" content="https://pricewell-og-images.vercel.app/api/og?title={{.Title}}" /> 
+          <meta name="twitter:image" content="https://pricewell-og-images.vercel.app/api/og?title={{.Title}}" />
+          <meta name="twitter:image:src" content="https://pricewell-og-images.vercel.app/api/og?title={{.Title}}" /> 
+          {{ end }}
         {{ end }}
         
         <base href="{{ $.Site.BaseURL }}" />
