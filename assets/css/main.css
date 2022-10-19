@@ -55,6 +55,10 @@
     @apply shadow-xl rounded-lg;
 }
 
+.post-wrapper blockquote {
+    @apply p-8 italic bg-gray-100 rounded;
+}
+
 .filter-grayscale {
     filter: grayscale(100%);
 }
