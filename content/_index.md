@@ -22,7 +22,7 @@ type: page
                 Stripe Subscriptions for your Website Without Hiring a Developer
             </h1>
             <p class="text-lg xl:text-xl font-normal text-gray-600 mb-2">
-                Over 500 subscription businesses trust PriceWell with their Billing Infrastructure.
+                Trusted by 500+ subscription businesses to run their Billing Infrastructure.
             </p>
             {{< partial "testimonial-avatars" >}}
             <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 text-center md:text-left mb-6">
