@@ -2,6 +2,7 @@
 title: "How to Create a Pricing Table"
 date: 2020-12-14T01:45:28+02:00
 draft: false
+tags: ["Pricing Table", "Codepen", "Stripe"]
 ---
 
 ![building a pricing page for saas fast](./images/saas_pricing_page.png)

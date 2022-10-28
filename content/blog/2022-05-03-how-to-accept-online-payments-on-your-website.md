@@ -2,6 +2,7 @@
 title: How to accept online payments on your website
 date: 2022-05-03T10:20:56.559Z
 description: Best ways to get paid easy and fast online
+tags: ["Payments", "Stripe", "Paypal"]
 ---
 ![A person holding a credit card in front of a computer screen with the intention to buy an offer](/img/get-paid.jpg "Pay and Get paid online")
 

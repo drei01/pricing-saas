@@ -40,6 +40,8 @@
             <h5 class="post-description">{{ .Description }}</h5>
             <div class="post-wrapper" itemprop="articleBody">{{ .Content }}</div>
         {{ end }}
+        
+        {{ partial "related" .}}
     </article>
 </div>
 

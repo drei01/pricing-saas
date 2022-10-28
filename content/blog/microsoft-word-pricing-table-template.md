@@ -3,6 +3,7 @@ title: "Microsoft Word Pricing Table Template"
 date: 2022-03-15T01:45:48+02:00
 draft: false
 description: "Pricing Table Templates for Microsoft Word and Powerpoint"
+tags: ["Pricing Table", "Microsoft Word", "Powerpoint"]
 ---
 
 ![building a pricing page for saas fast](/images/saas_pricing_page.png)

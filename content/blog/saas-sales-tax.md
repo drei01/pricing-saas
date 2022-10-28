@@ -2,6 +2,7 @@
 title: "Saas Sales Tax"
 date: 2021-04-27T20:25:18+02:00
 draft: false
+tags: ["tax", "sales tax", "saas", "stripe"]
 ---
 
 ## Is my SaaS revenue taxable?

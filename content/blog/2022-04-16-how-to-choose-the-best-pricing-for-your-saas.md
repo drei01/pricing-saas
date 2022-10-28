@@ -1,8 +1,8 @@
 ---
 title: How to Choose the Best Pricing for your SaaS
 date: 2022-04-16T09:56:29.324Z
-description: A short tips and tricks guide to find the balance between pricing
-  for quantity and for quality with examples of actual SaaS best practises.
+description: "A short tips and tricks guide to find the balance between pricing for quantity and for quality with examples of actual SaaS best practises."
+tags: ["Pricing", "SaaS", "Pricing Strategy"]
 ---
 ![A pricing tag in a black canva](/img/pexels-miguel-á-padriñán-1111319.jpg "The Pricing Tag")
 

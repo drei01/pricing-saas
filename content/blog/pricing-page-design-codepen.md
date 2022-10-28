@@ -2,6 +2,7 @@
 title: "Pricing Page Design CodePen"
 date: 2020-12-14T01:42:35+02:00
 draft: false
+tags: ["Pricing Page", "Codepen", "Stripe"]
 ---
 
 Are you looking for a pricing page design? CodePen is great for finding good looking designs. But often they aren't fully functional. We've put together a working CodePen showing of PriceWell's no-code pricing pages, built on top of Stripe (the worlds favourite payment provider).

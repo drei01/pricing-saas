@@ -2,6 +2,7 @@
 title: "Chargebee vs Stripe"
 date: 2021-07-09T16:04:44+02:00
 draft: false
+tags: ["Chargebee", "Stripe", "Billing"]
 ---
 
 Are you considering Chargebee and wondering what the difference is with Stripe Billing? Then you are in the right place.

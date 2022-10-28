@@ -3,6 +3,7 @@ title: "Webflow Stripe Customer Portal"
 date: 2022-02-01T13:29:15+01:00
 description: "An Embeddable Stripe Customer Portal for Webflow. No backend required"
 draft: false
+tags: ["Stripe", "Webflow", "Customer Portal"]
 ---
 
 ![webflow and stripe logos in black and white](/img/webflow/webflow-stripe-customer-portal.png)

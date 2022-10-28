@@ -3,6 +3,7 @@ title: "Best Payment Gateways"
 date: 2021-05-23T13:56:41+02:00
 draft: false
 og_image: /img/best-payment-gateways/payment-provider-comparison.png
+tags: ["Payment Gateway", "Stripe", "PayPal", "Braintree", "Square", "Authorize.net", "Payment Provider"]
 ---
 
 ![man with headphones on starting at macbook](/img/best-payment-gateways/man-choosing-payment-gateway.jpg)

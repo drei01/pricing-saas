@@ -2,6 +2,7 @@
 title: "pricing table template codepen"
 date: 2020-12-14T01:45:44+02:00
 draft: false
+tags: ["Pricing Table", "Codepen", "Stripe"]
 ---
 
 Are you looking for a pricing page template? Pricing Page Templates on ThemeForest are great but they often don't work (you can't actually collect credit card payments). PriceWell is different. Check out of fully-functional example on codepen to see what we mean.

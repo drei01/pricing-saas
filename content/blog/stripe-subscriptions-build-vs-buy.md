@@ -4,6 +4,7 @@ date: 2022-10-18T10:00:12+01:00
 authors: ["Alamin Farhatt"]
 description: "When setting up a subscription business, what is more important— building your own subscription system from scratch, or buying a ready-made solution?"
 draft: false
+tags: ["Stripe", "Subscriptions", "Payments"]
 ---
 
 ![Two people looking at a laptop, thinking](img/laptop-thinking.jpg)

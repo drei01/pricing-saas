@@ -5,6 +5,7 @@ description: "Everything you will ever need to know for SaaS Taxes.
 From collecting to filing, we got you covered. 
 Actionable information to get you ahead of the rest of the SaaS pack and let you excel in collecting, calculating, reporting and filling"
 draft: false
+tags: ["tax", "sales tax", "saas", "stripe"]
 ---
 
 ![](/img/saas-tax/image2.jpg)

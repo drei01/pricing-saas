@@ -3,6 +3,7 @@ title: "SaaS Billing: Build vs Buy"
 date: 2022-09-30T10:24:15+01:00
 description: "Should SaaS companies build or buy their billing platform? We look at the pros and cons of each approach."
 draft: false
+tags: ["SaaS", "Billing", "Payments"]
 ---
 When it comes to billing for your SaaS product, you have two options: build it yourself or buy an existing solution. In this article, we'll explore the pros and cons of each option to help you decide which is right for your business.
 
