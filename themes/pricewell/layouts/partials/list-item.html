@@ -12,7 +12,7 @@
     {{ with .Params.link }} {{ $.Scratch.Set "link" . }} {{ end }}
 <div class="mt-8">
     <div class="max-w-4xl px-10 py-6 bg-white rounded-lg shadow-md">
-        <div class="flex justify-between items-center">
+        <div class="flex space-x-1">
             <span class="font-light text-gray-600">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") | $.Scratch.Set "subheader"}}</span>
             {{ partial "tags" . }}
         </div>

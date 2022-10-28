@@ -1,8 +1,32 @@
-{{ $related := .Site.RegularPages.Related . | first 5 }} {{ with $related }}
-<h3>See Also</h3>
-<ul>
+{{ $related := .Site.RegularPages.Related . | first 3 }} {{ with $related }}
+<h3
+    class="mt-8 text-2xl text-center-DIS leading-8 font-extrabold tracking-tight text-gray-800 sm:text-3xl sm:leading-10"
+>
+    Recommended Reading
+</h3>
+<div class="grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-8">
     {{ range . }}
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+
+    <div class="flex flex-wrap -m-4">
+        <a href="{{ .RelPermalink }}" class="cursor-pointer">
+            <div class="p-4">
+                <div
+                    class="h-full rounded-xl shadow-cla-blue border bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden hover:-translate-y-1"
+                >
+                    <img
+                        class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                        src="https://pricewell-og-images.vercel.app/api/og?title={{.Title}}"
+                        alt="blog"
+                    />
+                    <div class="p-6">
+                        <h1 class="title-font text-lg font-medium text-black mb-3">{{ .Title }}</h1>
+                        <p class="font-light mb-3">{{ .Description }}</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
     {{ end }}
-</ul>
+</div>
+
 {{ end }}
