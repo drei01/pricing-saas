@@ -1,26 +1,36 @@
 {{ $related := .Site.RegularPages.Related . | first 3 }} {{ with $related }}
 <h3
-    class="mt-8 text-2xl text-center-DIS leading-8 font-extrabold tracking-tight text-gray-800 sm:text-3xl sm:leading-10"
+    class="mt-32 mb-8 text-2xl text-center-DIS leading-8 font-extrabold tracking-tight text-gray-800 sm:text-3xl sm:leading-10"
 >
     Recommended Reading
 </h3>
-<div class="grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-8">
+<div class="grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-8 px-12">
     {{ range . }}
 
     <div class="flex flex-wrap -m-4">
         <a href="{{ .RelPermalink }}" class="cursor-pointer">
             <div class="p-4">
-                <div
-                    class="h-full rounded-xl shadow-cla-blue border bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden hover:-translate-y-1"
-                >
+                <div class="h-full rounded-xl overflow-hidden text-left">
                     <img
-                        class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+                        class="lg:h-48 md:h-36 w-full object-cover object-center transition-all duration-400 bg-gray-100 rounded-xl"
                         src="https://pricewell-og-images.vercel.app/api/og?title={{.Title}}"
                         alt="blog"
                     />
-                    <div class="p-6">
-                        <h1 class="title-font text-lg font-medium text-black mb-3">{{ .Title }}</h1>
+                    <div class="pt-4">
+                        <h4 class="title-font text-lg font-bold text-black mb-3 hover:underline">{{ .Title }}</h1>
                         <p class="font-light mb-3">{{ .Description }}</p>
+                    </div>
+                    <div class="pt-6">
+                        <div class="flex items-center space-x-4">
+                            <img
+                                class="w-10 h-10 rounded-full"
+                                src="/images/matt.jpg"
+                                alt="Matt reid avatar"
+                            />
+                            <h5>
+                                <span class="text-gray-700 title-font font-medium">{{ index (seq 5 | shuffle) 0 }} min read</span>
+                            </h5>
+                        </div>
                     </div>
                 </div>
             </div>
