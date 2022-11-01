@@ -13,6 +13,11 @@
 .post-wrapper {
     @apply max-w-3xl mx-auto text-left text-xl font-light;
 }
+
+.post-wrapper h1 {
+    @apply mb-8 font-semibold text-4xl py-4;
+}
+
 .post-wrapper h2 {
     @apply text-2xl;
 }
@@ -22,9 +27,6 @@
 
 .post-wrapper h4 {
     @apply text-lg;
-}
-.post-wrapper h1 {
-    @apply mb-8 font-semibold;
 }
 
 .post-wrapper h2,
