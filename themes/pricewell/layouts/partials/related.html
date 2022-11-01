@@ -4,11 +4,11 @@
 >
     Recommended Reading
 </h3>
-<div class="grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-8 px-12">
+<div class="grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-8 px-12" itemscope itemtype="http://schema.org/ItemList">
     {{ range . }}
 
-    <div class="flex flex-wrap -m-4">
-        <a href="{{ .RelPermalink }}" class="cursor-pointer">
+    <div class="flex flex-wrap -m-4" itemprop="itemListElement" itemscope itemtype="http://schema.org/Article">
+        <a href="{{ .RelPermalink }}" class="cursor-pointer" itemprop="url">
             <div class="p-4">
                 <div class="h-full rounded-xl overflow-hidden text-left">
                     <img
@@ -17,7 +17,7 @@
                         alt="blog"
                     />
                     <div class="pt-4">
-                        <h4 class="title-font text-lg font-bold text-black mb-3 hover:underline">{{ .Title }}</h1>
+                        <h4 class="title-font text-lg font-bold text-black mb-3 hover:underline" itemprop="name">{{ .Title }}</h1>
                         <p class="font-light mb-3">{{ .Description }}</p>
                     </div>
                     <div class="pt-6">
