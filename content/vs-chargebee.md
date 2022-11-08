@@ -9,22 +9,26 @@ draft: false
 <div class="post-wrapper">
 <div class="mb-2 md:mb-4 lg:mb-8">
         <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold">
-            Looking for a Chargebee alternative?
+            Looking for Chargebee alternatives?
         </h1>
         </div>
             {{</rawhtml>}}
 
 ### Cost
 
-PriceWell is **much cheaper** than Chargebee. When you sign up to Chargebee, you will be asked to guess your monthly revenue and charged you based on that. **Plus** you get charged if you make more money than you said you would! At PriceWell, we simply charge a pertentage of your subscription payments, no hidden costs if you make more money (heck, we might even send you a cake). The deal is simple, if you grow we grow. So it's in our interests to make sure your subscription billing flow is world class.
+PriceWell is **much cheaper** than Chargebee. When you sign up to Chargebee, you will be asked to guess your monthly revenue and charged you based on that. **Plus** you get charged if you make more money than you said you would! At PriceWell, we simply charge a percentage of your subscription payments, no hidden costs if you make more money. Don't let hidden chargebee fees get in the way of your business growth. The deal is simple, if you grow we grow. So it's in our interests to make sure your subscription billing flow is world class.
 
 ### Complex Platform vs Simplicity
 
-The Chargebee platform is just overkill for most SaaS businesses. If you are starting out, you will be unlikely to need some of the enterprise features offered by Chargebee. They will
+The Chargebee platform is just overkill for most SaaS businesses. If you are starting out, you are unlikely to need some of the enterprise features offered by Chargebee. They will charge you an arm and a leg for them when you'd be much better using the very simple Stripe Billing service. PriceWell is built on top of Stripe Billing, so you get the same features without the complexity. Recurring billing doesn't need to be complex, choose PriceWell as your subscription billing platform and you'll be up and running in minutes plus our personal service.
 
 ### Keep your own branding
 
-When you users sign up to your website, you want them to have the feeling that every page is part of the same company. You don't want to whisk them off to some other webpage that looks nothing like the one they came from. With PriceWell's drag and drop pricing pages, you control exactly how it looks. We don't use hosted pages with bright orange banners all over them.
+When you users sign up to your website, you want them to have the feeling that every page is part of the same company. You don't want to whisk them off to some other webpage that looks nothing like the one they came from. THe chargebee portal is one such page, it's strong orange color and 90's buttons most certainly look nothing like your website. With PriceWell's drag and drop pricing pages, you control exactly how it looks. We don't use hosted pages with bright orange banners all over them.
+
+### We care about the little guys
+
+As a small business ourself, we understand that you can't be an expert in everything. Recurring billing is one of those things that you don't want to spend hours learning. We've got the time to spend one to one with you to help you get everything set up. Big platofrms like chargebee won't do that, infact they may even refuse you as a customer. When it comes to choosing recurring billing software, choose the one that cares about you.
 
 {{<rawhtml>}}
     </div>
