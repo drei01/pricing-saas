@@ -61,7 +61,7 @@ type: page
   <div class="container px-5 py-24 mx-auto">
     <div class="text-center mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Save <b>$1,000's</b> on development and maintenance costs</h1>
-      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto mb-4">Implementing Stripe Checkout and Stripe Customer Portal can take weeks of development time. Not to mention all the changes every time you update pricing. PriceWell integrates in minutes. Saving you $1,000's with no hidden maintenance.</p>
+      <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto mb-4">Implementing Stripe Checkout and Stripe Customer Portal can add weeks to your development process. Not to mention all the changes every time you update pricing. PriceWell integrates in minutes. Saving you $1,000's with no hidden maintenance.</p>
 
     </div>
     <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
@@ -174,8 +174,12 @@ type: page
     </div>
 
     <div class="px-6 lg:px-8 xl:px-4">
-{{<partial "testimonials">}}
-</div>
+    {{<partial "integrations">}}
+    </div>
+
+    <div class="px-6 lg:px-8 xl:px-4">
+    {{<partial "testimonials">}}
+    </div>
 
 <div class="bg-gray-100">
 <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 py-12 lg:py-16 xl:py-24">
@@ -225,7 +229,7 @@ type: page
                         </svg>
                     </button>
                     <div id="integration" class="py-4" style="display:none;">
-                        Yes, of course. We are more than happy to jump on a call and discuss your particular needs. You can <a href="/book-free-demo" class="text-wedgewood-800 underline">book a time</a> in our calendar that suits you.
+                        Yes, of course. We are more than happy to jump on a call and discuss your particular needs. You can <a href="/book-free-demo" class="text-wedgewood-800 underline">book a time</a> in our calendar that suits you. We are experts on anything Stripe. Can Stripe change price of subscription? Just ask us.
                     </div>
                 </li>
                 <li>

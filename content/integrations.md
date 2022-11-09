@@ -44,7 +44,7 @@ description: "Integrate Stripe with your existing platform"
   </div>
 
   <div class="pt-28 text-center mx-auto">
-   <div class="inline text-lg xl:text-xl text-gray-800 border-b-2 border-black pb-2">Hundreds of companies trust PriceWell with their Billing Infrastructure</div>
+   <div class="inline text-lg xl:text-xl text-gray-800 border-b-2 border-black pb-2">500+ companies trust PriceWell with their Billing Infrastructure</div>
    <div class="flex justify-center pt-8">
    {{<partial "testimonial-avatars">}}
    </div>
