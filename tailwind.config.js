@@ -1,7 +1,7 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-    content: ['./**/*.html'],
+    content: ['./**/*.html', './**/*.md'],
     theme: {
         rotate: {
             120: '120deg',

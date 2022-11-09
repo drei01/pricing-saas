@@ -10,7 +10,7 @@ description: Stripe Customer Portal with PriceWell - Let your customer manage th
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-1 col-span-2 self-center my-12 md:my-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                The easiest way to<br/> let your Customers <br/> manage their own subscription.
+                Let your Customers <br/> manage their own subscription. <br/> The easy way.
             </h1>
             <div class="flex space-x-4 mb-6">
                 <a href="https://app.pricewell.io/register"
@@ -31,8 +31,6 @@ description: Stripe Customer Portal with PriceWell - Let your customer manage th
 
 </div>
 
-{{<partial "testimonials">}}
-
     <div class="py-12 md:py-24 bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
             <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
@@ -40,7 +38,7 @@ description: Stripe Customer Portal with PriceWell - Let your customer manage th
                     Works with your existing Stripe Customers
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    If you have customers in Stripe, you can use PriceWell to let them manage their subscription without writing any code. The Stripe Customer Portal is fully customizable and can be embedded in your website or app.
+                    If you have customers in Stripe, you can use PriceWell to let them manage their subscription without writing any code. The No Code Customer Portal is fully customizable and can be embedded in your website or app. We're built on top of the Stripe Billing Customer Portal so you get best in class security and reliability.
                 </p>                
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
@@ -61,7 +59,7 @@ description: Stripe Customer Portal with PriceWell - Let your customer manage th
                     Designed to fit your existing website
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    The Customer Portal can be designed to match your existing website. If you want to trigger it from your own button that's not a problem either!
+                    Unlike other client portals, we don't have a fixed design. You can customize the look and feel of the Customer Portal to match your website. If you want to trigger the client portal from your own HTML button that's not a problem either!
                 </p>
             </div>
         </div>
@@ -74,7 +72,7 @@ description: Stripe Customer Portal with PriceWell - Let your customer manage th
                     Simple subscription management
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    The simple user interface Stripe provides lets your customers download invoices.
+                    As a Stripe Checkout customer, you benefit from the simple user interface Stripe provides lets your customers download invoices, update their credit card or upgrade their subscription. No need to build internal tools to manage your customers. 
                 </p>                
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
@@ -82,6 +80,10 @@ description: Stripe Customer Portal with PriceWell - Let your customer manage th
             </div>
         </div>
     </div>
+
+
+
+{{<partial "testimonials">}}
 
 <div class="bg-gray-100">
 <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 py-12 lg:py-16 xl:py-24">
@@ -94,6 +96,13 @@ description: Stripe Customer Portal with PriceWell - Let your customer manage th
 
     <div class="pt-8">
     {{<partial "pricing-explainer">}}
+    </div>
+
+    <div class="pt-8 mx-auto text-center">
+    <h4 class="text-lg xl:text-xl">What to learn more about our Stripe Client Portal?</h4>
+    <p class="pt-2">
+    Check out our <a href="https://help.pricewell.io/features/customer_portal/" class="underline">Documentation</a>
+    </p>
     </div>
 
 </div>
