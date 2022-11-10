@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#TableOfContents {
+    @apply border rounded-xl bg-gray-200 p-8 mb-4;
+}
+
 .post-description {
     @apply text-lg mb-8 max-w-prose m-auto pt-4 font-light;
 }
@@ -10,7 +14,7 @@
     @apply max-w-3xl mx-auto font-light text-gray-800 mb-8;
 }
 
-.post-wrapper {
+.post-wrapper, #TableOfContents {
     @apply max-w-3xl mx-auto text-left text-xl font-light;
 }
 
@@ -21,8 +25,12 @@
 .post-wrapper h2 {
     @apply text-2xl;
 }
-.post-wrapper h3 {
+.post-wrapper h3, .post-table-of-contents h3 {
     @apply text-xl;
+}
+
+.post-table-of-contents h3 {
+    @apply mb-2
 }
 
 .post-wrapper h4 {
@@ -45,8 +53,8 @@
     @apply mb-4;
 }
 
-.post-wrapper ul {
-    @apply list-disc list-inside;
+.post-wrapper ul, #TableOfContents ul {
+    @apply list-disc list-inside font-light;
 }
 
 .post-wrapper a {

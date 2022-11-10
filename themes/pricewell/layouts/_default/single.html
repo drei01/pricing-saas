@@ -38,6 +38,7 @@
                 </p>  
             </header>
             <h5 class="post-description">{{ .Description }}</h5>
+            <aside class="post-table-of-contents"><h3>Table of contents</h3>{{ .TableOfContents }}</aside>
             <div class="post-wrapper" itemprop="articleBody">{{ .Content }}</div>
         {{ end }}
         
