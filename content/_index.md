@@ -45,7 +45,7 @@ type: page
 </div>
 
 <div class="bg-gray-100 py-12 lg:py-24">
-    <div class="text-sm text-center font-light">Integrates with</div>
+    <div class="text-sm text-center font-light"><a href="/integrations" class="hover:underline">Integrates with</a></div>
     <div
         class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid grid-cols-1 sm:grid-cols-2 space-y-5 sm:space-y-3 xl:grid-cols-4 col-gap-6 opacity-60"
     >

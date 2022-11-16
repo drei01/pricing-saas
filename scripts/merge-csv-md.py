@@ -14,11 +14,14 @@ _outoutDirPath = './data/'
 def merge(input_file, csv_file, output_file, filename, extra_args):
     tempdir_path = Path(_outoutDirPath)
     logging.debug(f'Using temporary directory {tempdir_path}.')
+    now = datetime.datetime.now()
+    date = now - datetime.timedelta(hours=1)
     with csv_file.open(encoding="utf-8-sig") as csvfile:
         for i, row in enumerate(csv.DictReader(csvfile)):
-            row["Date"] = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+            row["Date"] = date.strftime("%Y-%m-%dT%H:%M:%SZ")
             logoName = re.sub('[^0-9a-zA-Z]+', '', row['Name'].lower())
             row["Logo"] = f'/img/tools/customer-portal/{logoName}.jpg'
+            row["NameLower"] = logoName
             tool = re.sub('[^0-9a-zA-Z]+', '', row['Name'].lower())
             tmpname = f'{tool}-{filename}'
             tmppath = (tempdir_path / tmpname).with_suffix(output_file.suffix)

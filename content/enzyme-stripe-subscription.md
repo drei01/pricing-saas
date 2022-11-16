@@ -1,6 +1,6 @@
 ---
 title: Enzyme Stripe Subscription Integration in 2 Minutes
-date: 2022-06-13T21:34:30Z
+date: 2022-11-16T09:48:50Z
 draft: false
 type: page
 description: Add Stripe Subscription to your Enzyme website without hiring a developer. No Code Stripe Subscription integration.
@@ -28,7 +28,7 @@ description: Add Stripe Subscription to your Enzyme website without hiring a dev
             <p class="text-gray-500 text-sm">No credit card required.</p>
         </div>
         <div class="order-2 col-span-2 xl:col-span-3 flex-col">
-            <img src='/img/tools/enzyme.jpg' class="rounded-lg shadow-2xl" alt="" />
+            <img src='/img/tools/customer-portal/enzyme.jpg' class="rounded-lg shadow-2xl" alt="" />
 
         </div>
     </div>
@@ -61,6 +61,10 @@ description: Add Stripe Subscription to your Enzyme website without hiring a dev
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
                     Let customers manage their subscription on your terms. Designed to fit into your existing website, the embeddable Customer Portal takes minutes to set up. Simply drop the widget into your website and you no longer have to worry about subscription management.
                 </p>
+                <div>
+                    <a href="/enzyme-stripe-customer-portal" class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white">
+                Enzyme Stripe Customer Portal</a>
+                </div>
             </div>
             <div class="order-2 col-span-2 xl:col-span-3 self-center">
                 <img src='img/customer-portal.png' class="rounded-lg shadow-2xl" alt="" />

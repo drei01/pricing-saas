@@ -61,6 +61,10 @@ description: Add Stripe Subscription to your {{Name}} website without hiring a d
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
                     Let customers manage their subscription on your terms. Designed to fit into your existing website, the embeddable Customer Portal takes minutes to set up. Simply drop the widget into your website and you no longer have to worry about subscription management.
                 </p>
+                <div>
+                    <a href="/{{NameLower}}-stripe-customer-portal" class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white">
+                {{Name}} Stripe Customer Portal</a>
+                </div>
             </div>
             <div class="order-2 col-span-2 xl:col-span-3 self-center">
                 <img src='img/customer-portal.png' class="rounded-lg shadow-2xl" alt="" />

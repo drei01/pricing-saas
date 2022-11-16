@@ -1,19 +1,19 @@
 ---
-title: Versoly Stripe Subscription Integration in 2 Minutes
+title: Pory.io Stripe Subscription Integration in 2 Minutes
 date: 2022-11-16T09:48:50Z
 draft: false
 type: page
-description: Add Stripe Subscription to your Versoly website without hiring a developer. No Code Stripe Subscription integration.
+description: Add Stripe Subscription to your Pory.io website without hiring a developer. No Code Stripe Subscription integration.
 ---
 {{<rawhtml>}}
     <div class="py-12 md:py-24">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-1 col-span-2 self-center my-12 md:my-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                Versoly + Stripe Subscriptions
+                Pory.io + Stripe Subscriptions
             </h1>
             <p class="text-lg xl:text-xl font-normal text-gray-600 mb-2">
-                    Hundreds of subscription businesses use PriceWell to integrate Stripe and Versoly.
+                    Hundreds of subscription businesses use PriceWell to integrate Stripe and Pory.io.
                 </p>
                 {{< partial "testimonial-avatars" >}}
             <div class="flex space-x-4 mb-6">
@@ -28,7 +28,7 @@ description: Add Stripe Subscription to your Versoly website without hiring a de
             <p class="text-gray-500 text-sm">No credit card required.</p>
         </div>
         <div class="order-2 col-span-2 xl:col-span-3 flex-col">
-            <img src='/img/tools/customer-portal/versoly.jpg' class="rounded-lg shadow-2xl" alt="" />
+            <img src='/img/tools/customer-portal/poryio.jpg' class="rounded-lg shadow-2xl" alt="" />
 
         </div>
     </div>
@@ -44,7 +44,7 @@ description: Add Stripe Subscription to your Versoly website without hiring a de
                     Pricing Pages
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Pricing Pages can be embedded anywhere on your Versoly website. You can change pricing at any time without ever writing any code. Customize the design to match your brand and make changes whenever you want. This is the fastest way to implement Stripe Checkout. 
+                    Pricing Pages can be embedded anywhere on your Pory.io website. You can change pricing at any time without ever writing any code. Customize the design to match your brand and make changes whenever you want. This is the fastest way to implement Stripe Checkout. 
                 </p>
             </div>
         </div>
@@ -62,8 +62,8 @@ description: Add Stripe Subscription to your Versoly website without hiring a de
                     Let customers manage their subscription on your terms. Designed to fit into your existing website, the embeddable Customer Portal takes minutes to set up. Simply drop the widget into your website and you no longer have to worry about subscription management.
                 </p>
                 <div>
-                    <a href="/versoly-stripe-customer-portal" class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white">
-                Versoly Stripe Customer Portal</a>
+                    <a href="/poryio-stripe-customer-portal" class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white">
+                Pory.io Stripe Customer Portal</a>
                 </div>
             </div>
             <div class="order-2 col-span-2 xl:col-span-3 self-center">
@@ -81,7 +81,7 @@ description: Add Stripe Subscription to your Versoly website without hiring a de
             </div>
             <div class="order-1 md:order-2 col-span-2 self-center mt-12 md:mt-0">
             <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
-                    Designed to fit your existing Versoly site
+                    Designed to fit your existing Pory.io site
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
                     The Customer Portal and Pricing Page is completely configurable to match your existing website.
