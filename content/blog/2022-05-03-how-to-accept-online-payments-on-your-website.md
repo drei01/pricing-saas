@@ -6,7 +6,7 @@ tags: ["Payments", "Stripe", "Paypal"]
 ---
 ![A person holding a credit card in front of a computer screen with the intention to buy an offer](/img/get-paid.jpg "Pay and Get paid online")
 
-Selling your product or services online is a must, even if your primary product or service is purchased in person.There are approximately** [2.14 billion global online shoppers](https://www.oberlo.co.uk/statistics/how-many-people-shop-online)** -¼ of the world’s population-.\
+Selling your product or services online is a must, even if your primary product or service is purchased in person. There are approximately [2.14 billion global online shoppers](https://www.oberlo.co.uk/statistics/how-many-people-shop-online) ¼ of the world’s population.
 \
 If you don’t accept payments online you are definitely leaving money on the table!\
 \
@@ -14,28 +14,22 @@ Bear in mind that accepting online payments for your goods or services helps you
 \
 *Remember*: Even though there’s no way to escape some transaction and currency fees - you can sell worldwide, keep open horizons- there are ways to reduce processing and clearing costs and receive payments for free!
 
+## **Best ways to accept online payments**
 
-
-# **Best ways to accept online payments**
-
-1. ### Credit and Debit Cards
-2. ### Payment Gateways
-3. ### Mobile Payments
-4. ### Payment links
+1. Credit and Debit Cards
+2. Payment Gateways
+3. Mobile Payments
+4. Payment links
 
 Let’s dig into them…
 
-
-
-# **Credit and Debit Cards**
+## Credit and Debit Cards
 
 Almost 70% of the United States population [carries a credit card](https://shiftprocessing.com/credit-card/) with the ⅓ of them using [3 or more credit cards](https://www.bankrate.com/finance/credit-cards/credit-card-ownership-usage-statistics/#:~:text=Key%20credit%20card%20statistics,most%20recent%20data%20from%20Experian.) during a regular week.\
 \
-No matter what business you own, accepting credit and debit cards should be on top of your thoughts when it comes to payments. 
+No matter what business you own, accepting credit and debit cards should be on top of your thoughts when it comes to payments.
 
 ![A form to buy a pair of blue Puma sneakers online, where you need to add your credit card details to fulfil the payment](/img/online-purchase.png "Buying Shoes Online")
-
-
 
 But an important thing to keep in mind is that accepting debit or credit cards requires a merchant account.Good news though, if you are a brick-and-mortar shop going online, you already have a merchant account with the bank you are using.
 
@@ -60,27 +54,23 @@ Things to remember:\
 ✔️**Credit Cards you can accept: VISA, MasterCard and American \
      Express
 
-
-
-# Payment Gateways
+## Payment Gateways
 
 In plain English, a payment gateway connects your website to a checkout. Either embedding a checkout on your website or redirecting customers to the payment gateway’s own website, these software link your website to Visa, MasterCard and American Express.
 
-
-
-## **Stripe**
+### **Stripe**
 
 ![A colorful marketing website highlighting the importance of the payments infrastructure showing images of payments and upward online commerce trends](/img/stripe.png "Stripe Landing Page")
 
 Stripe is the most popular Payment Gateway. It is both a payment gateway and merchant account, as well as a subscription management platform.
 
-### Advantages:
+#### Advantages:
 
 ✔️Multiple Integrations (including [Pricewell](https://www.pricewell.io/))\
 ✔️Pricing is fairly friendly for new SaaS companies\
 ✔️All-in-one solution
 
-### Disadvantages:
+#### Disadvantages:
 
 ❌Scaling can make the fees to add up\
 ❌Setting up can become confusing\
@@ -88,7 +78,7 @@ Stripe is the most popular Payment Gateway. It is both a payment gateway and mer
 
 
 
-### **Stripe Fees**
+#### **Stripe Fees**
 
 * **`Monthly fee`**
 * **`Setup fee`**
@@ -97,7 +87,7 @@ Stripe is the most popular Payment Gateway. It is both a payment gateway and mer
 
 
 
-## Braintree
+### Braintree
 
 ![A marketing website including a person typing into an open laptop, that promises to boost revenue and offer a global payment partner](/img/braintree.png "Braintree Landing Page")
 
@@ -172,14 +162,4 @@ Some of the most popular ways to send payment links are: 
 
 With Covid-19 disrupting the complete commerce landscape and bringing to spotlight smart ways to conduct e-commerce, it’s now vital that your business is ready to handle this new demand. 
 
-Saying it differently, whoever is not able to meet customer’s demand completely and fairly, will inevitably go out of business -and payment methods are included-\
-\
-Thank you! 
-
-**\
-Related Posts:** [**Best Payment Gateways**](https://www.pricewell.io/blog/best-payment-gateways/)
-
-**If you’re in need of a modern billing system that handles … pretty much everything** \
-**\-from Pricing to Subscription Management and Taxes-** \
-**\
-We would love to help you with [PriceWell](https://www.pricewell.io/)🎁Bonus : No coding required!**
+Saying it differently, whoever is not able to meet customer’s demand completely and fairly, will inevitably go out of business -and payment methods are included-

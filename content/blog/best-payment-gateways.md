@@ -14,6 +14,8 @@ What is the best SaaS Billing system to serve your company’s needs and provide
 
 Choosing the best Payment Gateway is definitely not the easiest choice to make! That’s why we decided to provide a cohesive roadmap to navigate you and your company through the individual differences of every major payment gateway out there.
 
+Still looking to understand the basics? Check out our [guide to accepting payments online](/blog/2022-05-03-how-to-accept-online-payments-on-your-website/)
+
 In the early days of running a software company, collecting payments was pretty straightforward. The customer was buying a license for the software and they get the product (through download or CD).
 
 Jump to today where most (even all) software companies are using a SaaS business model, things are not so simple. As the complexity of services and software is advancing, so does the pricing for those products. 

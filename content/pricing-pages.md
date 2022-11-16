@@ -131,4 +131,31 @@ You can change it any time you want and the changes happen <b>live</b> on your p
 
 </div>
 </div>
+
+<div class="bg-gradient-to-b from-gray-100 to-white lg:mb-16 xl:mb-24 py-12 lg:pt-20 relative overflow-hidden">
+    <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 relative z-20">
+        <div class="text-center mb-6 md:mb-8 lg:mb-12">
+            <h2 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4">Learning Resources</h2>
+            <p class="text-lg xl:text-xl text-gray-600">Learn more about accepting subscription payments</p>
+        </div>
+        <div class="mb-12 lg:mb-20">
+            <ul class="divide-y divide-gray-300 text-base md:text-lg">
+                <li class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full text-center justify-between">
+                    <a href="/blog/2022-05-03-how-to-accept-online-payments-on-your-website/">
+                            How to accept online payments on your website
+                    </a>
+                </li>
+                <li class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full text-center justify-between">
+                    <a href="/blog/building-a-saas-from-scratch">
+                            Guide to building a SaaS
+                    </a>
+                </li>
+                <li class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full text-center justify-between">
+                    <a href="/blog/2022-04-16-how-to-choose-the-best-pricing-for-your-saas/">
+                            SaaS Pricing Guide
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
 {{</rawhtml>}}
