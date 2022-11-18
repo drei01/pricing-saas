@@ -1,6 +1,6 @@
 ---
 title: Popsy Stripe Subscription Integration in 2 Minutes
-date: 2022-11-16T09:48:50Z
+date: 2022-11-18T12:00:01Z
 draft: false
 type: page
 description: Add Stripe Subscription to your Popsy website without hiring a developer. No Code Stripe Subscription integration.
@@ -108,4 +108,23 @@ description: Add Stripe Subscription to your Popsy website without hiring a deve
 
 </div>
 </div>
+
+<div class="bg-gradient-to-b from-gray-100 to-white lg:mb-16 xl:mb-24 py-12 lg:pt-20 relative overflow-hidden">
+     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-3 gap-x-12 lg:gap-x-20">
+            <div class="order-2 md:order-1 col-span-1">
+                <img src='/img/tools/logos/Popsy-logo.png' alt="Popsy logo" />
+            </div>
+            <div class="order-1 md:order-2 col-span-2 self-center mt-12 md:mt-0">
+            <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
+                   About Popsy
+                </h2>
+                <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10 font-light">
+                    Popsy is a website builder. That means it helps you build a website fast and easily. But, it doesn't specialize in payments. There is no Popsy subscription product. You need a payment gateway and you already chose the best of the payment gateways: Stripe. Of course that means that you need a payment gateway integration for Popsy. That's where PriceWell comes in. We make it easy to connect Stripe to Popsy.
+
+                    Just log in to your Popsy account, add an HTML snippet and paste in the code from PriceWell and you're done. You can now accept payments on your Popsy website.
+                </p>
+            </div>
+        </div>
+</div>
+
 {{</rawhtml>}}
