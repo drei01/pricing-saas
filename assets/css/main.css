@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-#TableOfContents {
-    @apply border rounded-xl bg-gray-200 p-8 mb-4;
+.post-table-of-contents {
+    @apply border bg-gray-200 p-8 mb-8;
+}
+
+.post-table-of-contents a {
+    @apply hover:underline;
 }
 
 .post-description {
@@ -67,6 +71,10 @@
 
 .post-wrapper blockquote {
     @apply p-8 italic bg-gray-100 rounded;
+}
+
+.post-wrapper code {
+    @apply bg-gray-100 p-1 rounded;
 }
 
 .filter-grayscale {

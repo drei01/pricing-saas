@@ -150,8 +150,6 @@ Remember: *"Price is just a tool to materialize value"*
 
 **"Freemium is a Samurai sword: unless you’re a master at using it, you can cut your arm off"**
 
-![A samurai fighting with his sword wearing a cone hat and going against everyone in his path](/img/samurai.gif "Samurai Slicing through")
-
 * Don't do Freemium until you get the value metric right
 * Freemium is an acquisition model, NOT part of your pricing!
 
