@@ -6,24 +6,7 @@ draft: false
 
 
 {{<rawhtml>}}
-<header>
-<link rel="stylesheet" href="./css/style.css">
-<title>Pricewell - top pricing pages examples</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="top pricing pages examples. Check how Pricewell help developers and companies create a pricing page super fast integrating with multiple plugins. Add today your embeddable billing pages that work on top of Stripe Billing. No coding required!">
-  <meta name="robots" content="index, follow" />
-  <meta name="keywords" content="pricing for SaaS, no code pricing page, stripe plugins, pricing page html templates, pricing page examples html, pricing page wordpress examples,  pricing page wordpress plugin" />
 
-<meta property="og:url"                content="https://pricewell.io" />
-<meta property="og:type"               content="Website" />
-<meta property="og:title"              content="https://pricewell.io" />
-<meta property="og:description"        content="top pricing pages examples. Check how Pricewell help developers and companies create a pricing page super fast integrating with multiple plugins. Add today your embeddable billing pages that work on top of Stripe Billing. No coding required!" />
-<meta property="og:image"              content="https://trello-attachments.s3.amazonaws.com/5745e85c80c9b3b68c4c81a5/5fd0d1b1040ec41244e8a38d/06ae4e8d413ced19656d6070c6d1f629/weship-banner_copy.png" />
-<meta property="og:image:alt"          content="top pricing pages examples - Pricewell" />
-
-
-</header>
 <center>
 <img src="./images/saas_pricing_page.png" style="margin-top:-10em;" width="100%" height="100%" alt="building a pricing page for saas fast">
 
