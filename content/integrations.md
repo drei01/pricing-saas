@@ -9,6 +9,9 @@ description: "Integrate Stripe with your existing platform"
 <div class="bg-gray-100 py-12 md:py-24">
   <div class="mx-auto max-w-screen-xl px-6 lg:px-8 xl:px-4">
     <h1 class="mx-auto mb-2 w-1/2 text-center text-3xl font-bold text-gray-800 md:mb-4 md:text-4xl lg:mb-8 lg:text-5xl">Add Stripe Subscriptions to websites built with 100+ popular tools</h1>
+    <h2 class="text-lg xl:text-xl font-normal text-gray-600 mb-2 text-center">
+        No need to hire a developer. We've got a step-by-step guide for each integration.
+    </h2>
     <svg class="w-36 mx-auto text-gray-400 fill-current pt-4" viewBox="0 0 172 16" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
             <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 11 1)"></line>
             <line y1="-0.5" x2="18.0278" y2="-0.5" transform="matrix(-0.5547 0.83205 0.83205 0.5547 46 1)"></line>
