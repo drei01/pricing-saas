@@ -1,19 +1,30 @@
 ---
-title: Pory.io Stripe Subscription Integration in 2 Minutes
-date: 2022-08-10T11:10:30Z
+title: Pory Stripe Subscription Integration in 2 Minutes
+date: 2022-11-24T11:11:32Z
 draft: false
 type: page
-description: Add Stripe Subscription to your Pory.io website without hiring a developer. No Code Stripe Subscription integration.
+description: Add Stripe Subscription to your Pory website without hiring a developer. No Code Stripe Subscription integration.
 ---
 {{<rawhtml>}}
+      <nav class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 font-light text-gray-800" aria-label="Breadcrumb">
+        <ol class="list-none p-0 inline-flex text-xs md:text-base">
+            <li class="flex items-center">
+            <a href="/integrations">Integrations</a>
+            <svg class="fill-current w-3 h-3 mx-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
+            </li>
+            <li class="flex items-center">
+            Pory
+            </li>
+        </ol>
+    </nav>
     <div class="py-12 md:py-24">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-1 col-span-2 self-center my-12 md:my-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                Pory.io Stripe Customer Portal
+                Pory Stripe Customer Portal
             </h1>
             <p class="text-lg xl:text-xl font-normal text-gray-600 mb-2">
-                    The easiest way to add Stripe Customer Portal to your Pory.io site. <br/>
+                    The easiest way to add Stripe Customer Portal to your Pory site. <br/>
                     Trusted by hundreds of subscription businesses.
                 </p>
                 {{< partial "testimonial-avatars" >}}
@@ -29,7 +40,7 @@ description: Add Stripe Subscription to your Pory.io website without hiring a de
             <p class="text-gray-500 text-sm">No credit card required.</p>
         </div>
         <div class="order-2 col-span-2 xl:col-span-3 flex-col">
-            <img src='/img/tools/customer-portal/poryio.jpg' class="rounded-lg shadow-2xl" alt="" />
+            <img src='/img/tools/customer-portal/pory.jpg' class="rounded-lg shadow-2xl" alt="" />
 
         </div>
     </div>
@@ -45,7 +56,7 @@ description: Add Stripe Subscription to your Pory.io website without hiring a de
                     Works with your existing Stripe Customers
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    If you already have customers and subscriptions in Stripe, the integration works seamlessly. Existing customers can access their subscriptions from your Pory.io website.
+                    If you already have customers and subscriptions in Stripe, the integration works seamlessly. Existing customers can access their subscriptions from your Pory website.
                 </p>
             </div>
         </div>
@@ -78,10 +89,10 @@ description: Add Stripe Subscription to your Pory.io website without hiring a de
             </div>
             <div class="order-1 md:order-2 col-span-2 self-center mt-12 md:mt-0">
             <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
-                    Designed to fit your existing Pory.io site
+                    Designed to fit your existing Pory site
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    The Customer Portal is designed to fit seamlessly into your existing Pory.io site. The colors sizes and fonts are all customizable.
+                    The Customer Portal is designed to fit seamlessly into your existing Pory site. The colors sizes and fonts are all customizable.
                 </p>                
             </div>
         </div>

@@ -1,9 +1,9 @@
 ---
-title: Wappler.io Stripe Subscription Integration in 2 Minutes
-date: 2022-11-24T10:58:25Z
+title: Wappler Stripe Subscription Integration in 2 Minutes
+date: 2022-11-24T11:14:18Z
 draft: false
 type: page
-description: Add Stripe Subscription to your Wappler.io website without hiring a developer. No Code Stripe Subscription integration.
+description: Add Stripe Subscription to your Wappler website without hiring a developer. No Code Stripe Subscription integration.
 ---
 {{<rawhtml>}}
     <nav class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 font-light text-gray-800" aria-label="Breadcrumb">
@@ -13,7 +13,7 @@ description: Add Stripe Subscription to your Wappler.io website without hiring a
             <svg class="fill-current w-3 h-3 mx-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg>
             </li>
             <li class="flex items-center">
-            Wappler.io
+            Wappler
             </li>
         </ol>
     </nav>
@@ -21,10 +21,10 @@ description: Add Stripe Subscription to your Wappler.io website without hiring a
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-1 col-span-2 self-center my-12 md:my-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                Wappler.io + Stripe Subscriptions
+                Wappler + Stripe Subscriptions
             </h1>
             <p class="text-lg xl:text-xl font-normal text-gray-600 mb-2">
-                    Hundreds of subscription businesses use PriceWell to integrate Stripe and Wappler.io.
+                    Hundreds of subscription businesses use PriceWell to integrate Stripe and Wappler.
                 </p>
                 {{< partial "testimonial-avatars" >}}
             <div class="flex space-x-4 mb-6">
@@ -40,7 +40,7 @@ description: Add Stripe Subscription to your Wappler.io website without hiring a
             <p class="text-gray-500 text-sm">No credit card required.</p>
         </div>
         <div class="order-2 col-span-2 xl:col-span-3 flex-col">
-            <img src='/img/tools/customer-portal/wapplerio.jpg' class="rounded-lg shadow-2xl" alt="" />
+            <img src='/img/tools/customer-portal/wappler.jpg' class="rounded-lg shadow-2xl" alt="" />
 
         </div>
     </div>
@@ -56,7 +56,7 @@ description: Add Stripe Subscription to your Wappler.io website without hiring a
                     Pricing Pages
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Pricing Pages can be embedded anywhere on your Wappler.io website. You can change pricing at any time without ever writing any code. Customize the design to match your brand and make changes whenever you want. This is the fastest way to implement Stripe Checkout. 
+                    Pricing Pages can be embedded anywhere on your Wappler website. You can change pricing at any time without ever writing any code. Customize the design to match your brand and make changes whenever you want. This is the fastest way to implement Stripe Checkout. 
                 </p>
             </div>
         </div>
@@ -74,8 +74,8 @@ description: Add Stripe Subscription to your Wappler.io website without hiring a
                     Let customers manage their subscription on your terms. Designed to fit into your existing website, the embeddable Customer Portal takes minutes to set up. Simply drop the widget into your website and you no longer have to worry about subscription management.
                 </p>
                 <div>
-                    <a href="/wapplerio-stripe-customer-portal" class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white">
-                Wappler.io Stripe Customer Portal</a>
+                    <a href="/wappler-stripe-customer-portal" class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white">
+                Wappler Stripe Customer Portal</a>
                 </div>
             </div>
             <div class="order-2 col-span-2 xl:col-span-3 self-center">
@@ -93,7 +93,7 @@ description: Add Stripe Subscription to your Wappler.io website without hiring a
             </div>
             <div class="order-1 md:order-2 col-span-2 self-center mt-12 md:mt-0">
             <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
-                    Designed to fit your existing Wappler.io site
+                    Designed to fit your existing Wappler site
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
                     The Customer Portal and Pricing Page is completely configurable to match your existing website.
@@ -124,16 +124,16 @@ description: Add Stripe Subscription to your Wappler.io website without hiring a
 <div class="bg-gradient-to-b from-gray-100 to-white lg:mb-16 xl:mb-24 py-12 lg:pt-20 relative overflow-hidden">
      <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-3 gap-x-12 lg:gap-x-20">
             <div class="order-2 md:order-1 col-span-1">
-                <img src='/img/tools/logos/wapplerio-logo.png' alt="Wappler.io logo" />
+                <img src='/img/tools/logos/wappler-logo.png' alt="Wappler logo" />
             </div>
             <div class="order-1 md:order-2 col-span-2 self-center mt-12 md:mt-0">
             <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
-                   About Wappler.io
+                   About Wappler
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10 font-light">
-                    Wappler.io is a website builder. That means it helps you build a website fast and easily. But, it doesn't specialize in payments. There is no Wappler.io subscription product. You need a payment gateway and you already chose the best of the payment gateways: Stripe. Of course that means that you need a payment gateway integration for Wappler.io. That's where PriceWell comes in. We make it easy to connect Stripe to Wappler.io.
+                    Wappler is a website builder. That means it helps you build a website fast and easily. But, it doesn't specialize in payments. There is no Wappler subscription product. You need a payment gateway and you already chose the best of the payment gateways: Stripe. Of course that means that you need a payment gateway integration for Wappler. That's where PriceWell comes in. We make it easy to connect Stripe to Wappler.
 
-                    Just log in to your Wappler.io account, add an HTML snippet and paste in the code from PriceWell and you're done. You can now accept payments on your Wappler.io website.
+                    Just log in to your Wappler account, add an HTML snippet and paste in the code from PriceWell and you're done. You can now accept payments on your Wappler website.
                 </p>
             </div>
         </div>
