@@ -1,6 +1,6 @@
 {{ range .Site.Data.tools.names }}
 <div class="rounded-lg bg-white p-8 text-center shadow-lg">
-    <img src="/img/tools/logos/{{ . }}-logo.png" class="mx-auto w-24" />
+    <img src="/img/tools/logos/{{ lower . }}-logo.png" class="mx-auto w-24" />
     <span class="block pt-4 text-2xl font-bold pointer">{{ . }}</span>
     <div class="flex flex-col font-light pt-2">
         <a href="/{{ lower . }}-stripe-subscription" class="hover:underline">Subscriptions →</a>
