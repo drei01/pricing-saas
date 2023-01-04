@@ -135,6 +135,17 @@ description: Add Stripe Subscription to your ClickFunnels website without hiring
 
                     Just log in to your ClickFunnels account, add an HTML snippet and paste in the code from PriceWell and you're done. You can now accept payments on your ClickFunnels website.
                 </p>
+                <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10 font-light">
+                Are you using Clickfunnels to build your membership site but looking for an easy way to accept payments and manage memberships? PriceWell is the solution you need. Using PriceWell you can seamlessly integrate Stripe with your Clickfunnels membership site, so you can focus on growing your online business.</p>
+<p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10 font-light">
+First, let's talk about why you might want to use a membership site with Clickfunnels. Membership sites are a great way to provide access to exclusive content, courses, or community to your customers. They can be a valuable source of recurring revenue for your business, as members pay a monthly or annual fee to maintain access.
+</p>
+
+<p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10 font-light">
+Clickfunnels makes it easy to build a membership site, with customizable templates and integrations with popular email marketing and payment platforms. However, if you want to use Stripe as your payment processor, you'll need to integrate it with your Clickfunnels account.
+</p>
+
+
             </div>
         </div>
 </div>
