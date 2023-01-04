@@ -10,7 +10,7 @@ draft: false
 <div class="mb-2 md:mb-4 lg:mb-8">
 <h1>Chargify Alternative</h1>
         <h2 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold">
-            Looking for Chargebee alternatives?
+            Looking for Chargify alternatives?
         </h2>
         </div>
             {{</rawhtml>}}
