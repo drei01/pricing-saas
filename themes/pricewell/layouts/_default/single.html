@@ -37,7 +37,9 @@
                 </p>  
             </header>
             <h5 class="post-description">{{ .Description }}</h5>
+            {{ if ne (print .TableOfContents) "<nav id=\"TableOfContents\"></nav>" }}
             <aside class="post-table-of-contents"><h3>Table of contents</h3>{{ .TableOfContents }}</aside>
+            {{ end }}
             <div class="post-wrapper" itemprop="articleBody">{{ .Content }}</div>
         {{ end }}
         
