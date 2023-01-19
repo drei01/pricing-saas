@@ -56,7 +56,7 @@ description: Add Stripe Subscription to your Popsy website without hiring a deve
                     Works with your existing Stripe Customers
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    If you already have customers and subscriptions in Stripe, the integration works seamlessly. Existing customers can access their subscriptions from your Popsy website.
+                    If you already have customers and subscriptions in [Stripe](/blog/stripe-login/), the integration works seamlessly. Existing customers can access their subscriptions from your Popsy website.
                 </p>
             </div>
         </div>
