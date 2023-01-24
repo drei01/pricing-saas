@@ -13,6 +13,10 @@ module.exports = {
             white: colors.white,
             gray: colors.neutral,
             green: colors.green,
+            slate: colors.slate,
+            fuchsia: colors.fuchsia,
+            indigo: colors.indigo,
+            pink: colors.pink,
             blue: {
                 50: '#f4f5f7',
                 100: '#e8ebee',
@@ -63,5 +67,5 @@ module.exports = {
             },
         },
     },
-    plugins: [],
+    plugins: [require('tailwindcss-highlights')],
 };
