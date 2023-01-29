@@ -8,14 +8,14 @@ description: Add Stripe Subscription to your Bubble website without hiring a dev
 {{<rawhtml>}}
     <div class="w-full px-0 lg:px-8 xl:px-4 text-white text-center">
     <div class="ph bg-[#e17658] max-w-6xl m-auto p-3 rounded-lg text-lg font-light shadow-xl">
-            <div class="text-sm pl-12 md:pl-0 text-left sm:text-center flex flex-col sm:block"><strong class="font-semibold">Welcome Product Hunt:</strong> <span class="block sm:inline">We appreciate your ❤️ and <a href="/ph" class="underline">feedback</a></span></div>
+            <div class="text-sm pl-12 md:pl-0 text-left sm:text-center flex flex-col sm:block"><strong class="font-semibold">Welcome Product Hunt:</strong> <span class="block sm:inline">We appreciate your ❤️ and <a href="https://www.producthunt.com/posts/pricewell-bubble-plugin-for-stripe" class="underline">feedback</a></span></div>
             </div>
     </div>
     <div class="py-12 md:py-24 selection:bg-purple-300 selection:text-purple-900">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-1 col-span-2 self-center my-12 md:my-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                Bubble + Stripe Subscriptions
+                Bubble & Stripe <br/> Without the Headache
             </h1>
             <p class="text-lg xl:text-xl font-normal text-gray-600 mb-2">
                     500+ subscription businesses use PriceWell to integrate Stripe and Bubble.
@@ -34,7 +34,7 @@ description: Add Stripe Subscription to your Bubble website without hiring a dev
             <p class="text-gray-500 text-sm">No credit card required.</p>
         </div>
         <div class="order-2 col-span-2 xl:col-span-3 flex-col">
-            <img src='/img/tools/customer-portal/bubble.jpg' class="rounded-lg shadow-2xl" alt="" />
+            <img src='/img/bubble-testimonial-jon.png' class="rounded-lg shadow-2xl" alt="" />
 
         </div>
     </div>

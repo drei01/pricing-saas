@@ -4,7 +4,7 @@
 {{else}}
 <div>
 {{end}}
-    <article class="font-sans relative bg-white overflow-hidden font-sans relative bg-white overflow-hidden px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 lg:pt-20" itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="font-sans relative bg-white overflow-hidden font-sans relative bg-white overflow-hidden {{if eq .File.Dir "blog/"}}px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 lg:pt-20{{end}}" itemscope itemtype="http://schema.org/BlogPosting">
         {{if eq .File.Dir "/"}} 
             {{ .Content }} 
         {{ else if eq .File.Dir "saas-pricing/order-confirmation/"}} 

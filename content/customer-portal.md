@@ -82,6 +82,30 @@ description: Stripe Customer Portal with PriceWell - Let your customer manage th
     </div>
 
 
+<div class="py-12 md:py-24">
+        <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4">
+            <h3 class="py-12 text-center text-gray-800 font-bold text-2xl md:text-3xl lg:text-4xl">Not a Developer? <br/> Check these Three Easy Options</h3>
+        </div>
+        <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-3 gap-x-12 lg:gap-x-20">
+            <div>
+            <h4 class="text-gray-800 text-2xl font-bold mt-8 md:mt-0">Copy & Paste to your website builder</h4>
+            <p class="mt-8 text-gray-800 text-lg">Already know your customers Stripe ID? Simply embed our button in your website for a fully functional billing portal. 30 seconds and you are done.</p>
+            <img src='img/customer-portal-copy-snippet.png' class="rounded-lg shadow-2xl mt-8" alt="" />
+            </div>
+            <div>
+            <h4 class="text-gray-800 text-2xl font-bold mt-8 md:mt-0">Customizable Magic Email Login</h4>
+            <p class="mt-8 text-gray-800 text-lg">Your customers enter their email, they get a link <span class="highlight highlight-powder-blue-400">sent from your domain</span>. Customize the email content to your hearts content.</p>
+            <img src='img/manage-subscription-page.png' class="rounded-lg shadow-2xl mt-8" alt="" />
+            </div>
+            <div>
+            <h4 class="text-gray-800 text-2xl font-bold mt-8 md:mt-0">No website? No worries.</h4>
+            <p class="mt-8 text-gray-800 text-lg">If you don't have a website or don't want to add the portal to your site, we've got one for you. Includine a link to give to customers which lets them manage their billing.</p>
+            <img src='img/manage-subscription-page-browser.png' class="rounded-lg shadow-2xl mt-8" alt="" />
+            </div>
+        </div>
+    </div>
+
+
 
 {{<partial "testimonials">}}
 
