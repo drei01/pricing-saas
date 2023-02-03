@@ -10,7 +10,7 @@ draft: false
             <div class="lg:text-center">
             <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Book a Demo</h2>
             <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Need Help Deciding if PriceWell is For You?</p>
-            <p class="mt-4 max-w-2xl text-lg text-gray-800 lg:mx-auto font-light">Tell us what you want to achieve and one of our Stripe experts will prepare a personalized demo.</p>
+            <p class="mt-4 max-w-2xl text-lg text-gray-800 lg:mx-auto font-light">Tell us what you want to achieve and one of our <span class="inline-block highlight highlight-powder-blue-400">Stripe experts</span> will prepare a personalized demo.</p>
             <img src="/images/arrow.png" alt="" class="w-8 m-auto pt-4"/>
             </div>
 
@@ -20,7 +20,7 @@ draft: false
         <div class="text-2xl leading-8 font-bold">In 15 Minutes You Will...</div>
         <ul class="pt-8 font-light">
             <li class="flex">
-                <svg class="h-6 w-24 fill-current" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="m1299 813-422 422q-19 19-45 19t-45-19L493 941q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5T1281.5 1561 896 1664t-385.5-103T231 1281.5 128 896t103-385.5T510.5 231 896 128t385.5 103T1561 510.5 1664 896z"/></svg>
+                <svg class="h-6 w-24 fill-current text-indigo-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="m1299 813-422 422q-19 19-45 19t-45-19L493 941q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5T1281.5 1561 896 1664t-385.5-103T231 1281.5 128 896t103-385.5T510.5 231 896 128t385.5 103T1561 510.5 1664 896z"/></svg>
                 </svg>
                 <div class="pl-4">
                     <h3 class="text-xl font-bold">Learn how your business can use PriceWell</h3>
@@ -31,7 +31,7 @@ draft: false
                 </div>
             </li>
             <li class="flex pt-4">
-                <svg class="h-6 w-24 fill-current" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="m1299 813-422 422q-19 19-45 19t-45-19L493 941q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5T1281.5 1561 896 1664t-385.5-103T231 1281.5 128 896t103-385.5T510.5 231 896 128t385.5 103T1561 510.5 1664 896z"/></svg>
+                <svg class="h-6 w-24 fill-current text-indigo-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="m1299 813-422 422q-19 19-45 19t-45-19L493 941q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5T1281.5 1561 896 1664t-385.5-103T231 1281.5 128 896t103-385.5T510.5 231 896 128t385.5 103T1561 510.5 1664 896z"/></svg>
                 </svg>
                 <div class="pl-4">
                     <h3 class="text-xl font-bold">See how simple installation is</h3>
@@ -41,7 +41,7 @@ draft: false
                 </div>
             </li>
             <li class="flex pt-4">
-                <svg class="h-6 w-24 fill-current" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="m1299 813-422 422q-19 19-45 19t-45-19L493 941q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5T1281.5 1561 896 1664t-385.5-103T231 1281.5 128 896t103-385.5T510.5 231 896 128t385.5 103T1561 510.5 1664 896z"/></svg>
+                <svg class="h-6 w-24 fill-current text-indigo-500" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="m1299 813-422 422q-19 19-45 19t-45-19L493 941q-19-19-19-45t19-45l102-102q19-19 45-19t45 19l147 147 275-275q19-19 45-19t45 19l102 102q19 19 19 45t-19 45zm141 83q0-148-73-273t-198-198-273-73-273 73-198 198-73 273 73 273 198 198 273 73 273-73 198-198 73-273zm224 0q0 209-103 385.5T1281.5 1561 896 1664t-385.5-103T231 1281.5 128 896t103-385.5T510.5 231 896 128t385.5 103T1561 510.5 1664 896z"/></svg>
                 </svg>
                 <div class="pl-4">
                     <h3 class="text-xl font-bold">Schedule a follow up call</h3>
