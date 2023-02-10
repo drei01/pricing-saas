@@ -61,7 +61,7 @@ type: page
 </div>
 
     <section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 md:py-72 mx-auto">
+  <div class="container px-5 py-24 md:py-64 mx-auto">
     <div class="text-center mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Save <b>$1,000's</b> on development and maintenance costs</h1>
       <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto mb-4">Implementing Stripe Checkout and Stripe Customer Portal can add weeks to your development process. Not to mention all the changes every time you update pricing. PriceWell integrates in minutes. Saving you $1,000's with no hidden maintenance.</p>
@@ -126,7 +126,7 @@ type: page
   </div>
 </section>
 
-    <div class="pt-24 md:pt-48 pb-24 mb:pb-72 bg-gray-100">
+    <div class="pt-24 md:pt-48 pb-24 mb:pb-64 bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
             <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
             <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
@@ -143,7 +143,7 @@ type: page
     </div>
 
 
-<div class="py-24 md:py-72 pb-12 lg:pb-16 bg-gray-100">
+<div class="py-24 md:py-64 pb-12 lg:pb-16 bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
             <div class="order-1 col-span-2 xl:col-span-3 self-center">
                 <img src='img/customer-portal.png' class="rounded-lg shadow-2xl" alt="" />
@@ -160,7 +160,7 @@ type: page
         </div>
     </div>
 
-    <div class="py-24 md:py-72 bg-gray-100">
+    <div class="py-24 md:py-64 bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
             <div class="order-2 md:order-1 col-span-2 self-center mt-12 md:mt-0">
             <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
@@ -180,7 +180,7 @@ type: page
     {{<partial "integrations">}}
     </div>
 
-    <div class="px-6 lg:px-8 xl:px-4 pb-24 md:pb-72">
+    <div class="px-6 lg:px-8 xl:px-4 pb-24 md:pb-64">
     {{<partial "testimonials">}}
     </div>
 

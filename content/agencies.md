@@ -13,7 +13,7 @@ description: The easiest way for Web Agencies to let their Customers update thei
                 No more client emails asking for an invoice.
                 <br/>
                 <br/>
-                <span class="font-light relative inline">Stripe Customer Portal for 
+                <span class="font-light relative inline text-2xl md:text-4xl lg:text-5xl">Stripe Customer Portal for 
                     <span class="relative">
                         <span class="absolute top-0 right-0 left-0 bottom-0 w-full h-full" style="filter:blur(16px); opacity: 0.3; background: linear-gradient(90deg, #FF675E, #44BCFF);"></span>
                         <span class="relative">Agencies</span>

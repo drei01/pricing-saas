@@ -29,7 +29,7 @@ description: Add Stripe Subscription to your Bubble website without hiring a dev
             <p class="text-gray-500 text-sm">No credit card required.</p>
         </div>
         <div class="order-2 col-span-2 xl:col-span-3 flex-col">
-            <img src='/img/bubble-testimonial-jon.png' class="rounded-lg shadow-2xl" alt="" />
+            <img src='/img/review-by-jon-melo.jpeg' class="rounded-lg shadow-2xl" alt="" />
 
         </div>
     </div>
