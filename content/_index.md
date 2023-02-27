@@ -19,26 +19,32 @@ type: page
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-1 col-span-2 self-center my-12 md:my-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                Stripe Subscriptions for your Website Without Hiring a Developer
+                Stripe Subscriptions Without Hiring a Developer
             </h1>
             <p class="text-lg xl:text-xl font-normal text-gray-600 mb-2">
-                Trusted by 500+ subscription businesses to run their Billing Infrastructure.
+                Create your subscription flow in 10 minutes. From pricing page to billing portal.
             </p>
-            {{< partial "testimonial-avatars" >}}
-            <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 text-center md:text-left mb-6">
+            <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 text-center md:text-left mt-6">
                 <a href="https://app.pricewell.io/register"
                     class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white"
                     data-analytics="Signup"
                 >
-                    Get started for free
+                    Try PriceWell for Free
                 </a>
                 <a href="/book-free-demo" class="focus:outline-none inline-block font-semibold border rounded-lg py-2 px-8 bg-white text-black hover:bg-gray-200">Book a Demo</a>
             </div>
 
-            <p class="text-gray-500 text-sm">No credit card required.</p>
+            <p class="text-gray-500 text-sm mb-6 mt-2">No credit card required.</p>
+
+            <div class="flex space-x-2 justify-start items-center mt-6">
+             {{< partial "testimonial-avatars" >}}
+             <div>
+            Trusted by 500+ businesses
+            </div>
+            </div>
         </div>
         <div class="order-2 col-span-2 xl:col-span-3 flex-col">
-            <iframe src="https://www.youtube-nocookie.com/embed/-zInerK-zAg?modestbranding=1&rel=0&color=white&controls=0&widget_referrer=pricewell.io" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;cursor:pointer;}</style><a href='https://www.youtube-nocookie.com/embed/-zInerK-zAg?autoplay=1&modestbranding=1&rel=0&color=white&controls=0&widget_referrer=pricewell.io&autoplay=1'><img src='https://i.ytimg.com/vi/-zInerK-zAg/sddefault.jpg?c=2' alt='Introducing PriceWell'><span>▶</span></a>" frameborder="0" class="w-full aspect-video border rounded-xl shadow-xl" title="Introducing PriceWell" allow="accelerometer *; autoplay *; clipboard-write *; encrypted-media *; gyroscope *; picture-in-picture *" allowfullscreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/-zInerK-zAg?modestbranding=1&rel=0&color=white&controls=0&widget_referrer=pricewell.io" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;cursor:pointer;}</style><a href='https://www.youtube-nocookie.com/embed/-zInerK-zAg?autoplay=1&modestbranding=1&rel=0&color=white&controls=0&widget_referrer=pricewell.io&autoplay=1'><img src='https://i.ytimg.com/vi/-zInerK-zAg/maxresdefault.jpg?c=4' alt='Introducing PriceWell'><span>▶</span></a>" frameborder="0" class="w-full aspect-video border rounded-xl shadow-xl" title="Introducing PriceWell" allow="accelerometer *; autoplay *; clipboard-write *; encrypted-media *; gyroscope *; picture-in-picture *" allowfullscreen></iframe>
         </div>
     </div>
 
@@ -70,7 +76,7 @@ type: page
     <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
       <div class="p-2 sm:w-1/2 w-full">
         <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-green-600 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
@@ -79,7 +85,7 @@ type: page
       </div>
       <div class="p-2 sm:w-1/2 w-full">
         <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-green-600 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
@@ -88,7 +94,7 @@ type: page
       </div>
       <div class="p-2 sm:w-1/2 w-full">
         <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-green-600 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
@@ -97,7 +103,7 @@ type: page
       </div>
       <div class="p-2 sm:w-1/2 w-full">
         <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-green-600 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
@@ -106,7 +112,7 @@ type: page
       </div>
       <div class="p-2 sm:w-1/2 w-full">
         <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-green-600 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
@@ -115,7 +121,7 @@ type: page
       </div>
       <div class="p-2 sm:w-1/2 w-full">
         <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-green-600 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
@@ -355,7 +361,7 @@ type: page
                     class="h-16 w-16 lg:h-20 lg:w-20 bg-green-100 rounded-full flex items-center justify-center border border-green-200 shadow-inner"
                 >
                     <svg
-                        class="w-10 h-10 text-green-500"
+                        class="w-10 h-10 text-green-600"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -399,7 +405,7 @@ type: page
                     class="h-16 w-16 lg:h-20 lg:w-20 bg-green-100 rounded-full flex items-center justify-center border border-green-200 shadow-inner"
                 >
                     <svg
-                        class="w-10 h-10 text-green-500"
+                        class="w-10 h-10 text-green-600"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"

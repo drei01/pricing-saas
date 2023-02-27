@@ -15,7 +15,6 @@ module.exports = {
             green: colors.green,
             slate: colors.slate,
             fuchsia: colors.fuchsia,
-            indigo: colors.indigo,
             pink: colors.pink,
             blue: {
                 50: '#f4f5f7',
