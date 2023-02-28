@@ -12,7 +12,7 @@ description: Stripe collect cancellation reasons from customers and provide insi
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
                 Retain <span class="underline">37%</span> More Revenue
             </h1>
-            <div class="flex space-x-4 mb-6">
+            <div class="flex space-x-4 mt-6">
                 <a href="https://app.pricewell.io/register"
                     class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white"
                     data-analytics="Signup"

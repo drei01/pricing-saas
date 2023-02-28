@@ -39,7 +39,7 @@ Letting customers update their credit cards without having to contact you is vit
 The complete integration with Webflow and the Stripe Customer Portal takes just three minutes, there's really no faster way. So sign up below to get started and stop handling invoices and subscription changes manually.
 
 {{<rawhtml>}}
-<div class="flex space-x-4 mb-6">
+<div class="flex space-x-4 mt-6">
                 <a href="https://app.pricewell.io/register"
                     class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white"
                     style="color:#fff;"
