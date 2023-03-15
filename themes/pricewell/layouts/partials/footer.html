@@ -107,6 +107,8 @@
             <li>
               <button id="webinar" sp-show-form="218200" class="text-base hover:text-gray-500">Free Pricing Workshop</button>
             </li>
+            <li><a href="/blog/credit-card-declines-what-do-codes-mean/" class="text-base hover:text-gray-500">Credit Card decline codes</a></li>
+            <li><a href="/blog/2022-05-03-how-to-accept-online-payments-on-your-website/" class="text-base hover:text-gray-500">How to accept online payments</a></li>
           </ul>
         </nav>
       </div>
@@ -314,7 +316,7 @@ if (document.cookie && !document.cookie.split('; ').find(row => row.startsWith('
     document.getElementById('webinar').click();
   }]);
   setTimeout(function() {
-    document.querySelectorAll('.sp-link-wrapper').forEach(el => el.remove());
+    document.querySelectorAll('.sp-brandname__left').forEach(el => el.remove());
   }, 1000);
 </script>
 </body>
