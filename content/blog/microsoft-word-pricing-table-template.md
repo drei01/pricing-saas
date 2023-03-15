@@ -39,3 +39,7 @@ Take a look at our own pricing.
     </div>
 
 {{</rawhtml>}}
+
+## Other website builder templates
+
+If your website is built with website builder like Wix then check out our [pricing table templates for Wix](/blog/responsive-pricing-table-for-wix/).
