@@ -29,7 +29,7 @@ description: Add Stripe Subscription to your Grid.studio website without hiring 
                 {{< partial "testimonial-avatars" >}}
             <div class="flex space-x-4 mt-6">
                 <a href="https://app.pricewell.io/register"
-                    class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white"
+                    class="button"
                     data-analytics="Signup"
                 >
                     Get started for free
@@ -74,7 +74,7 @@ description: Add Stripe Subscription to your Grid.studio website without hiring 
                     Let customers manage their subscription on your terms. Designed to fit into your existing website, the embeddable Customer Portal takes minutes to set up. Simply drop the widget into your website and you no longer have to worry about subscription management.
                 </p>
                 <div>
-                    <a href="/gridstudio-stripe-customer-portal" class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white">
+                    <a href="/gridstudio-stripe-customer-portal" class="button">
                 Grid.studio Stripe Customer Portal</a>
                 </div>
             </div>

@@ -41,7 +41,7 @@ The complete integration with Webflow and the Stripe Customer Portal takes just 
 {{<rawhtml>}}
 <div class="flex space-x-4 mt-6">
                 <a href="https://app.pricewell.io/register"
-                    class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white"
+                    class="button"
                     style="color:#fff;"
                     data-analytics="Signup"
                 >

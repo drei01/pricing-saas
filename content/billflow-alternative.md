@@ -19,7 +19,7 @@ aliases: ["/vs-billflow", "/billflow-alternative"]
 Heard that Billflow is shutting down and looking for an easy alternative? Firstly, the PriceWell team are here for you. We offer the same reliable service and we are built on top of Stripe Billing. That means you get the **Stripe Checkout** and **Stripe Customer Portal** without coding. Plus we'll help you migrate your site from Billflow to PriceWell, for free. We're the Billflow alternative you've been searching for.
 {{<rawhtml>}}
 <div class="flex-col md:flex-row space-x-4 space-y-4 place-items-center">
-                <a href="/book-free-demo" class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white">Book a free migration from Billfow</a> <a href="/book-free-demo" class="focus:outline-none inline-block font-semibold border rounded-lg py-2 px-8 bg-white text-black hover:bg-gray-200">Book a PriceWell Demo</a>
+                <a href="/book-free-demo" class="button">Book a free migration from Billfow</a> <a href="/book-free-demo" class="focus:outline-none inline-block font-semibold border rounded-lg py-2 px-8 bg-white text-black hover:bg-gray-200">Book a PriceWell Demo</a>
                 </div>
                 
 {{</rawhtml>}}
@@ -47,7 +47,7 @@ Moreover, we've got Stripe Tax support, Pricing Experiments and Gated Content (f
 
 {{<rawhtml>}}
 <div>
-<a href="/book-free-demo" class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white">Book a Demo Today</a>
+<a href="/book-free-demo" class="button">Book a Demo Today</a>
 </div>
     </div>
 {{</rawhtml>}}

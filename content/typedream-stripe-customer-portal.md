@@ -30,7 +30,7 @@ description: Add Stripe Subscription to your Typedream website without hiring a 
                 {{< partial "testimonial-avatars" >}}
             <div class="flex space-x-4 mt-6">
                 <a href="https://app.pricewell.io/register"
-                    class="focus:outline-none inline-block bg-gradient-to-br from-wedgewood-600 to-wedgewood-700 hover:from-wedgewood-700 hover:to-wedgewood-800 font-semibold rounded-lg py-2 px-8 text-white"
+                    class="button"
                     data-analytics="Signup"
                 >
                     Get started for free
