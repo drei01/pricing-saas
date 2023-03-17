@@ -80,7 +80,7 @@ description: The easiest way for Web Agencies to let their Customers update thei
                     Earn money when your clients use PriceWell
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Join our <a href="https://affiliates.reflio.com/invite/pricewell">Affiliate Program</a> and earn <b>40%</b> of the revenue generated when your clients use PriceWell.
+                    Join our <a href="https://affiliates.reflio.com/invite/pricewell">Affiliate Program</a> and earn <b>20%</b> of the revenue generated when your clients use PriceWell.
                 </p>                
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
