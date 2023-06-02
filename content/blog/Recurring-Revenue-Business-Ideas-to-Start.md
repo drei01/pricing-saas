@@ -1,9 +1,9 @@
 ---
-title: "Recurring Revenue Business Ideas: A Comprehensive Guide"
+title: 'Recurring Revenue Business Ideas: A Comprehensive Guide'
 date: 2023-03-17T12:24:15+01:00
-description: "What is Stripe, how do I login and how much does it cost?"
+description: 'Recurring revenue is great for businesses. Here are some ideas to get you started right now.'
 draft: false
-tags: ["Revenue", "Business", "Recurring"]
+tags: ['Revenue', 'Business', 'Recurring']
 ---
 
 In this article, we will provide you with a comprehensive guide on recurring revenue business ideas. We will cover a variety of options that you can explore to generate a steady income stream, including subscription-based models, productized services, and more.
