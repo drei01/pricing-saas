@@ -1,6 +1,8 @@
 node_modules
 public
 hugo_stats.json
+.hugo_build.lock
 resources
 scripts/data
 scripts/images
+.DS_Store
