@@ -1,4 +1,4 @@
-baseurl = "https://www.pricewell.io"
+baseurl = "https://www.pricewell.com"
 languageCode = "en-us"
 title = "Stripe subscription payments with No Code"
 disableKinds = ["taxonomy", "taxonomyTerm", "term"]

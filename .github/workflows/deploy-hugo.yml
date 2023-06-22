@@ -41,7 +41,7 @@ jobs:
               run: hugo --gc --minify
 
             - name: Create cname file
-              run: echo 'www.pricewell.io' > public/CNAME
+              run: echo 'www.pricewell.com' > public/CNAME
 
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v3

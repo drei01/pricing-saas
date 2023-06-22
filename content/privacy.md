@@ -93,8 +93,8 @@ draft: false
                 <li>
                     <p>
                         <strong>Website</strong> refers to PriceWell, accessible from
-                        <a href="https://www.pricewell.io" rel="external nofollow noopener" target="_blank"
-                            >https://www.pricewell.io</a
+                        <a href="/" rel="external nofollow noopener" target="_blank"
+                            >https://www.pricewell.com</a
                         >
                     </p>
                 </li>
