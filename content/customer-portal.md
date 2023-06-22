@@ -125,7 +125,7 @@ description: Stripe Customer Portal with PriceWell - Let your customer manage th
     <div class="pt-8 mx-auto text-center">
     <h4 class="text-lg xl:text-xl">What to learn more about our Stripe Client Portal?</h4>
     <p class="pt-2">
-    Check out our <a href="https://help.pricewell.io/features/customer_portal/" class="underline">Documentation</a>
+    Check out our <a href="https://help.pricewell.com/features/customer_portal/" class="underline">Documentation</a>
     </p>
     </div>
 

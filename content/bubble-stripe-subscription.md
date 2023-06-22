@@ -34,7 +34,7 @@ description: Add Stripe Subscription to your Bubble website without hiring a dev
                 >
                     Get started for free
                 </a>
-                <a href="https://help.pricewell.io/integrations/bubble/" class="focus:outline-none inline-block font-semibold border rounded-lg py-2 px-8 bg-white text-black hover:bg-gray-200">Step-by-step Guide</a>
+                <a href="https://help.pricewell.com/integrations/bubble/" class="focus:outline-none inline-block font-semibold border rounded-lg py-2 px-8 bg-white text-black hover:bg-gray-200">Step-by-step Guide</a>
             </div>
 
             <p class="text-gray-500 text-sm">No credit card required.</p>
