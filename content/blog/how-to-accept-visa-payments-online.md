@@ -25,7 +25,7 @@ Now that we've established the importance of accepting Visa payments online, let
 
 1. Choose a Payment Processor: A payment processor is a company that handles online payments on your behalf. There are many payment processors to choose from, including [PayPal](https://www.braintreepayments.com/), [Stripe](https://stripe.com), and [Square](https://squareup.com/). Do your research and choose a payment processor that fits your business needs. If interested in a comprehensive guide on how to pick the best payment processor for your needs, we got you covered with our [guide to the best payment gateways](https://www.pricewell.io/blog/best-payment-gateways).
 
-2. Integrate the Payment Processor with Your Website: Once you've chosen a payment processor, you'll need to integrate it with your website. This can be done through a plugin (like [PriceWell’s Bubble plugin](https://bubble.io/plugin/pricewell-1643279429035x716037702183813100) or API provided by the payment processor. To save time and energy, check how PriceWell can [get the job done](https://pricewell.io) in minutes.
+2. Integrate the Payment Processor with Your Website: Once you've chosen a payment processor, you'll need to integrate it with your website. This can be done through a plugin (like [PriceWell’s Bubble plugin](https://bubble.io/plugin/pricewell-1643279429035x716037702183813100) or API provided by the payment processor. To save time and energy, check how PriceWell can [get the job done](https://pricewell.com) in minutes.
 
 3. Test the System: Before you start accepting payments, make sure to test the payment system to ensure it's working properly. Run test transactions to make sure payments are being processed correctly and that you're receiving the funds.
 
@@ -37,7 +37,7 @@ One of the biggest concerns when accepting payments online is security and fraud
 
 1. Use Strong Passwords: Make sure to use strong passwords for all your online accounts, including your payment processor account. See this CNET [guide on passwords](https://www.cnet.com/tech/mobile/keep-your-passwords-strong-and-secure-with-these-9-rules/) for further reference.
 
-2. Monitor Transactions: Keep an eye on your payment transactions and watch for any suspicious activity. Leverage PriceWell’s [automatic payment monitoring](https://pricewell.io) and sleep safer at night.
+2. Monitor Transactions: Keep an eye on your payment transactions and watch for any suspicious activity. Leverage PriceWell’s [automatic payment monitoring](https://pricewell.com) and sleep safer at night.
 
 3. Use a Fraud Detection System: Consider using a fraud detection system like [Signifyd](https://www.signifyd.com/) or [Kount](https://kount.com/) to help prevent fraudulent transactions.
 

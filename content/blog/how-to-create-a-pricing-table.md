@@ -38,11 +38,11 @@ For Webflow you can [clone an existing template](https://webflow.com/website/sim
 
 ## Save hours by creating a Pricing Table with PriceWell
 
-All the above methods make it tricky to change pricing, put your pricing table on multiple pages, A/B test etc. Here at [PriceWell](https://pricewell.io?utm_source=blog), we've been building websites for over 10 years. So you can not imagine the number of times we've at to build Pricing Tables. Not to mention when you need to change pricing, then you have to do everything all over again. Oh, and does it work on mobile? Yes, Android and iPhone. Gah.
+All the above methods make it tricky to change pricing, put your pricing table on multiple pages, A/B test etc. Here at [PriceWell](https://pricewell.com?utm_source=blog), we've been building websites for over 10 years. So you can not imagine the number of times we've at to build Pricing Tables. Not to mention when you need to change pricing, then you have to do everything all over again. Oh, and does it work on mobile? Yes, Android and iPhone. Gah.
 
 ![Creating a free Pricing Table with PriceWell](/images/select-pricing-plans.png)
 
-That's why we decided to create [PriceWell](https://pricewell.io?utm_source=blog), the easiest way to create a fully-functional Pricing Table and so much more. Using our drag and drop editor you can build your pricing in minutes. Then all you have to do is copy our tiny snippet into your website. It works with WordPress, Webflow, Bubble, HTML and many-many more.
+That's why we decided to create [PriceWell](https://pricewell.com?utm_source=blog), the easiest way to create a fully-functional Pricing Table and so much more. Using our drag and drop editor you can build your pricing in minutes. Then all you have to do is copy our tiny snippet into your website. It works with WordPress, Webflow, Bubble, HTML and many-many more.
 
 [Create your Pricing Table with Pricewell for FREE](https://app.pricewell.io/register)
 

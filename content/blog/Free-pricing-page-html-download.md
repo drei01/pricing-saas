@@ -28,7 +28,7 @@ we realised that building a pricing page from scratch is something that no one r
 Most of us try to find templates or other examples to start with, but at some point it starts becoming a real issue. The marketing team starts asking <b>how prices should go up</b>, or how nice it would be to <b>A/B test different pricing options</b> and measure where is the perfect spot, or how a very simple <b> change in the description </b> of the pricing plan will affect the conversion rates <br><br>
 For the developer those small things mean touching the code, every single time.<br>
 Wait, but you already use a CMS (Content management system) like wordpress to change the content without having to dive into the code for any simple new blog post, or a change in the copy of an article. <br><br>
-This is why we decided to build <a href="https://pricewell.io?utm_source=blog">Pricewell</a>, the easiest way to integrate payments and interact with your pricing page. Easy to set up, accessible from a dashboard, and super simple to integrate with a landing page in seconds, by a simple copy pasting. This is Pricewell.
+This is why we decided to build <a href="https://pricewell.com?utm_source=blog">Pricewell</a>, the easiest way to integrate payments and interact with your pricing page. Easy to set up, accessible from a dashboard, and super simple to integrate with a landing page in seconds, by a simple copy pasting. This is Pricewell.
 </p>
 <h2 style="text-align:left;padding:0.7em">How to create a landing page with no code, with Pricewell:</h2>
 <p style="text-align:left;padding:1em;padding-top:0em;">
@@ -37,7 +37,7 @@ Creating a pricing page with pricewell is simple. Follow the steps listed below:
 </p>
 <div style="text-align:left">
 <ul>
-  <li>Create a profile <a href="https://pricewell.io?utm_source=blog" target="_blank">Pricewell</a> </li>
+  <li>Create a profile <a href="https://pricewell.com?utm_source=blog" target="_blank">Pricewell</a> </li>
   <li>Connect your stripe account</li>
   <li>Start customizing your pricing page</li>
   <li>Paste your generated script in the header tag of your website</li>
@@ -52,7 +52,7 @@ Creating a pricing page with pricewell is simple. Follow the steps listed below:
           style="border:solid 2px black;
           border-radius:14px;padding: 1em;
           background-color:transparent !important;" class="cta_button">
-        <a href='https://pricewell.io?utm_source=blog' style="text-decoration: none;">Sign up for free</a>
+        <a href='https://pricewell.com?utm_source=blog' style="text-decoration: none;">Sign up for free</a>
     </button>
     <p>No credit card required</p>
 </center>
@@ -95,7 +95,7 @@ If you ask us Free pricing page html download our answer is very simple: You sho
           style="border:solid 2px black;
           border-radius:14px;padding: 1em;
           background-color:transparent !important;" class="cta_button">
-        <a href='https://pricewell.io?utm_source=blog' style="text-decoration: none;">Sign up for free</a>
+        <a href='https://pricewell.com?utm_source=blog' style="text-decoration: none;">Sign up for free</a>
     </button>
     <p>No credit card required</p>
 </center>
