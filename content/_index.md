@@ -31,7 +31,7 @@ type: page
                 >
                     Try PriceWell for Free
                 </a>
-                <a href="/book-free-demo" class="focus:outline-none inline-block font-semibold border rounded-lg py-2 px-8 bg-white text-black hover:bg-gray-200">Book a Demo</a>
+                <a href="/book-free-demo" class="button-white">Book a Demo</a>
             </div>
 
             <p class="text-gray-500 text-sm mb-6 mt-2">No credit card required.</p>

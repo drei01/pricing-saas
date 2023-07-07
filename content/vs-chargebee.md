@@ -6,7 +6,7 @@ draft: false
 ---
 
 {{<rawhtml>}}
-<div class="post-wrapper">
+<div class="post-wrapper prose">
 <div class="mb-2 md:mb-4 lg:mb-8">
         <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold">
             Looking for Chargebee alternatives?

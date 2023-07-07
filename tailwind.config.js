@@ -66,5 +66,5 @@ module.exports = {
             },
         },
     },
-    plugins: [require('tailwindcss-highlights')],
+    plugins: [require('tailwindcss-highlights'), require('@tailwindcss/typography')],
 };

@@ -5,7 +5,7 @@ draft: false
 ---
 
 {{<rawhtml>}}
-<div class="post-wrapper">
+<div class="post-wrapper prose">
 <h1>Privacy Policy</h1>
             <p>Last updated: November 29, 2020</p>
             <p>

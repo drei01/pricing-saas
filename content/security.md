@@ -7,7 +7,7 @@ description: PriceWell takes security very seriously. Our goal is to provide a s
 ---
 
 {{<rawhtml>}}
-<div class="post-wrapper">
+<div class="post-wrapper prose">
 {{</rawhtml>}}
 
 # Vulnerability Disclosure Policy

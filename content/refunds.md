@@ -6,7 +6,7 @@ draft: false
 ---
 
 {{< rawhtml >}}
-<div class="post-wrapper">
+<div class="post-wrapper prose">
 {{< /rawhtml >}}
 
 # A fair refund policy.

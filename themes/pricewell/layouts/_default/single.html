@@ -40,7 +40,7 @@
             {{ if ne (print .TableOfContents) "<nav id=\"TableOfContents\"></nav>" }}
             <aside class="post-table-of-contents"><h3>Table of contents</h3>{{ .TableOfContents }}</aside>
             {{ end }}
-            <div class="post-wrapper" itemprop="articleBody">{{ .Content }}</div>
+            <div class="post-wrapper prose" itemprop="articleBody">{{ .Content }}</div>
         {{ end }}
         
         {{ partial "related" .}}

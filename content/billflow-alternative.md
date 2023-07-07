@@ -7,7 +7,7 @@ aliases: ["/vs-billflow", "/billflow-alternative"]
 ---
 
 {{<rawhtml>}}
-<div class="post-wrapper">
+<div class="post-wrapper prose">
 <div class="mb-2 md:mb-4 lg:mb-8">
         <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold">
             Looking for a Billflow alternative?
@@ -19,12 +19,13 @@ aliases: ["/vs-billflow", "/billflow-alternative"]
 Heard that Billflow is shutting down and looking for an easy alternative? Firstly, the PriceWell team are here for you. We offer the same reliable service and we are built on top of Stripe Billing. That means you get the **Stripe Checkout** and **Stripe Customer Portal** without coding. Plus we'll help you migrate your site from Billflow to PriceWell, for free. We're the Billflow alternative you've been searching for.
 {{<rawhtml>}}
 <div class="flex-col md:flex-row space-x-4 space-y-4 place-items-center">
-                <a href="/book-free-demo" class="button">Book a free migration from Billfow</a> <a href="/book-free-demo" class="focus:outline-none inline-block font-semibold border rounded-lg py-2 px-8 bg-white text-black hover:bg-gray-200">Book a PriceWell Demo</a>
+                <a href="/book-free-demo" class="button">Book a free migration from Billfow</a> <a href="/book-free-demo" class="button-white">Book a PriceWell Demo</a>
                 </div>
                 
 {{</rawhtml>}}
 
 ## The same features, at a cheaper price
+
 No matter your Billflow setup, PriceWell has you covered. We support multiple pricing models, pricing page embeds and of course the customer portal. We use the official Stripe Billing products so you will always have 100% compatibility with Stripe. Check out our [pricing, from $19 per month](/pricing) to see how we compare.
 
 Some features you will be familiar with include:
@@ -41,13 +42,13 @@ Let customers manage their subscription on your terms. Designed to fit into your
 
 ## Plus much more
 
-Moreover, we've got Stripe Tax support, Pricing Experiments and Gated Content (for your Membership website). In conclusion, whether you are a seasoned SaaS business, a fitness coach or a membership website. PriceWell makes is easy to move from Billflow, we are here to support you.
-
-{{<partial "testimonials">}}
+Moreover, we've got Stripe Tax support, Pricing Experiments (A/B testing) and Gated Content (for your Membership website). In conclusion, whether you are a seasoned SaaS business, a fitness coach or a membership website. PriceWell makes is easy to move from Billflow, we are here to support you.
 
 {{<rawhtml>}}
-<div>
-<a href="/book-free-demo" class="button">Book a Demo Today</a>
+<div class="flex">
+<a href="/book-free-demo" class="button mx-auto">Book a Demo Today</a>
 </div>
     </div>
 {{</rawhtml>}}
+
+{{<partial "testimonials">}}

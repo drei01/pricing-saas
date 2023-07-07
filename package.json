@@ -18,6 +18,7 @@
   "homepage": "https://github.com/drei01/pricing-saas#readme",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",

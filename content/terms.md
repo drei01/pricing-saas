@@ -4,7 +4,7 @@ date: 2020-12-01T09:50:50+01:00
 draft: false
 ---
 {{< rawhtml >}}
-<div class="post-wrapper">
+<div class="post-wrapper prose">
 {{< /rawhtml >}}
 
 # Terms and Conditions
