@@ -9,7 +9,7 @@ draft: false
 
 # Terms and Conditions
 
-Last updated: November 29, 2020
+Last updated: August 31, 2023
 
 Please read these terms and conditions carefully before using Our Service.
 
@@ -30,7 +30,7 @@ For the purposes of these Terms and Conditions:
 - **Service** refers to the Website.
 - **Terms and Conditions** (also referred as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service.
 - **Third-party Social Media Service** means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.
-- **Website** refers to PriceWell, accessible from [/](https://pricewell.com)
+- **Website** refers to the PriceWell website, accessible from [https://pricewell.com](https://pricewell.com) and the PriceWell App, accessible from [https://app.pricewell.io](https://app.pricewell.io)
 - **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
     
 
@@ -109,6 +109,9 @@ Except as provided herein, the failure to exercise a right or to require perform
 # Translation Interpretation
 
 These Terms and Conditions may have been translated if We have made them available to You on our Service. You agree that the original English text shall prevail in the case of a dispute.
+
+# Publicity
+You hereby grant to the Company a non-transferrable (except in connection with an assignment of this Agreement), non-exclusive right to use the trademarks, service marks, trade names, and logo, whether registered or otherwise, in order to provide the Services, and acknowledge that the Company may use the Your name and logo for the purpose of identifying the You as a client of the Company products and/or services. the Company will cease using your name and logo upon written request.
 
 # Changes to These Terms and Conditions
 
