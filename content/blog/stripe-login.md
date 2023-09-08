@@ -1,7 +1,7 @@
 ---
 title: "Stripe login"
 date: 2023-01-09T17:24:15+01:00
-description: "What is Stripe, how do I login and how much does it cost?"
+description: "One of the key features of Stripe is the ability for customers to login to their Stripe account to manage their business. We'll cover how to login to Stripe, how to accept ACH payments with Stripe, and how to use Stripe's pricing to compare it to other credit card processors."
 draft: false
 tags: ["stripe"]
 ---
@@ -14,6 +14,14 @@ tags: ["stripe"]
 
 You can log in to your Stripe dashboard by visiting:  
 [http://dashboard.stripe.com/login](http://dashboard.stripe.com/login)
+
+### Which browsers is Stripe compatible with?
+
+The Stripe dashboard is compatible with all modern browsers. If you are using an incompatible browser (like Internet Explorer 11) then best thing to do is switch to a modern browser like Chrome, Firefox or Safari. If you  are trying to log in to your Stripe account and receive a message similar to...
+
+> please switch to a compatible browser to continue.
+
+Then you should switch to a modern browser as listed above.
 
 ## What is Stripe payment?
 
