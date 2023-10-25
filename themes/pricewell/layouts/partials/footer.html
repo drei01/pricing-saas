@@ -335,6 +335,12 @@ if (document.cookie && !document.cookie.split('; ').find(row => row.startsWith('
   setTimeout(function() {
     document.querySelectorAll('.sp-brandname__left').forEach(el => el.remove());
   }, 1000);
+  setTimeout(function() {
+    const senjaFrame = document.getElementsByClassName('senja-frame-embed')[0].getElementsByTagName('iframe')[0];
+    if (senjaFrame) {
+      senjaFrame.style.height = parseInt(senjaFrame.style.height.replace('px','')) - 35 + 'px';
+    }
+  }, 2000)
 </script>
 </body>
 </html>
