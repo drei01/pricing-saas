@@ -38,7 +38,7 @@
             </header>
             <h5 class="post-description">{{ .Description }}</h5>
             {{ if ne (print .TableOfContents) "<nav id=\"TableOfContents\"></nav>" }}
-            <aside class="post-table-of-contents"><h3>Table of contents</h3>{{ .TableOfContents }}</aside>
+            <aside class="post-table-of-contents"><h3>Table of contents</h3>{{ replace .TableOfContents `href="#` (printf `href="%s#` .Permalink) | safeHTML }}</aside>
             {{ end }}
             <div class="post-wrapper prose" itemprop="articleBody">{{ .Content }}</div>
         {{ end }}
