@@ -6,14 +6,14 @@ draft: false
 tags: ["Stripe", "Errors"]
 ---
 
-![teddy bear holding a credit card, looking confused at a laptop](/img/479b0ad5-7fae-4759-9856-d18d57925a3c.png)
+![teddy bear holding a credit card, looking confused at a laptop](/img/479b0ad5-7fae-4759-9856-d18d57925a3c.jpg)
 
 
 First, some basics. Your customer makes a purchase and provides their payment details. When you try to charge their credit card, the payment information goes through what's called a Payment Gateway. The payment gateway passes the information on to the cardholder’s bank who will approve or decline the transaction. If the transaction is approved, the funds are transferred from the cardholder’s account to your Stripe account (minus any applicable fees). If the transaction is declined, no funds are transferred.
 
 When a transaction is declined, Stripe will provide a decline code that indicates the reason for the decline. Here’s a list of all the decline codes split into those where it’s safe to try again and those that aren’t.
 
-![teddy bear holding a credit card while lying in a hammock](/img/8e6b582c-5dbe-4bcc-8f18-e242cb603134.png)
+![teddy bear holding a credit card while lying in a hammock](/img/8e6b582c-5dbe-4bcc-8f18-e242cb603134.jpg)
 
 ## Try again if you get these codes
 
@@ -79,7 +79,7 @@ The payment couldn’t be processed by the issuer for an unknown reason.
 
 The card has insufficient funds to complete the purchase.
 
-![teddy bear on the phone, holding a card](/img/c2050e85-cfe7-44f5-a777-0840ac7c5541.png)
+![teddy bear on the phone, holding a card](/img/c2050e85-cfe7-44f5-a777-0840ac7c5541.jpg)
 
 ## Some action needs to be taken for these codes
 
@@ -129,7 +129,7 @@ The card number is incorrect.
 
 The PIN entered is incorrect.
 
-![Teddy bear crossing his arms](/img/729da368-d23a-4324-a513-583873708728.png)
+![Teddy bear crossing his arms](/img/729da368-d23a-4324-a513-583873708728.jpg)
 
 Never retry for these decline codes
 -----------------------------------
