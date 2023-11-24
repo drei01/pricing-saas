@@ -22,7 +22,10 @@ type: page
                 Stripe Subscriptions Without Hiring a Developer
             </h1>
             <p class="text-lg xl:text-xl font-normal text-gray-600 mb-2">
-                Create your subscription flow in 10 minutes. From pricing page to billing portal.
+                <span class="font-bold">Before PriceWell:</span> Stressing over Stripe for weeks. No time to focus on your product.
+            </p>
+            <p class="text-lg xl:text-xl font-normal text-gray-600 mb-2">
+                <span class="font-bold">After PriceWell:</span> Stripe integrated in 10 minutes. Calm and focused on bringing in new customers.
             </p>
             <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 text-center md:text-left mt-6">
                 <a href="https://app.pricewell.io/register"
