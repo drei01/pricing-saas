@@ -12,7 +12,7 @@ tags: ["Payment Gateway", "Stripe", "PayPal", "Braintree", "Square", "Authorize.
 
 What is the best SaaS Billing system to serve your company’s needs and provide a robust, yet simple integration for your product?
 
-Choosing the best Payment Gateway is definitely not the easiest choice to make! That’s why we decided to provide a cohesive roadmap to navigate you and your company through the individual differences of every major payment gateway out there.
+Choosing the best Payment Gateway is definitely not the easiest choice to make! That’s why we decided to provide a cohesive roadmap to navigate you and your company through the individual differences of every major [payment gateway](/blog/how-to-accept-visa-payments-online/) out there.
 
 Still looking to understand the basics? Check out our [guide to accepting payments online](/blog/2022-05-03-how-to-accept-online-payments-on-your-website/)
 
@@ -20,7 +20,7 @@ In the early days of running a software company, collecting payments was pretty 
 
 Jump to today where most (even all) software companies are using a SaaS business model, things are not so simple. As the complexity of services and software is advancing, so does the pricing for those products. 
 
-Recurring payments, multiple and varying pricing plans, yearly and monthly billing, add-ons, variable payments, pay-per-usage, the list goes on. 
+[Recurring payments](/blog/recurring-payment-saas-secret-sauce/), multiple and varying pricing plans, yearly and monthly billing, add-ons, variable payments, pay-per-usage, the list goes on. 
 
 Entering the world of SaaS Billing and the complexities that companies face, in this guide we are going to take you through:
 
@@ -43,18 +43,18 @@ Each step needs a different system:
 
 Combining all 3 of them creates a seamless process that’s automated and happens in the “backend” or the background of a payment processing activity. 
 
-![diagram explaining the payment gateway and merchant account steps](/img/best-payment-gateways/pricewell-billing-process.png)
+![diagram explaining the [payment gateway](/blog/how-to-accept-visa-payments-online/) and merchant account steps](/img/best-payment-gateways/pricewell-billing-process.png)
 <small style="text-decoration:underline;">(original source: [ChartMogul](https://chartmogul.com/))</small>
 
 ### Payment Gateway
 
-A payment gateway is a system that allows customers to send their payment information securely. When your customers enter their credit card and billing information, the payment gateway contacts the bank, informing them of the amount that needs to be charged. Paypal, Stripe, and Everypay are good examples.
+A [payment gateway](/blog/how-to-accept-visa-payments-online/) is a system that allows customers to send their payment information securely. When your customers enter their credit card and billing information, the [payment gateway](/blog/how-to-accept-visa-payments-online/) contacts the bank, informing them of the amount that needs to be charged. Paypal, Stripe, and Everypay are good examples.
 
 ### Merchant Account
 
 A merchant account is an account to which your customer’s payments are received. Meaning, that the merchant account provides the “haven” where the customer’s subscription money goes into.
 
-Conveniently enough, payment gateway systems, most of the time provide the merchant account. For example, Stripe, Revolut, and Braintree offer merchant accounts, with Stripe and Braintree being also payment gateways.
+Conveniently enough, [payment gateway](/blog/how-to-accept-visa-payments-online/) systems, most of the time provide the merchant account. For example, Stripe, Revolut, and Braintree offer merchant accounts, with Stripe and Braintree being also [payment gateway](/blog/how-to-accept-visa-payments-online/)s.
 
 ### Subscription Management
 
@@ -68,7 +68,7 @@ The subscription management system does exactly that. It lets you manage the pro
 
 Now that we have been introduced to the different parts of SaaS Billing, the next step is choosing the right subscription billing service (or services) to collect payments for your SaaS business.
 
-Either being payment gateways or/and merchant accounts or/and subscription management services, every tool out of the tons out there have their pros and cons. Either from a cost perspective or functionality and simplicity in integration, we are attempting a deep dive into the topmost reviewed and ranked SaaS billing services.
+Either being [payment gateway](/blog/how-to-accept-visa-payments-online/)s or/and merchant accounts or/and subscription management services, every tool out of the tons out there have their pros and cons. Either from a cost perspective or functionality and simplicity in integration, we are attempting a deep dive into the topmost reviewed and ranked SaaS billing services.
 
 ![table comparing payment providers, whether they are a gateway, merchant or both and their price](/img/best-payment-gateways/payment-provider-comparison.png)
 
@@ -76,12 +76,12 @@ Either being payment gateways or/and merchant accounts or/and subscription manag
 
 ![screenshot of stripe.com](/img/best-payment-gateways/stripe.png)
 
-[Stripe](https://stripe.com/en-gr) is the most popular SaaS billing system. It is both a payment gateway and merchant account, as well as a subscription management platform. One of the best features Stripe users value is usage-based pricing, which makes it easy for any SaaS startup to sign up and start using it. 
+[Stripe](https://stripe.com/en-gr) is the most popular SaaS billing system. It is both a [payment gateway](/blog/how-to-accept-visa-payments-online/) and merchant account, as well as a subscription management platform. One of the best features Stripe users value is usage-based pricing, which makes it easy for any SaaS startup to sign up and start using it. 
 
 **Advantages:**
 
-* Multiple Integrations(including [Pricewell](https://www.pricewell.io/))
-* Pricing is fairly friendly for new SaaS companies
+* [Multiple Integrations](/integrations/)(including [Pricewell](https://www.pricewell.io/))
+* [Pricing is fairly friendly for new SaaS companies](/blog/2022-04-16-how-to-choose-the-best-pricing-for-your-saas/)
 * All-in-one solution
 
 **Disadvantages:**
@@ -102,7 +102,7 @@ Stripe is a good fit for most SaaS companies, particularly for the ones just sta
 
 ![screenshot of braintree.com](/img/best-payment-gateways/braintree.png)
 
-[Braintree](https://www.braintreepayments.com/) is a service owned by Paypal, which has grown to a Stripe alternative for most SaaS companies. Similar to Stripe, Braintree is a payment gateway, merchant account, and subscription management platform.
+[Braintree](https://www.braintreepayments.com/) is a service owned by Paypal, which has grown to a Stripe alternative for most SaaS companies. Similar to Stripe, Braintree is a [payment gateway](/blog/how-to-accept-visa-payments-online/), merchant account, and subscription management platform.
 
 The greatest advantage of using Braintree, as a Paypal subsidiary, is the added benefit of being able to offer Paypal for payments. Braintree also works with mobile apps, as well as traditional SaaS.
 
@@ -133,9 +133,9 @@ Braintree is good for international SaaS companies, or the ones who want to acce
 
 [Recurly](https://recurly.com/)is a subscription management platform that gives you features omitted both in Stripe and Braintree for managing recurring billing.
 
-A requirement to use Recurly, however, is to already have a payment gateway and Merchant account. That effectively means that you use Recurly on top of services like Braintree or Stripe. 
+A requirement to use Recurly, however, is to already have a [payment gateway](/blog/how-to-accept-visa-payments-online/) and Merchant account. That effectively means that you use Recurly on top of services like Braintree or Stripe. 
 
-Some of the benefits you get from Recurly are better reporting, full-on subscription management, and enhanced flexibility for different billing models. For instance, whether you offer metered pricing, tiered pricing, freemium models, pay-per-usage, or any other hybrid model, Recurly can be set up to manage billing for any of them.
+Some of the benefits you get from Recurly are better reporting, full-on subscription management, and enhanced flexibility for different billing models. For instance, whether you offer [metered pricing](/metered-billing-tool/), tiered pricing, freemium models, pay-per-usage, or any other hybrid model, Recurly can be set up to manage billing for any of them.
 
 **Advantages:**
 
@@ -153,13 +153,13 @@ Recurly starts at $149 per month, plus 0.9% of revenue.
 
 #### Who is Recurly an ideal fit for?
 
-Recurly can serve well subscription businesses that already have a payment gateway and merchant account, but want more subscription management options and features.
+Recurly can serve well subscription businesses that already have a [payment gateway](/blog/how-to-accept-visa-payments-online/) and merchant account, but want more subscription management options and features.
 
 ### 4.Chargebee
 
 ![screenshot of chargebee.com](/img/best-payment-gateways/chargebee.png)
 
-[Chargebee](https://www.chargebee.com/)is a subscription management system for handling SaaS subscriptions and recurring billing. Chargebee, similarly to Recurly, is not a payment gateway nor a merchant account provider, so you’ll need to use it cooperatively with another service.
+[Chargebee](https://www.chargebee.com/)is a subscription management system for handling SaaS subscriptions and recurring billing. Chargebee, similarly to Recurly, is not a [payment gateway](/blog/how-to-accept-visa-payments-online/) nor a merchant account provider, so you’ll need to use it cooperatively with another service.
 
 Chargebee is focused on SaaS businesses, something that makes it intriguing as a subscription management option, as it provides features like price experimentation, upselling, tax automation, revenue recognition, managing trials, and others.
 
@@ -182,7 +182,7 @@ Chargebee has monthly and annual plans, starting at $248/month (for annual plans
 
 #### Who is Chargebee an ideal fit for?
 
-Chargebee can be a good option for those SaaS companies that want flexibility, automated processes, and want to use the experimentation functionality.
+Chargebee can be a [good option](/vs-chargebee/) for those SaaS companies that want flexibility, automated processes, and want to use the [experimentation functionality](/experiments/).
 
 ### 5. 2Checkout
 
@@ -190,9 +190,9 @@ Chargebee can be a good option for those SaaS companies that want flexibility, a
 
 [2Checkout](https://www.2checkout.com/homepage/)is an online payment processor that handles pretty much everything from digital goods and subscription services to selling physical goods and products.
 
-They offer a wide range of products, but the one dedicated to SaaS companies is 2Subscribe, which is for recurring revenue businesses. It offers a complete billing solution from the payment gateway to merchant account and subscription management.
+They offer a wide range of products, but the one dedicated to SaaS companies is 2Subscribe, which is for recurring revenue businesses. It offers a complete billing solution from the [payment gateway](/blog/how-to-accept-visa-payments-online/) to merchant account and subscription management.
 
-According to our research, 2Subscribe seems to be more focused on enterprises than smaller startups, but that can sometimes offer its own set of benefits. Accepting payments in over 200 countries and exposure to 2Checkout’s affiliate network can be attributed as 2 benefit examples.
+According to our research, 2Subscribe seems to be more focused on enterprises than smaller startups, but that can sometimes offer its own set of benefits. Accepting payments in over 200 countries and exposure to [2Checkout](/vs-stripe-checkout/)’s affiliate network can be attributed as 2 benefit examples.
 
 **Advantages:**
 
@@ -209,22 +209,22 @@ According to our research, 2Subscribe seems to be more focused on enterprises th
 
 The 2Subscribe plan charges 4.5% + 0.45$ per transaction
 
-#### Who is 2Checkout an ideal fit for?
+#### Who is [2Checkout](/vs-stripe-checkout/) an ideal fit for?
 
-2Checkout is an ideal option for larger SaaS companies that want a more Enterprise SaaS billing Solution, which provides you more Add-ons and features at a higher price.
+[2Checkout](/vs-stripe-checkout/) is an ideal option for larger SaaS companies that want a more Enterprise SaaS billing Solution, which provides you more Add-ons and features at a higher price.
 
 ### Chargify
 
 ![screenshot of chargify.com](/img/best-payment-gateways/chargify.png)
 
-[Chargify](https://www.chargify.com/) is a subscription management platform focusing on B2B SaaS (as shown on its website). Chargify can be the “contrarian” on our list, as it targets a specific type of recurring revenue business, in contrast to all above that attempt to differentiate their exposure.
+[Chargify](https://www.chargify.com/) is a subscription management platform focusing on B2B SaaS (as shown on its website). [Chargify can be the “contrarian”](/vs-chargify/) on our list, as it targets a specific type of recurring revenue business, in contrast to all above that attempt to differentiate their exposure.
 
-Chargify provides neither a payment gateway nor a merchant account, so using it on top of another service is a requirement.
+Chargify provides neither a [payment gateway](/blog/how-to-accept-visa-payments-online/) nor a merchant account, so using it on top of another service is a requirement.
 
 **Advantages:**
 
 * Manages the complete customer lifecycle (from billing to subscription management, analytics, and accounting)
-* Works well with multiple products’ offers and integrates with many payment gateways
+* Works well with multiple products’ offers and integrates with many [payment gateway](/blog/how-to-accept-visa-payments-online/)s
 * Good for companies with complex pricing and billing plans
 
 **Disadvantages:**
@@ -244,7 +244,7 @@ Good for mid-large SaaS B2B with complex billing needs
 
 ![screenshot of everypay.gr](/img/best-payment-gateways/everypay.png)
 
-[Everypay](https://www.everypay.gr/)is a payment gateway offered in Europe. They serve almost every type of customer, either recurring billing or one-off purchases (more focused on e-commerce) and they provide cost-effective rates.
+[Everypay](https://www.everypay.gr/)is a [payment gateway](/blog/how-to-accept-visa-payments-online/) offered in Europe. They serve almost every type of customer, either recurring billing or one-off purchases (more focused on e-commerce) and they provide cost-effective rates.
 
 Even though the price is cheaper than competitors, Everypay offers fast processing and integrations with many services, specifically linked to e-commerce, like Magento and Woocommerce.
 
@@ -272,7 +272,7 @@ Everypay is an option for Europe-based Companies that require fast and cheap pro
 
 Receiving payments and managing subscriptions is the cornerstone of your SaaS business (you don’t get paid otherwise). So spending some time researching can save you tons of time and money.
 
-For most companies, Stripe, Braintree, and even Everypay can serve just right. But options like 2Checkout and Recurly should also be considered.
+For most companies, Stripe, Braintree, and even Everypay can serve just right. But options like [2Checkout](/vs-stripe-checkout/) and Recurly should also be considered.
 
 ## Integrating a Payment Gateway
 
@@ -280,4 +280,4 @@ Integration can be tricky, developers spend a long time wrangling with outdated 
 
 ## Save $25,000 on integration costs
 
-It's estimated that SaaS businesses spend in the region of $25,000 to integrate a new Payment Gateway. At [PriceWell](https://www.pricewell.io/) we try to make your life easier (and cheaper) by providing you the platform that helps you receive and manage subscriptions from your website, without setting up the payment gateway, speeding up the process by a lot, for free! [Save thousands by integrating with PriceWell](/register).
+It's estimated that SaaS businesses spend in the region of $25,000 to integrate a new Payment Gateway. At [PriceWell](https://www.pricewell.io/) we try to make your life easier (and cheaper) by providing you the platform that helps you receive and manage subscriptions from your website, without setting up the [payment gateway](/blog/how-to-accept-visa-payments-online/), speeding up the process by a lot, for free! [Save thousands by integrating with PriceWell](/register).

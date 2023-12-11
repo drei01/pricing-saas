@@ -5,8 +5,6 @@ draft: false
 tags: ["SaaS", "Stripe", "Billing"]
 ---
 
-Comfortable with code and looking for tutorials on building a SaaS? [Check out saasbase.dev](https://saasbase.dev)
-
 ## Here's what you need to build a SaaS from the ground up
 
 We've put together a killer list of tips to make building your SaaS a breeze. We undertook all this time consuming research so you don't have to.
@@ -32,11 +30,11 @@ Now you've determined that there is real demand for your product, it's time to g
 
 ![hand holding a credit card near a laptop](/img/entering-credit-card.jpg)
 
-From your pricing page to collecting and managing subscriptions, payments are the bread and butter of your SaaS. Let's face it, without them you don't have a business at all. You can't go anywhere in the SaaS world without hearing about [Stripe](/blog/stripe-login/), they are by far the largest payment provider in the business and with good reason. They have top notch API documentation, all the features you will ever want and reasonable pricing. 
+From your [pricing page](/blog/2022-04-16-how-to-choose-the-best-pricing-for-your-saas/) to collecting and managing subscriptions, payments are the bread and butter of your SaaS. Let's face it, without them you don't have a business at all. You can't go anywhere in the SaaS world without hearing about [Stripe](/blog/stripe-login/), they are by far the largest payment provider in the business and with good reason. They have top notch API documentation, all the features you will ever want and reasonable pricing. 
 
 #### The trick to saving weeks integrating subscription payments
 
-The problem is, coding all the subscription payment architecture will take you weeks. That's time you could be spending building your actual application (remember, the one you pre-sales customers already paid for?). We at [PriceWell](https://www.pricewell.io) have got you covered. PriceWell is built on top of Stripe so you can rely on their underlying infrastructure and use our drag and drop interface to get your subscriptions up and running in **minutes**, not weeks (yes, you read that right, minutes).
+The problem is, coding all the subscription payment architecture will take you weeks. That's time you could be spending building your actual application (remember, the one you pre-sales customers already paid for?). We at [PriceWell](https://www.pricewell.io) have got you covered. PriceWell is [built on top of Stripe](/integrations/) so you can rely on their underlying infrastructure and use our drag and drop interface to get your subscriptions up and running in **minutes**, not weeks (yes, you read that right, minutes).
 
 ### User registration and authentication
 
