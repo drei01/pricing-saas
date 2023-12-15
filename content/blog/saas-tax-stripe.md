@@ -94,7 +94,7 @@ There is a threshold of A$75,000/year, that if your business passes, is required
   
 B2B
 
-Selling exclusively B2B as an overseas business , then there is nothing to worry about GST-wise, since your sales are under the [reserve-change mechanism](https://cleartax.in/s/reverse-charge-gst%23:~:text%3DReverse%2520charge%2520is%2520a%2520mechanism,GST)%2520instead%2520of%2520the%2520supplier.&sa=D&source=editors&ust=1643129610663334&usg=AOvVaw2_ivcs0rzlimyCcvXac2UR) . In short, your Australian Business Partners (Buyers) are actually the ones handling GST for you.
+Selling exclusively B2B as an overseas business , then there is nothing to worry about GST-wise, since your sales are under the [reserve-change mechanism](https://cleartax.in/s/reverse-charge-gst). In short, your Australian Business Partners (Buyers) are actually the ones handling GST for you.
 
 However, if you are selling a mix of B2B and B2C services, then the A$75,000 threshold rule applies to your business.
 
