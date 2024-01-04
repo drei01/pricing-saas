@@ -64,9 +64,8 @@ draft: false
             </div>
 
         </div>
-        <div class="order-1 md:order-2">
-<div class="calendly-inline-widget" data-url="https://calendly.com/matthew_reid/pricewell?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:630px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <div class="order-1 md:order-2"><iframe src="https://calendly.com/matthew_reid/pricewell?embed_domain=localhost%3A1313&embed_type=Inline&hide_event_type_details=1&hide_gdpr_banner=1" class="w-full rounded-lg shadow-lg h-[600px]"/>
+        </div>
         </div>
       </div>
     </div>
