@@ -23,7 +23,15 @@ draft: false
         </p>
 
         <p class="pt-4">
-                    I've made all the mistakes and I'm here to teach you how to avoid them. So you can concentrate on your business and not on payments.
+                    Are you a <span class="font-bold">Stripe beginner</span> or just wanting to avoid spending hours looking through Stripe's documentation?
+        </p>
+
+        <p class="pt-4">
+                   It's very easy to make mistakes (believe me, I've made them all). I'm here to teach you the tips and tricks. So you can concentrate on your business and not on payments.
+        </p>        
+
+        <p class="pt-4">
+                    In 30 minutes I can walk you through how to set everything up. No sales pitch just practical advice. If I can't help on the call. I'll email you directly afterwards with actionable instructions.
         </p>
         
 <div class="pt-8">
