@@ -11,12 +11,10 @@ draft: false
 
     <div class="mt-10">
       <div class="space-y-10 md:space-y-0 grid grid-cols-1 md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-        <div class="py-8 px-16 rounded text-left order-2 md:order-1">
-        <div class="flex">
-        <h1 class="mt-2 text-3xl md:text-4xl lg:text-5xl font-bold leading-8 font-extrabold tracking-tight text-gray-900 ">I'm Matt, Pricing and Stripe expert.</h1>
-        <img src="/images/matt.png"
-							alt=""
-							class="object-contain h-40 rounded-full ring-2 ring-black bg-white">
+        <div class="py-8 px-8 md:px-16 rounded text-left">
+        <div class="flex flex-col md:flex-row space-y-4">
+            <h1 class="mt-2 text-3xl md:text-4xl lg:text-5xl font-bold leading-8 font-extrabold tracking-tight text-gray-900">I'm Matt, Pricing and Stripe expert.</h1>
+            <img src="/images/matt.png" alt="" class="object-contain sm:h-40 w-1/2 sm:w-auto rounded-full ring-2 ring-black bg-white">
         </div>
 
         <div class="text-lg pt-8">
@@ -31,7 +29,7 @@ draft: false
 <div class="pt-8">
             <div class="flex">
             <a href="https://calendly.com/pricewell-matt/consult" class="underline">Book your consultation for <span class="font-bold">$99</span> today!</a>
-            <img src="/images/arrow.png" alt="" class="w-8 m-auto pt-4 flip relative bottom-4"/>
+            <img src="/images/arrow.png" alt="" class="w-8 m-auto pt-4 flip relative bottom-4 hidden md:visible"/>
             </div>
             <div class="pt-4 flex items-center">
             {{<partial "testimonial-avatars">}}
@@ -44,7 +42,7 @@ draft: false
 
 
         </div>
-        <div class="order-1 md:order-2"> 
+        <div> 
             <!-- Cal inline embed code begins -->
 <div style="width:100%;height:100%;overflow:scroll" id="my-cal-inline"></div>
 <!-- Cal inline embed code begins -->
