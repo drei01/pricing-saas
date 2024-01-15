@@ -105,9 +105,6 @@
             <li>
               <a href="/stripe-tax" class="text-base hover:text-gray-500">Stripe Tax</a>
             </li>
-            <li>
-              <button id="webinar" sp-show-form="218200" class="text-base hover:text-gray-500">Free Pricing Workshop</button>
-            </li>
             <li><a href="/blog/credit-card-declines-what-do-codes-mean/" class="text-base hover:text-gray-500">Credit Card decline codes</a></li>
             <li><a href="/blog/2022-05-03-how-to-accept-online-payments-on-your-website/" class="text-base hover:text-gray-500">How to accept online payments</a></li>
           </ul>
@@ -333,19 +330,11 @@ if (document.cookie && !document.cookie.split('; ').find(row => row.startsWith('
   window.addEventListener('DOMContentLoaded', function () {
         window.loadScript('https://www.cdn.privado.ai/d72b5afcd789421cb44e2bde5566a97b.js');
         window.loadScript('https://client.crisp.chat/l.js',{}, true)
-        window.loadScript('https://web.webformscr.com/apps/fc3/build/loader.js', {'sp-form-id': "2b2f8088de74b2cec1a22b2a4fc7f09df76c8d4bf09e835306ecd1ea39f5e724"}, true)
         window.loadScript('https://widget.senja.io/embed/frame.js',{}, true);
         window.loadScript('https://reflio.com/js/reflio.min.js', {'data-reflio':'jcasekpqwxroyrf'}, true)
   });
 </script>
-<script src="/js/glio.js"></script>
 <script>
-  glio.init(['top', function() {
-    document.getElementById('webinar').click();
-  }]);
-  setTimeout(function() {
-    document.querySelectorAll('.sp-brandname__left').forEach(el => el.remove());
-  }, 1000);
   setTimeout(function() {
     const senjaFrame = document.getElementsByClassName('senja-frame-embed')[0].getElementsByTagName('iframe')[0];
     if (senjaFrame) {
