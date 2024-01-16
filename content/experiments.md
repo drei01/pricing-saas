@@ -62,7 +62,7 @@ description: SaaS pricing experiments with Stripe Checkout using PriceWell
                     Pricing Strategy with Confidence
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    SaaS Pricing Pages are notoriously tricky to get right. We've all found ourselves sat there googling "best pricing pages saas" and trying to figure out what the best pricing page looks like. Which pricing tiers should you have, which pricing model? Now you don't have to guess, you can test multiple variants and find out what works best for your business.
+                    SaaS Pricing Pages are notoriously tricky to get right. We've all found ourselves sat there googling "best pricing pages saas" and trying to figure out what the best pricing page looks like. Which pricing tiers should you have, which pricing model? Now you don't have to guess, you can test multiple variants and find out what works <a href="/blog/a-b-price-testing" class="text-blue-600 font-bold hover:underline">best for your business</a>.
                 </p>
             </div>
         </div>
