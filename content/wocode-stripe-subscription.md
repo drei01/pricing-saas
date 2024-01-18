@@ -124,7 +124,7 @@ description: Add Stripe Subscription to your WoCode website without hiring a dev
 <div class="bg-gradient-to-b from-gray-100 to-white lg:mb-16 xl:mb-24 py-12 lg:pt-20 relative overflow-hidden">
      <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-3 gap-x-12 lg:gap-x-20">
             <div class="order-2 md:order-1 col-span-1">
-                <img src='/img/tools/logos/without-code-logo.png' alt="WoCode logo" />
+                <img src='/img/tools/logos/wocode-logo.png' alt="WoCode logo" />
             </div>
             <div class="order-1 md:order-2 col-span-2 self-center mt-12 md:mt-0">
             <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
