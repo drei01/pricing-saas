@@ -343,7 +343,9 @@ if (document.cookie && !document.cookie.split('; ').find(row => row.startsWith('
 </script>
 <script>
   setTimeout(function() {
-    const senjaFrame = document.getElementsByClassName('senja-frame-embed')[0].getElementsByTagName('iframe')[0];
+    const senjaWrapper = document.getElementsByClassName('senja-frame-embed')[0];
+    if (!senjaWrapper) return;
+    const senjaFrame = senjaWrapper.getElementsByTagName('iframe')[0];
     if (senjaFrame) {
       senjaFrame.style.height = parseInt(senjaFrame.style.height.replace('px','')) - 35 + 'px';
     }
