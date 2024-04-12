@@ -20,7 +20,7 @@
           <meta name="twitter:image" content="{{ . | absURL }}" />
           <meta name="twitter:image:src" content="{{ . | absURL }}" /> 
         {{ else }}
-          {{if eq .File.Dir "/"}}
+          {{if and (eq .File.Dir "/") (ne .File.Path "/saas-customer-calculator.md")}}
           <meta itemprop="image" content="{{ "/images/social-image.png" | absURL }}" />
           <meta property="og:image" content="{{ "/images/social-image.png" | absURL }}" /> 
           <meta name="twitter:image" content="{{ "/images/social-image.png" | absURL }}" />
