@@ -20,11 +20,16 @@
           <meta name="twitter:image" content="{{ . | absURL }}" />
           <meta name="twitter:image:src" content="{{ . | absURL }}" /> 
         {{ else }}
-          {{if and (eq .File.Dir "/") (ne .File.Path "/saas-customer-calculator.md")}}
+          {{if and (eq .File.Dir "/") (ne .File.Path "saas-customer-calculator.md")}}
           <meta itemprop="image" content="{{ "/images/social-image.png" | absURL }}" />
           <meta property="og:image" content="{{ "/images/social-image.png" | absURL }}" /> 
           <meta name="twitter:image" content="{{ "/images/social-image.png" | absURL }}" />
           <meta name="twitter:image:src" content="{{ "/images/social-image.png" | absURL }}" /> 
+          {{else if eq .File.Path "saas-customer-calculator.md"}}
+          <meta itemprop="image" content="{{ "/img/saas-calculator-og.png" | absURL }}" />
+          <meta property="og:image" content="{{ "/img/saas-calculator-og.png" | absURL }}" /> 
+          <meta name="twitter:image" content="{{ "/img/saas-calculator-og.png" | absURL }}" />
+          <meta name="twitter:image:src" content="{{ "/img/saas-calculator-og.png" | absURL }}" /> 
           {{else}}
           <meta itemprop="image" content="https://pricewell-og-images.vercel.app/api/og?title={{.Title}}" />
           <meta property="og:image" content="https://pricewell-og-images.vercel.app/api/og?title={{.Title}}" /> 
@@ -50,6 +55,7 @@
     </head>
 
     <body class="font-sans">
+
         <div id="content">
             <div>
               
