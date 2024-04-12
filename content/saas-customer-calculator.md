@@ -99,7 +99,7 @@ draft: false
 <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8 text-center">
     SaaS Million Dollar Customer Calculator
 </h1>
-<h3 class="text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto mb-4">How much should you charge for your SaaS? Use our calculator to work how many customers you need to reach that magic✨ million dollars ARR (Annual Run Rate).</h3>
+<h3 class="text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto mb-4 px-4">How much should you charge for your SaaS? Use our calculator to work how many customers you need to reach that magic✨ million dollars ARR (Annual Run Rate).</h3>
  </div>
 
 <section class="calculator bg-white relative py-16" id="calculator"></section>
@@ -192,10 +192,10 @@ render(html`<${Calculator}/>`, document.getElementById("calculator"));
 <h3 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8 text-center">
     Now what?
 </h3>
-<p class="text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto mb-4">Now you know what you have to charge your customers to earn a Million dollars a year. Next, it's time to build your app. There's a bunch of no-code tools like <a href="https://bubble.io/template/saas-stripe-billing-included-1696494539976x572962782574018600" class="underline">Bubble</a>, <a href="https://help.pricewell.com/integrations/webflow/" class="underline">Webflow</a> and even <a href="https://help.pricewell.com/integrations/notion-and-super-so/" class="underline">Notion</a>. Now you need a way to accept payments with Stripe. That's where PriceWell comes in 👇🏻 </p>
+<p class="text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto mb-4 px-4">Now you know what you have to charge your customers to earn a Million dollars a year. Next, it's time to build your app. There's a bunch of no-code tools like <a href="https://bubble.io/template/saas-stripe-billing-included-1696494539976x572962782574018600" class="underline">Bubble</a>, <a href="https://help.pricewell.com/integrations/webflow/" class="underline">Webflow</a> and even <a href="https://help.pricewell.com/integrations/notion-and-super-so/" class="underline">Notion</a>. Now you need a way to accept payments with Stripe. That's where PriceWell comes in 👇🏻 </p>
  </div>
 <div class="flex justify-center bg-gray-100 pt-12">
-<div class="w-1/2">
+<div class="w-full md:w-1/2 px-4">
 {{< partial "promo-video">}}
 </div>
 </div>
