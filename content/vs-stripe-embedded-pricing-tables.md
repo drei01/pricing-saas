@@ -14,7 +14,7 @@ draft: false
         </div>
         <div class="py-8 px-4 md:px-32 w-full">
             <div class="mb-8 md:px-32">
-            <p>Stripe's Pricing Tables are great and for very simple use cases you won't need anything else. But, they have some big drawbacks. Stripe hasn't updated their pricing tables feature for a long time and it seems like they're letting it whither and die. At PriceWell, pricing tables and no-code especially is our code business so you can guarantee we're going to keep updating our features for years to come. For starters we support <span class="font-bold">add-ons</span> and one-time payments. Let's take a look at a feature comparison between the two...</p>
+            <p>Stripe's Pricing Tables are great and for very simple use cases you won't need anything else. But, they have some big drawbacks. Stripe hasn't updated their pricing tables feature for a long time and it seems like they're letting it whither and die. At PriceWell, pricing tables and no-code especially is our code business so you can guarantee we're going to keep updating our features for years to come. For starters we support <span class="font-bold">add-ons</span>, one-time payments and <a href="/experiments" class="underline">A/B testing</a>. Let's take a look at a feature comparison between the two...</p>
 
             <div class="bg-gray-100 pb-16 mt-8 border border-gray-100 rounded-lg">
                 <div class="flex flex-col w-full max-w-screen-md m-auto">
@@ -145,6 +145,35 @@ draft: false
                     </div>
                     <div class="flex items-center h-12 px-4 border-b border-gray-500">
                         <div class="w-40 md:w-60">Supports add-ons</div>
+                        <div class="flex justify-center flex-grow w-0">
+                            <svg
+                                class="w-4 h-4 text-green-600 font-bold fill-current"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                    clip-rule="evenodd"
+                                />
+                            </svg>
+                        </div>
+                        <div class="flex justify-center flex-grow w-0">
+                            <svg class="w-4 h-4 text-red-600 fill-current" viewBox="0 0 365 365" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path
+                                        d="M356.34 296.348L69.727 9.734c-12.5-12.5-32.766-12.5-45.247 0L9.375 24.816c-12.5 12.504-12.5 32.77 0 45.25L295.988 356.68c12.504 12.5 32.77 12.5 45.25 0l15.082-15.082c12.524-12.48 12.524-32.75.02-45.25zm0 0"
+                                    />
+                                    <path
+                                        d="M295.988 9.734L9.375 296.348c-12.5 12.5-12.5 32.77 0 45.25l15.082 15.082c12.504 12.5 32.77 12.5 45.25 0L356.34 70.086c12.504-12.5 12.504-32.766 0-45.246L341.258 9.758c-12.5-12.524-32.766-12.524-45.27-.024zm0 0"
+                                    />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="flex items-center h-12 px-4 border-b border-gray-500">
+                        <div class="w-40 md:w-60">A/B Testing</div>
                         <div class="flex justify-center flex-grow w-0">
                             <svg
                                 class="w-4 h-4 text-green-600 font-bold fill-current"
