@@ -34,7 +34,9 @@ type: page
                 >
                     Try PriceWell for Free
                 </a>
-                <a href="/book-free-demo" class="button-white">Book a Demo</a>
+                <a href="/book-free-demo" class="button-white-bg bg-none md:bg-[url('/images/matt.png')]  bg-no-repeat bg-left bg-contain">
+                    Book a Demo
+                </a>
             </div>
 
             <p class="text-gray-500 text-sm mb-6 mt-2">No credit card required.</p>
