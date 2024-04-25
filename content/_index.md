@@ -144,8 +144,14 @@ type: page
                     Pricing Tables
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Pricing Tables can be embedded anywhere on your website. You can change pricing at any time without ever writing any code. Customize the design to match your brand and make changes whenever you want. This is the fastest way to implement Stripe Checkout. 
-                </p>                
+                    Pricing Tables can be embedded anywhere on your website. You can change pricing at any time without ever writing any code. Customize the design to match your brand, apply add-ons, accept coupon codes etc. This is the fastest way to implement Stripe Checkout.
+                </p>   
+                 <a href="https://app.pricewell.io/register"
+                    class="button"
+                    data-analytics="Signup"
+                >
+                    Create a Free Pricing Table
+                </a>         
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
                 <img src='images/select-pricing-plans.png' class="rounded-lg shadow-2xl" alt="" />
@@ -167,6 +173,12 @@ type: page
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
                     Let customers manage their subscription on your terms. Designed to fit into your existing website, the embeddable Customer Portal takes minutes to set up. Simply drop the widget into your website and you no longer have to worry about subscription management.
                 </p>
+                <a href="https://app.pricewell.io/register"
+                    class="button"
+                    data-analytics="Signup"
+                >
+                    Create your free portal page
+                </a>
             </div>
         </div>
     </div>
@@ -180,6 +192,12 @@ type: page
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
                     Gated Content allows you to create a paywall for your content. You can restrict access to a single page or an entire website. Great for newsletters, courses and SaaS products.
                 </p>                
+                <a href="https://app.pricewell.io/register"
+                    class="button"
+                    data-analytics="Signup"
+                >
+                    Create a paywall
+                </a>
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
                 <img src='images/gated-content-screen.png' class="rounded-lg shadow-2xl" alt="" />
