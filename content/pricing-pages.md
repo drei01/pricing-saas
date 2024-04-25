@@ -1,5 +1,5 @@
 ---
-title: Stripe Pricing Pages
+title: Stripe Pricing Tables
 date: 2020-12-01T14:54:28+01:00
 draft: false
 type: page

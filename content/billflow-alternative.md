@@ -30,10 +30,10 @@ No matter your Billflow setup, PriceWell has you covered. We support multiple pr
 
 Some features you will be familiar with include:
 
-## Embeddable Pricing Pages
-![Billflow alternative PriceWell Embeddable Pricing Pages](images/select-pricing-plans.png)
+## Embeddable Pricing Tables
+![Billflow alternative PriceWell Embeddable Pricing Tables](images/select-pricing-plans.png)
 
-[Pricing Pages](/pricing-pages) can be embedded anywhere on your website. You can change pricing at any time without ever writing any code. Customize the design to match your brand and make changes whenever you want. This is the fastest way to implement Stripe Checkout.
+[Pricing Tables](/pricing-pages) can be embedded anywhere on your website. You can change pricing at any time without ever writing any code. Customize the design to match your brand and make changes whenever you want. This is the fastest way to implement Stripe Checkout.
 
 ## [Customer Portal](/customer-portal/)
 ![Billflow alternative Stripe Customer Portal](img/stripe-customer-portal.png)

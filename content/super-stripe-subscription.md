@@ -53,10 +53,10 @@ description: Add Stripe Subscription to your Super website without hiring a deve
             </div>
             <div class="order-1 md:order-2 col-span-2 self-center mt-12 md:mt-0">
             <h2 class="text-gray-800 text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4 lg:mb-8">
-                    Pricing Pages
+                    Pricing Tables
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Pricing Pages can be embedded anywhere on your Super website. You can change pricing at any time without ever writing any code. Customize the design to match your brand and make changes whenever you want. This is the fastest way to implement Stripe Checkout. 
+                    Pricing Tables can be embedded anywhere on your Super website. You can change pricing at any time without ever writing any code. Customize the design to match your brand and make changes whenever you want. This is the fastest way to implement Stripe Checkout. 
                 </p>
             </div>
         </div>
