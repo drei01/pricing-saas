@@ -5,6 +5,7 @@ module.exports = {
     theme: {
         rotate: {
             120: '120deg',
+            60: '60deg',
         },
         colors: {
             transparent: 'transparent',
@@ -63,6 +64,11 @@ module.exports = {
                 700: '#7ea4a5',
                 800: '#658384',
                 900: '#526b6c',
+            },
+            extend: {
+                scale: {
+                    '-100': '-1',
+                },
             },
         },
     },
