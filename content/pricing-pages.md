@@ -10,7 +10,7 @@ description: Integrate Stripe Checkout without writing code
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-1 col-span-2 self-center my-12 md:my-0">
             <h1 class="text-gray-800 text-3xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-4 lg:mb-8">
-                Spend more time on your business. <br/> Create a World Class Pricing Page in Minutes
+                Spend more time on your business. <br/> Create a World Class Pricing Table in Minutes
             </h1>
             <div class="flex space-x-4 mt-6">
                 <a href="https://app.pricewell.io/register"
@@ -75,7 +75,7 @@ description: Integrate Stripe Checkout without writing code
                     Designed to match your website
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Design and Customize your Pricing Page, so it matches your website’s theme and attitude. 
+                    Design and Customize your Pricing Table, so it matches your website’s theme and attitude. 
 You can change it any time you want and the changes happen <b>live</b> on your pricing page. No need to wait for a developer to update your pricing.
                 </p>
             </div>

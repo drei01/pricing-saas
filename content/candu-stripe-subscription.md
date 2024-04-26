@@ -96,7 +96,7 @@ description: Add Stripe Subscription to your Candu website without hiring a deve
                     Designed to fit your existing Candu site
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    The Customer Portal and Pricing Page is completely configurable to match your existing website.
+                    The Customer Portal and Pricing Table is completely configurable to match your existing website.
                 </p>                
             </div>
         </div>

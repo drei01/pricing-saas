@@ -112,7 +112,7 @@ type: page
             <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
             <path d="M22 4L12 14.01l-3-3"></path>
           </svg>
-          <span class="title-font font-medium">Embeddable Pricing Page</span>
+          <span class="title-font font-medium">Embeddable Pricing Table</span>
         </div>
       </div>
       <div class="p-2 sm:w-1/2 w-full">
@@ -327,7 +327,7 @@ type: page
                     </button>
                     <div id="testMode" class="py-4" style="display:none;">
                     Yes. You need to connect your live Stripe account in order to set up your PriceWell account. Once your
-                    account is connected you can switch an individual Pricing Page between Test and Live mode. In test mode
+                    account is connected you can switch an individual Pricing Table between Test and Live mode. In test mode
                     you can use test credit cards (see the 
                     <a
                         href="https://stripe.com/docs/testing"

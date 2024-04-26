@@ -14,7 +14,7 @@ It's likely you will have to pay tax in the countries of your customers (not the
 
 ## Always collect the billing address of your customer
 
-It's important to collect your customer's billing address so you know how much tax to charge (it's different by country and even by state/region within some countries). PriceWell will collect the billing address for you as long as you have this feature enabled (the default) in your Pricing Page, so you don't need to worry about this. In some countries you will need to collect *at least two* forms of evidence for the customer's location. They could be:
+It's important to collect your customer's billing address so you know how much tax to charge (it's different by country and even by state/region within some countries). PriceWell will collect the billing address for you as long as you have this feature enabled (the default) in your Pricing Table, so you don't need to worry about this. In some countries you will need to collect *at least two* forms of evidence for the customer's location. They could be:
 
 - Billing address
 - Bank location
@@ -38,7 +38,7 @@ If your SaaS is based in the EU, it depends whether you are Business to Business
 
 ### EU VAT - B2B
 
-You **don't** need to charge VAT because of [reverse-taxation](https://www.avalara.com/vatlive/en/eu-vat-rules/eu-vat-returns/reverse-charge-on-eu-vat.html). However your business **must** be registered for tax and have a VAT number and you must **collect your customer's VAT number**. PriceWell lets you collect your customer's VAT number during payment, you just have to enable this feature in your Pricing Page.
+You **don't** need to charge VAT because of [reverse-taxation](https://www.avalara.com/vatlive/en/eu-vat-rules/eu-vat-returns/reverse-charge-on-eu-vat.html). However your business **must** be registered for tax and have a VAT number and you must **collect your customer's VAT number**. PriceWell lets you collect your customer's VAT number during payment, you just have to enable this feature in your Pricing Table.
 
 ### EU VAT - B2C
 

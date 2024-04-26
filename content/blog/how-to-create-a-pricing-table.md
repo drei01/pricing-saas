@@ -24,9 +24,9 @@ Of course this is only the HTML structure, now you want to connect all the "Buy 
 
 *Plain CSS*: [CSS Pricing Table Tutorial](https://dev.to/satishnaikawadi2001/build-beautiful-pricing-plan-tables-with-html-and-css-5bh3)
 
-*Bootstrap*: [Bootstrap 5 Pricing Page Tutorial](https://www.youtube.com/watch?v=HkT9VR_1r1A)
+*Bootstrap*: [Bootstrap 5 Pricing Table Tutorial](https://www.youtube.com/watch?v=HkT9VR_1r1A)
 
-*Tailwind*: [Tailwind CSS Pricing Page Tutorial](https://dev.to/michaelburrows/style-a-responsive-pricing-table-with-tailwind-css-2l2k)
+*Tailwind*: [Tailwind CSS Pricing Table Tutorial](https://dev.to/michaelburrows/style-a-responsive-pricing-table-with-tailwind-css-2l2k)
 
 ## How to Create a Pricing Table with WordPress
 
