@@ -33,8 +33,9 @@ description: Add Stripe Subscription to your Pory website without hiring a devel
                     class="button"
                     data-analytics="Signup"
                 >
-                    Get started for free
+                    Get Started Free
                 </a>
+                <a href="https://help.pricewell.com/integrations/pory/" class="button-white">Step-by-step Guide</a>
             </div>
 
             <p class="text-gray-500 text-sm">No credit card required.</p>
