@@ -65,9 +65,9 @@ draft: false
 
         </div>
         <div class="order-1 md:order-2 flex flex-col space-y-4">
-        <div class="ml-auto flex items-center space-x-2">
-            <h3 class="text-lg leading-8 font-bold">Matt</h3>
-            <img src="/images/matt.png" alt="" class="object-contain h-14 rounded-full ring-2 ring-black bg-white">
+        <div class="hidden sm:flex ml-auto items-center space-x-2 bg-white px-4 rounded-lg shadow">
+            <h3 class="text-lg leading-8">Schedule your demo with Matt</h3>
+            <img src="/images/matt.png" alt="" class="object-contain h-14 bg-white">
         </div>
         <iframe src="https://calendly.com/matthew_reid/pricewell?embed_domain=localhost%3A1313&embed_type=Inline&hide_event_type_details=1&hide_gdpr_banner=1" class="w-full rounded-lg shadow-lg h-[600px]"/>
         </div>
