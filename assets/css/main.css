@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+code::before {
+    content: normal!important;
+}
+
+code::after {
+    content: normal!important;
+}
+
+code {
+    @apply bg-gray-200 rounded p-1;
+}
+
 .senja-frame-embed {
     @apply relative z-10;
 }
