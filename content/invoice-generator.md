@@ -3,6 +3,7 @@ title: Stripe invoice PDF generator
 date: 2022-06-01T00:54:28+01:00
 draft: false
 type: page
+og_image: /img/og-invoice-generator.jpg
 description: Stripe collect cancellation reasons from customers and provide insights into how they are using their subscriptions.
 ---
 {{<rawhtml>}}
@@ -21,11 +22,11 @@ description: Stripe collect cancellation reasons from customers and provide insi
                     class="button"
                     data-analytics="Signup"
                 >
-                    Create Your Invoice PDF
+                    Create Your Free Invoice PDF
                 </a>
             </div>
 
-            <p class="text-gray-500 text-sm mb-6 mt-2">No credit card required.</p>
+            <p class="text-gray-500 text-sm mb-6 mt-2">No sign-up or credit card required.</p>
 
             <div class="flex space-x-2 justify-start items-center mt-8">
              {{< partial "testimonial-avatars" >}}
