@@ -4,7 +4,7 @@ date: 2022-06-01T00:54:28+01:00
 draft: false
 type: page
 og_image: /img/og-invoice-generator.jpg
-description: Stripe collect cancellation reasons from customers and provide insights into how they are using their subscriptions.
+description: Free PDF invoice generator for Stripe. Create and download invoices for your Stripe payments and payment links.
 ---
 {{<rawhtml>}}
     <div class="py-12 md:py-24">
