@@ -35,7 +35,6 @@ description: Add Stripe Subscription to your Potion website without hiring a dev
                 >
                     Get started for free
                 </a>
-                <a href="https://help.pricewell.com/integrations/pory/" class="button-white">Step-by-step Guide</a>
             </div>
 
             <p class="text-gray-500 text-sm">No credit card required.</p>
