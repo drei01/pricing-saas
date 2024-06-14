@@ -34,6 +34,7 @@ description: Add Stripe Subscription to your Duda website without hiring a devel
                 >
                     Get started for free
                 </a>
+                <a href="https://help.pricewell.com/integrations/duda/" class="button-white">Step-by-step Guide</a>
                 
             </div>
 
