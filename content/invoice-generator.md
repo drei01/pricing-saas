@@ -73,7 +73,7 @@ description: Free PDF invoice generator for Stripe. Create and download invoices
                 </p>        
 
                 <div class="flex space-x-4 mt-6">
-                <a href="https://app.pricewell.io/register"
+                <a href="https://app.pricewell.io/invoice-generator"
                     class="button"
                     data-analytics="Signup"
                 >
