@@ -345,14 +345,24 @@ if (document.cookie && !document.cookie.split('; ').find(row => row.startsWith('
   });
 </script>
 <script>
-  setTimeout(function() {
-    const senjaWrapper = document.getElementsByClassName('senja-frame-embed')[0];
-    if (!senjaWrapper) return;
-    const senjaFrame = senjaWrapper.getElementsByTagName('iframe')[0];
-    if (senjaFrame) {
-      senjaFrame.style.height = parseInt(senjaFrame.style.height.replace('px','')) - 35 + 'px';
+   const senjaWrapper = document.getElementsByClassName('senja-frame-embed')[0];
+    if (senjaWrapper){
+      const observer = new MutationObserver((mutationList, observer) => {
+        const senjaFrame = senjaWrapper.getElementsByTagName('iframe')[0];
+        if (!senjaFrame) {
+          return;
+        }
+        for (const mutation of mutationList) {
+          if (mutation.type === "attributes" && mutation.attributeName === "style" && senjaFrame.style.height && senjaFrame.style.height !== '0px') {
+              setTimeout(() => {
+                senjaFrame.style.height = parseInt(senjaFrame.style.height.replace('px','')) - 35 + 'px';
+              }, 1000);
+              observer.disconnect();
+          }
+        }
+      });
+      observer.observe(senjaWrapper, { attributes: true, childList: false, subtree: false });
     }
-  }, 2000)
 </script>
 </body>
 </html>
