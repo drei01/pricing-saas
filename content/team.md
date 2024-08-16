@@ -13,7 +13,7 @@ draft: false
 		</div>
 	</div>
 	<div class="prose prose-sm mx-auto max-w-xl pt-12 px-4">
-		<p>PriceWell is a small, independent product built on the shoulders of giants (thanks Stripe for your wonderful API) with no venture capital, corporate manifesto or board of directors. Every care is taken to build software build software that helps you solve your problems.</p>
+		<p>PriceWell is a small, independent product built on the shoulders of giants (thanks Stripe for your wonderful API) with no venture capital, corporate manifesto or board of directors. Every care is taken to build software that helps you solve your billing problems.</p>
 		<p>After 10 years of being the "Billing Guy" at venture backed and boostrapped startups. I finally built (and sold) my own and realized that no one should have to spend all their development time on table stakes features like collecting payments. I built PriceWell so you can concetrate on your product and never worry about billing again.</p>
 		<p>Being independent means PriceWell is not bound by investor demands or management chains. We make decisions based on what's best for you.</p>
 		 <p>Being solo means I can move fast (I mean feature request to live in under 1 hour fast). But above all it means I'm deeply ingrained in the problem space. I personally wrote all 15k lines of code so far. When you jump on a call, it's me you are talking to. Submit a support request, yep that's me. When you use PriceWell you are interacting with my life's great work.</p>
