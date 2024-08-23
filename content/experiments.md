@@ -44,7 +44,7 @@ description: SaaS pricing experiments with Stripe Checkout using PriceWell
                 </p>                
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
-                <img src='/img/experiments/testing.jpeg' class="rounded-lg shadow-2xl" alt="" />
+                <img src='/img/experiment-setup.png' class="rounded-lg shadow-2xl" alt="" />
             </div>
         </div>
     </div>
@@ -54,7 +54,7 @@ description: SaaS pricing experiments with Stripe Checkout using PriceWell
 <div class="py-12 md:py-24 pb-12 lg:pb-16 bg-gray-100">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 xl:px-4 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
             <div class="order-1 col-span-2 xl:col-span-3 self-center">
-                <img src='img/experiment.png' alt="" />
+                <img src='img/experiment-results.png' alt="" class="rounded-lg shadow-2xl"/>
                 
             </div>
             <div class="order-2 col-span-2 mt-12 md:mt-0">
