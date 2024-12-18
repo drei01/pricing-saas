@@ -219,7 +219,7 @@ Record and Document Taxes
 
 Here comes the fun part! After calculating and collecting the taxes on top of every sale, you will need to issue the necessary credentials (receipts or invoices) to comply with tax laws.
 
-And believe me, there’s no thing governments love more than proper documentation and back ups. But bear in mind that tax receipts or invoices are also the required documents for claiming any tax deductions when you file.
+And believe me, there’s nothing governments love more than proper documentation and back ups. But bear in mind that tax receipts or invoices are also the required documents for claiming any tax deductions when you file.
 
 Ideally you would like to have a template of invoice or receipt to send to your customers, that would work for any country.  
 

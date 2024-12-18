@@ -20,7 +20,7 @@ Here's what you are going to need:
 
 ![an open laptop displaying a product landing page. coffee cup and writing tools nearby](/img/laptop-landing-page.jpg)
 
-Before you go ahead and build anything else, you are going to need to validate your idea. One of the cheapest ways to do this is to build a landing page, send people to it (via twitter/facebook/linkedin posts or google ads etc.) and see if there's interest. You want to make your landing page actionable and the best way to determine if your product has real interest is to [charge for it up front using pre-sales](https://saasbase.dev/guides/pre-sales/collect-pre-sales-revenue-from-early-adopters-using-the-stripe-api). It's very low friction to enter an email address into a site but making an actual payment requires real commitment from a potential customer. If people are paying for your product before you've actually built it, then you know you are on to something.
+Before you go ahead and build anything else, you are going to need to validate your idea. One of the cheapest ways to do this is to build a landing page, send people to it (via twitter/facebook/linkedin posts or google ads etc.) and see if there's interest. You want to make your landing page actionable and the best way to determine if your product has real interest is to charge for it up front using pre-sales. It's very low friction to enter an email address into a site but making an actual payment requires real commitment from a potential customer. If people are paying for your product before you've actually built it, then you know you are on to something.
 
 💡 *Tip: you can email buyers as soon as they paid, explaining that they product doesn't exist yet and offer a full refund (most people will wait for the product!)*
 

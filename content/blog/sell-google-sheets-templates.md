@@ -27,7 +27,7 @@ Once you have promoted your template, it's time to decide how much to charge for
 
 ## Start Selling
 
-Once you have priced your template, it's time to start selling. Using [PriceWell](/gated-content), you can connect your Stripe and Google accounts in a couple of clicks. Choose your Google Sheet and what Stripe product you want your customers to buy and voila, you have a fully fledged product page with it's own link. Make sure you include detailed descriptions of your template and clear instructions on how to use it. You should also include customer support information in case customers have any questions or need help using the template.
+Once you have priced your template, it's time to start selling. Using [PriceWell](/gated-content), you can connect your Stripe and Google accounts in a couple of clicks. Choose your Google Sheet and what Stripe product you want your customers to buy and voila, you have a fully fledged product page with its own link. Make sure you include detailed descriptions of your template and clear instructions on how to use it. You should also include customer support information in case customers have any questions or need help using the template.
 
 ## Conclusion
 

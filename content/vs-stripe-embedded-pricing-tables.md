@@ -86,7 +86,7 @@ draft: false
                         </div>
                     </div>
                     <div class="flex items-center h-12 px-4 border-b border-gray-500">
-                        <div class="w-40 md:w-60">Completely customizible</div>
+                        <div class="w-40 md:w-60">Completely customizable</div>
                         <div class="flex justify-center flex-grow w-0">
                             <svg
                                 class="w-4 h-4 text-green-600 font-bold fill-current"

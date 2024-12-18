@@ -28,7 +28,7 @@ When you users sign up to your website, you want them to have the feeling that e
 
 ### We care about the little guys
 
-As a small business ourself, we understand that you can't be an expert in everything. Recurring billing is one of those things that you don't want to spend hours learning. We've got the time to spend one to one with you to help you get everything set up. Big platofrms like chargebee won't do that, infact they may even refuse you as a customer. When it comes to choosing recurring billing software, choose the one that cares about you.
+As a small business ourself, we understand that you can't be an expert in everything. Recurring billing is one of those things that you don't want to spend hours learning. We've got the time to spend one to one with you to help you get everything set up. Big platforms like chargebee won't do that, in fact they may even refuse you as a customer. When it comes to choosing recurring billing software, choose the one that cares about you.
 
 {{<rawhtml>}}
     </div>

@@ -76,7 +76,7 @@ These rules will help prevent card testing (somone testing stolen cards on your 
 
 ### Early Fraud Warnings
 
-Stripe also provides [early fraud warnings](https://docs.stripe.com/disputes/measuring#early-fraud-warnings) which appear in the Stripe dashboard and also by email. These are warnings that a payment may be fraudulent. You can use these to refund the payment before it becomes a chargeback. Stripe recommends that you refund the payment withing 24 hours of receiving the warning.
+Stripe also provides [early fraud warnings](https://docs.stripe.com/disputes/measuring#early-fraud-warnings) which appear in the Stripe dashboard and also by email. These are warnings that a payment may be fraudulent. You can use these to refund the payment before it becomes a chargeback. Stripe recommends that you refund the payment within 24 hours of receiving the warning.
 
 ### Subscription renewal emails
 

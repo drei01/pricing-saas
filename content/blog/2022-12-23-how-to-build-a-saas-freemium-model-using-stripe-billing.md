@@ -25,7 +25,7 @@ Trying to understand the SaaS Freemium Flow architecture there are 5 distinct st
 
 **Users use the freemium features**: Give value through the most basic features that solve the pain point of your users.
 
-**User upgrades their plan to use premium features**: As soons as the user grasps the initial value, will try to upgrade to premium features through the [Customer Portal](https://www.pricewell.io/customer-portal/)
+**User upgrades their plan to use premium features**: As soon as the user grasps the initial value, will try to upgrade to premium features through the [Customer Portal](https://www.pricewell.io/customer-portal/)
 
 **Users manage their subscription:** Think of the customer portal as your Billing HQ, where Users can view their billing plan details, update credit card, upgrade or downgrade between plans, download and automate invoice sending.
 

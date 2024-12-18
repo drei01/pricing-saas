@@ -18,7 +18,7 @@ description: Stripe collect cancellation reasons from customers and provide insi
                     class="button"
                     data-analytics="Signup"
                 >
-                    Stripe Useage Reporting Tool
+                    Stripe Usage Reporting Tool
                 </a>
             </div>
 
