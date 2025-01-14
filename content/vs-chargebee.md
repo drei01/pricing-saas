@@ -24,7 +24,7 @@ The Chargebee platform is just overkill for most SaaS businesses. If you are sta
 
 ### Keep your own branding
 
-When you users sign up to your website, you want them to have the feeling that every page is part of the same company. You don't want to whisk them off to some other webpage that looks nothing like the one they came from. THe chargebee portal is one such page, it's strong orange color and 90's buttons most certainly look nothing like your website. With PriceWell's drag and drop pricing pages, you control exactly how it looks. We don't use hosted pages with bright orange banners all over them.
+When you users sign up to your website, you want them to have the feeling that every page is part of the same company. You don't want to whisk them off to some other webpage that looks nothing like the one they came from. The chargebee portal is one such page, it's strong orange color and 90s buttons most certainly look nothing like your website. With PriceWell's drag and drop pricing pages, you control exactly how it looks. We don't use hosted pages with bright orange banners all over them.
 
 ### We care about the little guys
 

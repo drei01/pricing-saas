@@ -72,7 +72,7 @@ Here are some rules we recommend you enable:
 - `Block if :blocked_charges_per_ip_address_hourly: > 1`
 - `Review if :is_disposable_email: and :card _funding:= 'prepaid'`
 
-These rules will help prevent card testing (somone testing stolen cards on your site) and fraud. You can find more rules in the [Stripe Radar documentation](https://stripe.com/docs/radar/rules).
+These rules will help prevent card testing (someone testing stolen cards on your site) and fraud. You can find more rules in the [Stripe Radar documentation](https://stripe.com/docs/radar/rules).
 
 ### Early Fraud Warnings
 
@@ -96,4 +96,4 @@ You can hack the statement descriptor to be a short link that lets your customer
 
 <h2>Got any more tips?</h2>
 
-We'd love to hear your favourite Stripe account settings tips. Tweet us [@pricewell](https://twitter.com/pricewell) with your tips and we'll add them to this guide and link to you.
+We'd love to hear your favorite Stripe account settings tips. Tweet us [@pricewell](https://twitter.com/pricewell) with your tips and we'll add them to this guide and link to you.

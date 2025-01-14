@@ -111,7 +111,7 @@ Except as provided herein, the failure to exercise a right or to require perform
 These Terms and Conditions may have been translated if We have made them available to You on our Service. You agree that the original English text shall prevail in the case of a dispute.
 
 # Publicity
-You hereby grant to the Company a non-transferrable (except in connection with an assignment of this Agreement), non-exclusive right to use the trademarks, service marks, trade names, and logo, whether registered or otherwise, in order to provide the Services, and acknowledge that the Company may use the Your name and logo for the purpose of identifying the You as a client of the Company products and/or services. the Company will cease using your name and logo upon written request.
+You hereby grant to the Company a non-transferrable (except in connection with an assignment of this Agreement), non-exclusive right to use the trademarks, service marks, trade names, and logo, whether registered or otherwise, in order to provide the Services, and acknowledge that the Company may use Your name and logo for the purpose of identifying You as a client of the Company products and/or services. the Company will cease using your name and logo upon written request.
 
 # Changes to These Terms and Conditions
 

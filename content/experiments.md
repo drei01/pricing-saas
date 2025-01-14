@@ -40,7 +40,7 @@ description: SaaS pricing experiments with Stripe Checkout using PriceWell
                     Run Pricing Experiments without changing code
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                    Our experiments feature lets you run multiple versions of your pricing to find out which performs best. You can also A/B test your pricing to show different prices to users in real time. Because no one is a SaaS pricing afficionado.
+                    Our experiments feature lets you run multiple versions of your pricing to find out which performs best. You can also A/B test your pricing to show different prices to users in real time. Because no one is a SaaS pricing aficionado.
                 </p>                
             </div>
             <div class="order-1 md:order-2 col-span-2 xl:col-span-3">
