@@ -63,7 +63,7 @@ Cal("init", "consult-30", {origin:"https://cal.com"});
     calLink: "pricewell/consult-30",
   });
 
-  Cal.ns["consult-30"]("ui", {"styles":{"branding":{"brandColor":"#000000"}},"hideEventTypeDetails":false,"layout":"month_view"});
+  Cal.ns["consult-30"]("ui", {"hideEventTypeDetails":true,"layout":"month_view"});
   </script>
   <!-- Cal inline embed code ends -->
         </div>
