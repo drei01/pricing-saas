@@ -76,7 +76,7 @@ For customization, it can take up to 10 weeks to fully integrate the billing sol
 * The testing and implementation period.
 * Your pricing model
 
-However, the process can be straightforward for a Stripe integration once you have your account ready. First, you must install the WooCommerce plugin if you use a WordPress site. The process can take 30 minutes to [set up](https://www.google.com/url?q=https://www.shared-impact.com/toolkits-resources/integrating-stripe-with-your-website/&sa=D&source=editors&ust=1666090178190262&usg=AOvVaw0CmphVTIoxfLKtuavn9Q1z) and cost a fraction of what it will cost should you build it in-house.
+However, the process can be straightforward for a Stripe integration once you have your account ready. First, you must install the WooCommerce plugin if you use a WordPress site. The process can take 30 minutes to [set up](https://www.shared-impact.com/toolkits-resources/integrating-stripe-with-your-website/) and cost a fraction of what it will cost should you build it in-house.
 
 > "We set up Stripe Data Pipeline within 5 minutes, and it requires zero ongoing maintenance, so it was a no-brainer to buy instead of to build" - HouseCall Pro.
 

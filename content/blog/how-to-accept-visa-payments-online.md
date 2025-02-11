@@ -45,7 +45,7 @@ One of the biggest concerns when accepting payments online is security and fraud
 
 There are fees and costs associated with accepting Visa payments online. These can include transaction fees, processing fees, and chargeback fees. Here are some tips to help you minimise these fees:
 
-1. Use a Payment Gateway with Low Fees: Consider using a payment gateway like [Authorize.net](https://www.google.com/url?q=https://www.authorize.net/&sa=D&source=editors&ust=1677147010451124&usg=AOvVaw1l2xxPba92o3i38mN7cO3F) or [Braintree](https://www.google.com/url?q=https://www.braintreepayments.com/gr?referrer%3Dhttps%253A%252F%252Fwww.google.com%252F&sa=D&source=editors&ust=1677147010451592&usg=AOvVaw0SG6dh-rsCGpaWhsjHUgl3) or [Paddle](https://www.google.com/url?q=https://www.paddle.com/&sa=D&source=editors&ust=1677147010451968&usg=AOvVaw27Is5M7_ZmjuT1Pop5MrUt) that offers lower fees.
+1. Use a Payment Gateway with Low Fees: Consider using a payment gateway like [Authorize.net](https://www.google.com/url?q=https://www.authorize.net/) or [Braintree](https://www.paypal.com/us/braintree) or [Paddle](https://www.paddle.com) that offers lower fees.
 
 2. Negotiate with Payment Processors: If you got the muscle, you can talk to your payment processor and negotiate lower fees.
 

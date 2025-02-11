@@ -28,7 +28,7 @@ Luckily some places have generous revenue thresholds before you need to worry ab
 
 ## Sales Tax thresholds around the world
 
-Here's a table of countries' tax thresholds <sup>[Source](https://www.quaderno.io/resources/sales-tax-for-saas)</sup>
+Here's a table of countries' tax thresholds <sup>[Source](https://web.archive.org/web/20210227121632/https://www.quaderno.io/resources/sales-tax-for-saas)</sup>
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrsVinL4kvx4MCF5?backgroundColor=gray&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 

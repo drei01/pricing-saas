@@ -37,7 +37,7 @@ In addition to ACH credit payments, Stripe also supports payments via credit and
 
 ## What is the processing fee for Stripe?
 
-When it comes to fees, Stripe charges a small transaction fee of between 1.4 and 2.9% (plus 25 cents). If you choose to use the Stripe Billing product, there is a $10 monthly fee as well as a 0.5% transaction fee. Here's a The maximum ACH fee is also reasonable, making Stripe a cost-effective option for businesses of all sizes. There are no hidden fees or set-up charges for Stripe, and pricing varies depending on the volume of payments processed. Stripe is one of the cheapest, most powerful and customizable payment processor.  
+When it comes to fees, Stripe charges a small transaction fee of between 1.4 and 2.9% (plus 25 cents). If you choose to use the Stripe Billing product, there is a $10 monthly fee as well as a 0.5% transaction fee. The maximum ACH fee is also reasonable, making Stripe a cost-effective option for businesses of all sizes. There are no hidden fees or set-up charges for Stripe, and pricing varies depending on the volume of payments processed. Stripe is one of the cheapest, most powerful and customizable payment processor.  
   
 Visit Stripe's [pricing page](https://stripe.com/en-gb-de/pricing#pricing-details) for up to date information on their pricing.
 

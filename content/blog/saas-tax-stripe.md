@@ -22,7 +22,7 @@ We got you covered! You only need to follow these 4 steps.
 ### How do I handle SaaS taxes for my business?  
 Tax is a question troubling many SaaS founders across the globe and not without a reason.  
   
-As Software as a Service dominates everything around us and will [grow 21.1% compound by 2023](https://www.businesswire.com/news/home/20181114005369/en/Global-Software-as-a-Service-SaaS-Market-Outlook-2018-2023-Expected&sa=D&source=editors&ust=1643129610657883&usg=AOvVaw3s2cMMJd-x5BXG2YSHrERA), more and more founders are coming to realize that this certain trend is followed by tax liabilities.  
+As Software as a Service dominates everything around us and will [grow 21.1% compound by 2023](https://www.businesswire.com/news/home/20181114005369/en/Global-Software-as-a-Service-SaaS-Market-Outlook-2018-2023-Expected), more and more founders are coming to realize that this certain trend is followed by tax liabilities.  
   
 VAT, GST, and sales taxes are always relevant to your tech business and are the 3 main taxes that impact you. You also have several other taxes to worry about, varying on the location you’re selling and the local laws governing. It’s a complete mess, but we are here to make things a bit lighter.
 
@@ -42,7 +42,7 @@ US Sales tax is a consumption tax (tax on the purchase of a good or service) tha
 
 ![](/img/saas-tax/image5.png)
 
-As you can understand, there are thousands of tax regulations, varying according to State and locality. A great resource on the details of US tax regulation can be found [here](https://www.quaderno.io/blog/what-you-must-know-about-sales-tax-if-you-have-customers-in-the-united-states&sa=D&source=editors&ust=1643129610659716&usg=AOvVaw2jgOhdKXS2ZmrpmXsnY4CR), provided by Quaderno.  
+As you can understand, there are thousands of tax regulations, varying according to State and locality. A great resource on the details of US tax regulation can be found [here](https://quaderno.io/blog/how-sales-tax-works/), provided by Quaderno.  
   
 
 How much is SaaS VAT in Europe?
@@ -59,7 +59,7 @@ Therefore, it is super important to know when to charge VAT to your EU customers
 And bear in mind that in some EU countries VAT can reach up to 27%.  
 So pay a close look at how you handle VAT requirements!
 
-A great resource on going down the VAT rabbit hole [here](https://www.quaderno.io/resources/eu-vat-guide?_gl%3D1*1by2n6v*_ga*ODUyMjc4NTEzLjE2NDE2NDMxNzY.*_ga_Z17WJ2W35T*MTY0MTY0MzE3NC4xLjEuMTY0MTY0NjgxOC4w&sa=D&source=editors&ust=1643129610660908&usg=AOvVaw1aUBViSSA0andW3mu-oCMx)  
+A great resource on going down the VAT rabbit hole [here](https://quaderno.io/blog/what-is-a-vat-number/)  
  
 
   
@@ -150,7 +150,7 @@ In the U.S. you need to get a tax permit in each state you have  nexus (the con
 
 Thankfully, many states allow you to register online with the Department of Revenue. Usually you will receive your sales tax permit number instantly upon registering, or maximum within 10 days.  
   
-An Important Detail: You can register in all 24 [SSUTA](https://www.sstregister.org/&sa=D&source=editors&ust=1643129610668142&usg=AOvVaw2-025O4tQ5HIDR-9sjjoOk) streamlined states at once, with one registration process, but this might end up burdening you with unnecessary tax liabilities. You would probably end up liable for tax in some states even though you don’t have nexus there, simply due to registration.
+An Important Detail: You can register in all 24 [SSUTA](https://www.sstregister.org/) streamlined states at once, with one registration process, but this might end up burdening you with unnecessary tax liabilities. You would probably end up liable for tax in some states even though you don’t have nexus there, simply due to registration.
 
   
 In other places around the world
@@ -167,7 +167,7 @@ In any way, you need to continue complying each year with the tax requirements, 
 Calculate and Collect SaaS Taxes
 ======================================
 
-Thankfully this is the part where [PriceWell](https://www.pricewell.io/&sa=D&source=editors&ust=1643129610669366&usg=AOvVaw1YZs662jh-1r61Ic5a1F08) with [Stripe Tax](https://stripe.com/docs/payments/checkout/taxes%23:~:text%3DStripe%2520Tax%25E2%2580%2594a%2520paid%2520product,to%2520calculate%2520and%2520remit%2520tax.&sa=D&source=editors&ust=1643129610669691&usg=AOvVaw2GBrNdRCNRBUKHoShJamyT) comes to the rescue. There is no need to get into specific regional and country requirements to find where your customer tax applies. We do it for you automatically by requesting your customer’s billing address.
+Thankfully this is the part where [PriceWell](https://www.pricewell.io/) with [Stripe Tax](https://stripe.com/docs/payments/checkout/taxes) comes to the rescue. There is no need to get into specific regional and country requirements to find where your customer tax applies. We do it for you automatically by requesting your customer’s billing address.
 
 The automatic process works as follows: 
 
@@ -176,7 +176,7 @@ Stripe Tax in the EU
 
 The problem in the EU and the general rule is that you must identify where the customer comes from. (If comes from Greece you must apply the Greek VAT rate to the sale)
 
-The key and thus the problem is to determine where exactly they are coming from. That’s where the pain point lies and [PriceWell](https://www.pricewell.io/stripe-tax/&sa=D&source=editors&ust=1643129610670880&usg=AOvVaw0qtRFQbANk8PpY1VAXmxOr) can help you deal with it.
+The key and thus the problem is to determine where exactly they are coming from. That’s where the pain point lies and [PriceWell](https://www.pricewell.io/stripe-tax/) can help you deal with it.
 
 The standard procedure is that you need to collect two pieces of customer location evidence. Not calculating and collecting the right amount of tax and your business will pay the difference!  
   
@@ -198,7 +198,7 @@ Stripe Tax in the US
 --------------------
 
 1.  Confirm your buyer’s location.
-2.  Calculate the tax rate based on the state law. Check If the state has [“origin-based” or “destination-based”](https://www.avalara.com/us/en/learn/whitepapers/origin-vs-destination-sales-tax.html%23:~:text%3DOrigin%252Dsourced%2520sales%2520are%2520taxed,or%2520a%2520destination%252Dsourced%2520state.&sa=D&source=editors&ust=1643129610673095&usg=AOvVaw0yu7hwiWOoAwypamqWBZ-E) tax rates.
+2.  Calculate the tax rate based on the state law. Check If the state has [“origin-based” or “destination-based”](https://www.avalara.com/us/en/learn/whitepapers/origin-vs-destination-sales-tax.html) tax rates.
 3.  Check all the tax rates that apply. There could be more levels than just a statewide sales tax! There may also be a county, city, or other local sales tax rate.
 
   
@@ -212,7 +212,7 @@ The process is a bit more straightforward because individual countries have a si
 2.  Add the correct tax amount and collect it at the point of sale.
 
 Keeping up with the tax rates around the world can be a huge hassle. So gearing up with the right tools can save you tons of time and money.  
-Check out [PriceWell](https://www.pricewell.io/&sa=D&source=editors&ust=1643129610674229&usg=AOvVaw2Fhl4xY8soQqsjgpC1kzns) with [Stripe Tax](https://stripe.com/docs/payments/checkout/taxes%23:~:text%3DStripe%2520Tax%25E2%2580%2594a%2520paid%2520product,to%2520calculate%2520and%2520remit%2520tax.&sa=D&source=editors&ust=1643129610674583&usg=AOvVaw28RHiL-GrzfraZK-uIbL10) or any other stack of automatic tax calculation and collection tools.
+Check out [PriceWell](https://www.pricewell.io/) with [Stripe Tax](https://stripe.com/docs/payments/checkout/taxes) or any other stack of automatic tax calculation and collection tools.
 
 Record and Document Taxes
 =========================
@@ -240,29 +240,27 @@ An ideal Invoice should include:
 File Tax Returns for SaaS
 =========================
 
-Normally, this procedure is handled by a [CPA](https://www.franklin.edu/blog/what-is-a-cpa-exactly-what-does-a-certified-public-accountant-do&sa=D&source=editors&ust=1643129610677107&usg=AOvVaw1HNKPwxaiAsYaU6vqSpQXf), where you handle the invoices/receipt docs for the quarter and files them under the correct markment and jurisdiction.   
+Normally, this procedure is handled by a [CPA](https://www.franklin.edu/blog/what-is-a-cpa-exactly-what-does-a-certified-public-accountant-do), where you handle the invoices/receipt docs for the quarter and files them under the correct markment and jurisdiction.   
 
-In the U.S. you need to file tax returns for each state separately, at different intervals, therefore it is quite troublesome to keep track of all deadlines and procedures. A CPA in that sense, can let you off much trouble. Alternatively, there are many tools that can help you file tax returns such as [TurboTax](https://turbotax.intuit.com/&sa=D&source=editors&ust=1643129610677531&usg=AOvVaw3dj54hZh6FzkWyj6XPzNoQ) and [H&R Block  
-](https://www.hrblock.com/&sa=D&source=editors&ust=1643129610677745&usg=AOvVaw2f2A-7w4mfZNq_KBN6ckQi)
+In the U.S. you need to file tax returns for each state separately, at different intervals, therefore it is quite troublesome to keep track of all deadlines and procedures. A CPA in that sense, can let you off much trouble. Alternatively, there are many tools that can help you file tax returns such as [TurboTax](https://turbotax.intuit.com/) and [H&R Block  
+](https://www.hrblock.com/)
 
 Thankfully, in the EU there is the VAT OSS, where you need to file returns every quarter. Rules are much more uniform, with just 4 fillings each year (1 every quarter). From the last day of each quarter, you have 20 days to file and pay. The deadlines are strict and you might be due to a fine if missed.  
   
+## Deadlines
 
-Deadlines:
+* 20 April, for the first quarter ending March 31
+* 20 July, for the second quarter ending June 30
+* 20 October, for the third quarter ending September 30
+* 20 January, for the fourth quarter ending December 31
 
-*   20 April, for the first quarter ending March 31
-*   20 July, for the second quarter ending June 30
-*   20 October, for the third quarter ending September 30
-*   20 January, for the fourth quarter ending December 31
-
-In theory, the European procedure might seem much more straightforward than any other, but it also hides some tricks.    
+In theory, the European procedure might seem much more straightforward than any other, but it also hides some tricks.
   
 For example, if you made any sales in a different currency(in the Danish Krone, but your OSS uses the Euro), you need to convert those amounts to the official currency of your OSS. 
 
-A great additional resource for VAT filling tricks [here](https://www.quaderno.io/blog/submit-vat-oss-return-non-eu-business&sa=D&source=editors&ust=1643129610678853&usg=AOvVaw3wpyEKMerpTOTM9aBPcTq0)
+A great additional resource for VAT filling tricks [here](https://www.quaderno.io/blog/submit-vat-oss-return-non-eu-business)
 
-Last Remarks
-============
+## Last Remarks
 
 Handling SaaS taxes is tricky, especially if your client base is international and you need to keep track of every digital tax law around the world.
 
@@ -270,7 +268,7 @@ Having knowledge on the taxes as a business owner and tax compliance regulation 
 
 A bookkeeper or a CPA can be a good idea, but some parts of taxing can be automated, resulting in large savings of time, money and effort.
 
-[PriceWell](https://www.pricewell.io/&sa=D&source=editors&ust=1643129610679928&usg=AOvVaw11-crfZVxbw9ZOhAyHIywA) is a tool that can help small SaaS businesses and creators collect, manage and automate their tax procedures up to the filling part. 
+[PriceWell](https://www.pricewell.io) is a tool that can help small SaaS businesses and creators collect, manage and automate their tax procedures up to the filling part. 
 
 In detail PriceWell can do all the following:
 
