@@ -6,15 +6,6 @@ type: page
 # see header.html for description
 ---
 {{<rawhtml>}}
-    <script>
-        function toggle(x) {
-            if (document.getElementById(x).style.display == 'none') {
-                document.getElementById(x).style.display = '';
-            } else {
-                document.getElementById(x).style.display = 'none';
-            }
-        }
-    </script>
     <div class="py-12 md:py-24">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-8 grid md:grid-cols-4 xl:grid-cols-5 gap-x-12 lg:gap-x-20">
         <div class="order-1 col-span-2 self-center my-12 md:my-0">
@@ -236,11 +227,10 @@ type: page
             <p class="text-lg xl:text-xl text-gray-600">Answers to your frequently asked questions.</p>
         </div>
         <div class="mb-12 lg:mb-20">
-            <ul class="divide-y divide-gray-300text-base md:text-lg">
-            <li>
-                    <button
-                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full flex items-center justify-between"
-                        onclick="toggle('integration');"
+            <div class="divide-y divide-gray-300text-base md:text-lg">
+            <details name="faq">
+                    <summary
+                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full flex items-center justify-between cursor-pointer"
                     >
                         <span class="flex-1 text-left pr-6">
                             Can you help with the integration?
@@ -259,15 +249,14 @@ type: page
                                 d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                             ></path>
                         </svg>
-                    </button>
-                    <div id="integration" class="py-4" style="display:none;">
+                    </summary>
+                    <div class="py-4">
                         Yes, of course. We are more than happy to jump on a call and discuss your particular needs. You can <a href="/book-free-demo" class="text-wedgewood-800 underline">book a time</a> in our calendar that suits you. We are experts on anything Stripe. Can Stripe change price of subscription? Just ask us.
                     </div>
-                </li>
-                <li>
-                    <button
-                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full flex items-center justify-between"
-                        onclick="toggle('gdpr');"
+                </details>
+                <details name="faq">
+                    <summary
+                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full flex items-center justify-between cursor-pointer"
                     >
                         <span class="flex-1 text-left pr-6">
                             Is PriceWell compliant with GDPR regulations?
@@ -286,8 +275,8 @@ type: page
                                 d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                             ></path>
                         </svg>
-                    </button>
-                    <div id="gdpr" class="py-4" style="display:none;">
+                    </summary>
+                    <div class="py-4">
                         Yes. PriceWell does not store any personally identifiable information of your customers. That
                         information is all held in your Stripe account. We only store the identifier to your Stripe account (and
                         use that to trigger payment flows for your customers. This means you do not need to remove any personal
@@ -301,11 +290,10 @@ type: page
                             Stripe GDPR Documentation
                         </a>)
                     </div>
-                </li>
-                <li>
-                    <button
-                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full flex items-center justify-between"
-                        onclick="toggle('testMode');"
+                </details>
+                <details name="faq">
+                    <summary
+                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full flex items-center justify-between cursor-pointer"
                     >
                         <span class="flex-1 text-left pr-6">
                             Can I use my Stripe account in Test mode?
@@ -324,8 +312,8 @@ type: page
                                 d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                             ></path>
                         </svg>
-                    </button>
-                    <div id="testMode" class="py-4" style="display:none;">
+                    </summary>
+                    <div class="py-4">
                     Yes. You need to connect your live Stripe account in order to set up your PriceWell account. Once your
                     account is connected you can switch an individual Pricing Table between Test and Live mode. In test mode
                     you can use test credit cards (see the 
@@ -340,11 +328,10 @@ type: page
                     ) to test the full process. If a page is in test mode, a banner will be displayed when your pricing page
                     is loaded (so you don't forget to switch it to live mode before you launch it to customers).
                     </div>
-                </li>
-                <li>
-                    <button
-                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full flex items-center justify-between"
-                        onclick="toggle('multiAccount');"
+                </details>
+                <details name="faq">
+                    <summary
+                        class="py-3 lg:py-4 font-bold focus:outline-none hover:text-blue-700 w-full flex items-center justify-between cursor-pointer"
                     >
                         <span class="flex-1 text-left pr-6">
                             Can I use PriceWell for multiple websites / businesses?
@@ -363,8 +350,8 @@ type: page
                                 d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
                             ></path>
                         </svg>
-                    </button>
-                    <div id="multiAccount" class="py-4" style="display:none;">
+                    </summary>
+                    <div class="py-4">
                     Yes. You can use PriceWell for as many websites as you like as long as they share one <a href="/blog/stripe-login/">Stripe</a> account.  <a
                         href="javascript:$crisp.push(['do', 'chat:open']);"
                         class="text-blue-600 underline"
@@ -372,8 +359,8 @@ type: page
                         Get in touch
                     </a> if you have any questions.
                     </div>
-                </li>
-            </ul>
+                </details>
+            </div>
         </div>
         <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
             <a
