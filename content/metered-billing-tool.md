@@ -44,7 +44,7 @@ description: Stripe collect cancellation reasons from customers and provide insi
                     Charge customers for what they use... <span class="underline">pain free</span>.
                 </h2>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
-                   Metered billing or usaged-based billing is a common pricing model for SaaS companies. It's a great way to charge customers for what they use. But it's not easy to implement. We make it easy to report usage to Stripe without code.
+                   Metered billing or usage-based billing is a common pricing model for SaaS companies. It's a great way to charge customers for what they use. But it's not easy to implement. We make it easy to report usage to Stripe without code.
                 </p>
                 <p class="text-lg xl:text-xl text-gray-600 mb-6 lg:mb-8 xl:mb-10">
                 We're the only tool on the market that lets you do this. Check out the <a href="https://help.pricewell.com/features/metered-billing/" class="text-blue-600 underline">documentation</a> to see all the features in action.

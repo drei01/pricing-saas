@@ -240,7 +240,7 @@ An ideal Invoice should include:
 File Tax Returns for SaaS
 =========================
 
-Normally, this procedure is handled by a [CPA](https://www.franklin.edu/blog/what-is-a-cpa-exactly-what-does-a-certified-public-accountant-do), where you handle the invoices/receipt docs for the quarter and files them under the correct markment and jurisdiction.   
+Normally, this procedure is handled by a [CPA](https://www.franklin.edu/blog/what-is-a-cpa-exactly-what-does-a-certified-public-accountant-do), where you handle the invoices/receipt docs for the quarter and files them under the correct market and jurisdiction.
 
 In the U.S. you need to file tax returns for each state separately, at different intervals, therefore it is quite troublesome to keep track of all deadlines and procedures. A CPA in that sense, can let you off much trouble. Alternatively, there are many tools that can help you file tax returns such as [TurboTax](https://turbotax.intuit.com/) and [H&R Block  
 ](https://www.hrblock.com/)

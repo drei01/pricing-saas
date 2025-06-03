@@ -99,7 +99,7 @@ description: Stripe Customer Portal with PriceWell - Let your customer manage th
             </div>
             <div>
             <h4 class="text-gray-800 text-2xl font-bold mt-8 md:mt-0">No website? No worries.</h4>
-            <p class="mt-8 text-gray-800 text-lg">If you don't have a website or don't want to add the portal to your site, we've got one for you. Includine a link to give to customers which lets them manage their billing.</p>
+            <p class="mt-8 text-gray-800 text-lg">If you don't have a website or don't want to add the portal to your site, we've got one for you. Including a link to give to customers which lets them manage their billing.</p>
             <img src='img/manage-subscription-page-browser.png' class="rounded-lg shadow-2xl mt-8" alt="" />
             </div>
         </div>

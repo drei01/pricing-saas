@@ -19,7 +19,7 @@ aliases: ["/vs-billflow", "/billflow-alternative"]
 Heard that Billflow is shutting down and looking for an easy alternative? Firstly, the [PriceWell team](/team/) are here for you. We offer the same reliable service and we are built on top of [Stripe Billing](/blog/how-does-stripe-billing-work/). That means you get the **Stripe Checkout** and **Stripe [Customer Portal](/customer-portal/)** without coding. Plus we'll help you migrate your site from Billflow to PriceWell, for free. We're the Billflow alternative you've been searching for.
 {{<rawhtml>}}
 <div class="flex-col md:flex-row space-x-4 space-y-4 place-items-center">
-                <a href="/book-free-demo" class="button">Book a free migration from Billfow</a> <a href="/book-free-demo" class="button-white">Book a PriceWell Demo</a>
+                <a href="/book-free-demo" class="button">Book a free migration from Billflow</a> <a href="/book-free-demo" class="button-white">Book a PriceWell Demo</a>
                 </div>
                 
 {{</rawhtml>}}
