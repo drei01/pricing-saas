@@ -188,7 +188,7 @@ Chargebee can be a [good option](/vs-chargebee/) for those SaaS companies that w
 
 ![screenshot of 2checkout.com](/img/best-payment-gateways/2checkout.png)
 
-[2Checkout](https://www.2checkout.com/homepage/)is an online payment processor that handles pretty much everything from digital goods and subscription services to selling physical goods and products.
+[2Checkout](https://www.2checkout.com)is an online payment processor that handles pretty much everything from digital goods and subscription services to selling physical goods and products.
 
 They offer a wide range of products, but the one dedicated to SaaS companies is 2Subscribe, which is for recurring revenue businesses. It offers a complete billing solution from the [payment gateway](/blog/how-to-accept-visa-payments-online/) to merchant account and subscription management.
 
